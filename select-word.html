@@ -1,0 +1,45 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <!-- dcdf 
+        <input type="text" id="beseda" onchange="createLink()" minlength="5" maxlength="5"> 
+       <p id="B"></p>
+       <p id="link"></p>
+                -->
+
+       <input type="text" onchange="updateShareLink(this.value)" maxlength="5">
+       <a id="link"></a>
+       
+
+       
+
+    <script>
+        function updateShareLink(novaBeseda) {
+            if (novaBeseda.length == 5){
+                const url = "guess-word.html?beseda=" + novaBeseda;
+                const link = document.getElementById("link");
+                link.href=url
+                link.innerHTML = url;
+            } else {document.getElementById("link").innerHTML = 'Beseda mora biti dolga 5 znakov'}
+        }
+
+
+
+        //function createLink(){
+            //let beseda=document.getElementById("beseda").value;
+            //if (beseda.length == 5){
+                //console.log(beseda);
+                //document.getElementById("B").innerHTML = beseda;
+              //  var url = "guess-word.html?beseda="+beseda
+                //const link = document.getElementById("link");
+                //link.href = url;
+                //link.innerHtml = url;
+            //} else {document.getElementById("B").innerHTML = 'Beseda mora biti dolga 5 znakov'}
+        
+            
+        
+    </script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <button onclick="fun()">
+            beseda
+        </button>
+        <p id="prikaži"></p>
+        <input type="text" id="myGuess" onchange="guess()" minlength="5" maxlength="5" placeholder="guess"> 
+
+
+
+
+        <script>
+            
+            function fun(){
+                const params = new URLSearchParams(window.location.search)
+                toGuess=params.get('beseda')
+                console.log(toGuess)
+                document.getElementById("prikaži").innerHTML = toGuess
+            }
+
+
+            function guess(){
+                myGuess=document.getElementById("myGuess").value
+                
+            }
+        </script>
+    </body>
+</html>
