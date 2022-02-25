@@ -8,24 +8,51 @@
         </button>
         <p id="prikaži"></p>
         <input type="text" id="myGuess" onchange="guess()" minlength="5" maxlength="5" placeholder="guess"> 
-
-
+        <p id="result"></p>
+        <p id="L1"></p>
+        <p id="L2"></p>
+        <p id="L3"></p>
+        <p id="L4"></p>
+        <p id="L5"></p>
 
 
         <script>
-            
+            end=false
+            result=''
+
+
+            const params = new URLSearchParams(window.location.search)
+                toGuess=params.get('beseda').toUpperCase()
             function fun(){
-                const params = new URLSearchParams(window.location.search)
-                toGuess=params.get('beseda')
                 console.log(toGuess)
-                document.getElementById("prikaži").innerHTML = toGuess
+                document.getElementById("prikaži").innerText = toGuess
             }
 
 
             function guess(){
-                myGuess=document.getElementById("myGuess").value
+                myGuess=document.getElementById("myGuess").value.toUpperCase()
+                if (myGuess.length==5){
+
                 
+                [L1,L2,L3,L4,L5]=[...myGuess]
+                if (myGuess==toGuess) {
+                    end=true
+                    result+='\n'+myGuess
+                    document.getElementById("result").innerText = myGuess.replace(myGuess[1], '<span style="color: yellow;">'+myGuess[1]+'</span>');
+                    document.getElementById("result").innerText = result
+                    
+                    document.getElementById("L1").innerHTML = L1
+                    document.getElementById("L2").innerHTML = L2
+                    document.getElementById("L3").innerHTML = L3
+                    document.getElementById("L4").innerHTML = L4
+                    document.getElementById("L5").innerHTML = L5
+                }
+                }
             }
+
+            
+
+            
         </script>
     </body>
 </html>
