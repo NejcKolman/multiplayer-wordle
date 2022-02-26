@@ -16,7 +16,21 @@
     <span id="L3"></span>
     <span id="L4"></span>
     <span id="L5"></span>
+    <p id="neveljavna"></p>
 
+
+    <table id='T'>
+        <tbody id="tabela">
+
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td>C</td>
+            </tr>
+        </tbody>
+
+
+    </table>
 
     <script>
         end = false
@@ -29,28 +43,102 @@
             console.log(toGuess)
             document.getElementById("prikaži").innerText = toGuess
         }
-
-
+        //display:none; block
+        //div
+        //appendChild
+        //tabela z ugibi
+        //najprej zelene
+        //potem rumene
+        //loči logiko od grafike. Dve funkciji
         function guess() {
             myGuess = document.getElementById("myGuess").value.toUpperCase()
-            if (myGuess.length == 5) {
-                [L1, L2, L3, L4, L5] = [...myGuess]
-                if (myGuess == toGuess) {
-                    end = true
-                    result += '\n' + myGuess
-                    document.getElementById("result").innerText = myGuess.replace(myGuess[1], '<span style="color: yellow;">' + myGuess[1] + '</span>');
-                    document.getElementById("result").innerText = result
+            console.log(myGuess)
+            if (myGuess.length != 5) {
+                document.getElementById('neveljavna').innerHTML = 'Beseda mora imeti 5 črk!'
+                return
+            }
+            document.getElementById('neveljavna').innerHTML = ''
 
-                    for (let i = 0; i < 5; i++) {
-                        document.getElementById("L" + (i + 1)).innerHTML = myGuess[i]
-                        document.getElementById("L" + (i + 1)).style.color = 'green'
+            var pravilneČrke = {}
+            var napačneČrke = {}
+            var displaced = {}
+            var unguessed = {}
+            for (let i = 0; i < 5; i++) {
+                var letter = myGuess[i]
+                if (letter == toGuess[i]) {
+                    pravilneČrke[i] = letter
 
+                } else if (toGuess.includes(letter) == false) {
+                    napačneČrke[i] = letter
+                    unguessed[i] = toGuess[i]
+                } else { unguessed[i] = toGuess[i] }
+
+            }
+
+            for (let i = 0; i < 5; i++) {
+
+                let letter = myGuess[i]
+                if (i in pravilneČrke || i in napačneČrke) {
+                    continue
+                }
+                console.log(i)
+                let isYellow = false
+                console.log(unguessed)
+                for (const [key, value] of Object.entries(unguessed)) {
+                    if (value == letter && isYellow == false) {
+                        displaced[i] = letter
+                        delete unguessed[key]
+                        isYellow = true
                     }
+                }
 
-
+                if (isYellow == false) {
+                    napačneČrke[i] = letter
                 }
             }
+            console.log('PRAVILNE', pravilneČrke)
+            console.log('NAPAČNE', napačneČrke)
+            console.log('NAROBNO MESTO', displaced)
+
+            toDisplay = '<tr>'
+            for (let i = 0; i < 5; i++) {
+                toDisplay += '<td>' + i + '</td>'
+
+            }
+            toDisplay += '</tr>'
+            document.getElementById('tabela').append(toDisplay)
+            //line.innerHTML = "Microsoft";
+
+            //line.appendChild(toDisplay);
         }
+
+        /*
+        repeats = []
+        for (let i = 0; i < 5; i++) {
+            letter = myGuess[i]
+            console.log(letter)
+            if (toGuess.includes(letter) == false) {
+                document.getElementById('L' + (i + 1)).innerHTML = letter
+                document.getElementById('L' + (i + 1)).style.color = 'grey'
+            } else if (repeats.includes(letter) == false) {
+                repeats += letter
+                if (letter == toGuess[i]) {
+                    document.getElementById('L' + (i + 1)).innerHTML = letter
+                    document.getElementById('L' + (i + 1)).style.color = 'green'
+                } else {
+                    document.getElementById('L' + (i + 1)).innerHTML = letter
+                    document.getElementById('L' + (i + 1)).style.color = 'yellow'
+                    document.getElementById('L' + (i + 1)).style.backgroundColor = 'black'
+                }
+            }
+
+
+        }
+        */
+
+
+
+
 
 
 
