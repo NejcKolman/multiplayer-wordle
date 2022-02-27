@@ -15,8 +15,9 @@
 
     <script>
         function updateShareLink(novaBeseda) {
+            encoded = btoa(novaBeseda)
             if (novaBeseda.length == 5) {
-                const url = "guess-word.html?beseda=" + novaBeseda;
+                const url = "guess-word.html?beseda=" + encoded;
                 const link = document.getElementById("link");
                 link.href = url
                 link.innerHTML = url;

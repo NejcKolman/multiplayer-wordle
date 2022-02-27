@@ -30,7 +30,8 @@
 
 
         const params = new URLSearchParams(window.location.search)
-        toGuess = params.get('beseda').toUpperCase()
+        encoded = params.get('beseda')
+        toGuess = atob(encoded).toUpperCase()
         function fun() {
             console.log(toGuess)
             document.getElementById("prikaži").innerText = toGuess
