@@ -1,11 +1,12 @@
 <html>
 
 <head>
-
+    <link rel="stylesheet" href="css/landing.css" />
+    <link rel="stylesheet" href="css/guess.css" />
 </head>
 
 <body>
-    <input type="text" id="myGuess" onchange="guess()" minlength="5" maxlength="5" placeholder="guess">
+    <input type="text" id="myGuess" autofocus onchange="guess()" minlength="5" maxlength="5" placeholder="guess">
     <span id="result"></span>
 
     <p id="warning"></p>
@@ -22,7 +23,6 @@
         toGuess = atob(encoded).toUpperCase()
 
         //display:none; block
-        //loči logiko od grafike. Dve funkciji
         function guess() {
             myGuess = document.getElementById("myGuess").value.toUpperCase()
 
@@ -92,13 +92,16 @@
                 let td = document.createElement('td')
                 if (i in greenLetters) {
                     td.append(greenLetters[i])
-                    td.style.color = 'green'
+                    //td.style.color = 'green'
+                    td.className = 'correct'
                 } else if (i in greyLetters) {
                     td.append(greyLetters[i])
-                    td.style.color = 'grey'
+                    //td.style.color = 'grey'
+                    td.className = 'wrong'
                 } else {
                     td.append(yellowLetters[i])
-                    td.style.color = 'yellow'
+                    //td.style.color = 'yellow'
+                    td.className = 'partial'
                 }
 
                 tr.append(td)
