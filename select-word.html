@@ -5,17 +5,13 @@
 </head>
 
 <body>
-
-
     <input type="text" placeholder="Enter word" autofocus onkeyup="updateShareLink(this.value)" maxlength="5">
     <a id="link"></a>
-
-
 
     <script>
         function updateShareLink(novaBeseda) {
             if (novaBeseda.length == 5) {
-                encoded = btoa(novaBeseda)
+                encoded = btoa(escape(novaBeseda))
                 const url = "guess-word.html?beseda=" + encoded;
                 const link = document.getElementById("link");
                 link.href = url
@@ -25,11 +21,6 @@
                 document.getElementById("link").innerHTML = 'Beseda mora biti dolga 5 znakov'
             }
         }
-
-
-
-
-
     </script>
 </body>
 
