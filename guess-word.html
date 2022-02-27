@@ -103,16 +103,13 @@
                 //td.setAttribute("id", toString(n) + toString(i))
                 if (i in pravilneČrke) {
                     td.append(pravilneČrke[i])
-                    td.setAttribute("type", 'text')
-                    td.setAttribute("color", 'green')
+                    td.style.color = 'green'
                 } else if (i in napačneČrke) {
                     td.append(napačneČrke[i])
-                    td.setAttribute("type", 'text')
-                    td.setAttribute("color", 'grey')
+                    td.style.color = 'grey'
                 } else {
                     td.append(displaced[i])
-                    td.setAttribute("type", 'text')
-                    td.setAttribute("color", 'yellow')
+                    td.style.color = 'yellow'
                 }
 
                 tr.append(td)
