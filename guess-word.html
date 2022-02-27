@@ -5,56 +5,105 @@
 </head>
 
 <body>
-    <button onclick="fun()">
-        beseda
-    </button>
-    <p id="prikaži"></p>
     <input type="text" id="myGuess" onchange="guess()" minlength="5" maxlength="5" placeholder="guess">
     <span id="result"></span>
-    <span id="L1"></span>
-    <span id="L2"></span>
-    <span id="L3"></span>
-    <span id="L4"></span>
-    <span id="L5"></span>
 
+    <p id="warning"></p>
+
+
+    <table id='guesses'>
+
+
+    </table>
 
     <script>
-        end = false
-        result = ''
-
-
         const params = new URLSearchParams(window.location.search)
         toGuess = params.get('beseda').toUpperCase()
-        function fun() {
-            console.log(toGuess)
-            document.getElementById("prikaži").innerText = toGuess
-        }
 
-
+        //display:none; block
+        //loči logiko od grafike. Dve funkciji
         function guess() {
             myGuess = document.getElementById("myGuess").value.toUpperCase()
-            if (myGuess.length == 5) {
-                [L1, L2, L3, L4, L5] = [...myGuess]
-                if (myGuess == toGuess) {
-                    end = true
-                    result += '\n' + myGuess
-                    document.getElementById("result").innerText = myGuess.replace(myGuess[1], '<span style="color: yellow;">' + myGuess[1] + '</span>');
-                    document.getElementById("result").innerText = result
-
-                    for (let i = 0; i < 5; i++) {
-                        document.getElementById("L" + (i + 1)).innerHTML = myGuess[i]
-                        document.getElementById("L" + (i + 1)).style.color = 'green'
-
-                    }
-
-
-                }
+            console.log(myGuess)
+            if (myGuess.length != 5) {
+                document.getElementById('warning').innerHTML = 'Beseda mora imeti 5 črk!'
+                return
             }
+            document.getElementById('warning').innerHTML = ''
+
+
+            const matchingLetters = getMatches(myGuess, toGuess)
+            showNewGuessRow(matchingLetters)
+
+
         }
 
 
+        function getMatches(myGuess, toGuess) {
+            let greenLetters = {}
+            let greyLetters = {}
+            let yellowLetters = {}
+            let unguessed = {}
+            for (let i = 0; i < 5; i++) {
+                let letter = myGuess[i]
+                if (letter == toGuess[i]) {
+                    greenLetters[i] = letter
+
+                } else if (toGuess.includes(letter) == false) {
+                    greyLetters[i] = letter
+                    unguessed[i] = toGuess[i]
+                } else { unguessed[i] = toGuess[i] }
+
+            }
+
+            for (let i = 0; i < 5; i++) {
+
+                let letter = myGuess[i]
+                if (i in greenLetters || i in greyLetters) {
+                    continue
+                }
+                console.log(i)
+                let isYellow = false
+                console.log(unguessed)
+                for (const [key, value] of Object.entries(unguessed)) {
+                    if (value == letter && isYellow == false) {
+                        yellowLetters[i] = letter
+                        delete unguessed[key]
+                        isYellow = true
+                    }
+                }
+
+                if (isYellow == false) {
+                    greyLetters[i] = letter
+                }
+            }
 
 
+            return [greenLetters, greyLetters, yellowLetters]
+        }
+
+        function showNewGuessRow(matchingLetters) {
+            let [greenLetters, greyLetters, yellowLetters] = matchingLetters
+            let tr = document.createElement('tr')
+
+            for (let i = 0; i < 5; i++) {
+                let td = document.createElement('td')
+                if (i in greenLetters) {
+                    td.append(greenLetters[i])
+                    td.style.color = 'green'
+                } else if (i in greyLetters) {
+                    td.append(greyLetters[i])
+                    td.style.color = 'grey'
+                } else {
+                    td.append(yellowLetters[i])
+                    td.style.color = 'yellow'
+                }
+
+                tr.append(td)
+
+            }
+            document.getElementById('guesses').append(tr)
+        }
     </script>
 </body>
 
