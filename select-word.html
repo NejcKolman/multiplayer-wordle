@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="css/landing.css" />
+    <link rel="stylesheet" href="css/landing.css" />
 </head>
 
 <body>
@@ -20,7 +20,10 @@
                 const link = document.getElementById("link");
                 link.href = url
                 link.innerHTML = url;
-            } else { document.getElementById("link").innerHTML = 'Beseda mora biti dolga 5 znakov' }
+            } else {
+                link.removeAttribute('href')
+                document.getElementById("link").innerHTML = 'Beseda mora biti dolga 5 znakov'
+            }
         }
 
 
