@@ -19,15 +19,7 @@
     <p id="neveljavna"></p>
 
 
-    <table id='T'>
-        <tbody id="tabela">
-
-            <tr>
-                <td>A</td>
-                <td>B</td>
-                <td>C</td>
-            </tr>
-        </tbody>
+    <table id='tabela'>
 
 
     </table>
@@ -50,7 +42,9 @@
         //najprej zelene
         //potem rumene
         //loči logiko od grafike. Dve funkciji
+        var n = 0
         function guess() {
+            n += 1
             myGuess = document.getElementById("myGuess").value.toUpperCase()
             console.log(myGuess)
             if (myGuess.length != 5) {
@@ -100,16 +94,32 @@
             console.log('NAPAČNE', napačneČrke)
             console.log('NAROBNO MESTO', displaced)
 
-            toDisplay = '<tr>'
+            toDisplay = "<tr>"
+            let tr = document.createElement('tr')
+            tr.setAttribute("id", toString(n))
+
             for (let i = 0; i < 5; i++) {
-                toDisplay += '<td>' + i + '</td>'
+                let td = document.createElement('td')
+                //td.setAttribute("id", toString(n) + toString(i))
+                if (i in pravilneČrke) {
+                    td.append(pravilneČrke[i])
+                    td.setAttribute("type", 'text')
+                    td.setAttribute("color", 'green')
+                } else if (i in napačneČrke) {
+                    td.append(napačneČrke[i])
+                    td.setAttribute("type", 'text')
+                    td.setAttribute("color", 'grey')
+                } else {
+                    td.append(displaced[i])
+                    td.setAttribute("type", 'text')
+                    td.setAttribute("color", 'yellow')
+                }
+
+                tr.append(td)
 
             }
-            toDisplay += '</tr>'
-            document.getElementById('tabela').append(toDisplay)
-            //line.innerHTML = "Microsoft";
+            document.getElementById('tabela').append(tr)
 
-            //line.appendChild(toDisplay);
         }
 
         /*
