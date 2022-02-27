@@ -18,12 +18,14 @@
 
     <script>
         const params = new URLSearchParams(window.location.search)
-        toGuess = params.get('beseda').toUpperCase()
+        encoded = params.get('beseda')
+        toGuess = atob(encoded).toUpperCase()
 
         //display:none; block
         //loči logiko od grafike. Dve funkciji
         function guess() {
             myGuess = document.getElementById("myGuess").value.toUpperCase()
+
             console.log(myGuess)
             if (myGuess.length != 5) {
                 document.getElementById('warning').innerHTML = 'Beseda mora imeti 5 črk!'
