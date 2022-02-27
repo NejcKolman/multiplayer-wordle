@@ -5,65 +5,52 @@
 </head>
 
 <body>
-    <button onclick="fun()">
-        beseda
-    </button>
-    <p id="prikaži"></p>
     <input type="text" id="myGuess" onchange="guess()" minlength="5" maxlength="5" placeholder="guess">
     <span id="result"></span>
-    <span id="L1"></span>
-    <span id="L2"></span>
-    <span id="L3"></span>
-    <span id="L4"></span>
-    <span id="L5"></span>
-    <p id="neveljavna"></p>
+
+    <p id="warning"></p>
 
 
-    <table id='tabela'>
+    <table id='guesses'>
 
 
     </table>
 
     <script>
-        end = false
-        result = ''
-
-
         const params = new URLSearchParams(window.location.search)
         toGuess = params.get('beseda').toUpperCase()
-        function fun() {
-            console.log(toGuess)
-            document.getElementById("prikaži").innerText = toGuess
-        }
+
         //display:none; block
-        //div
-        //appendChild
-        //tabela z ugibi
-        //najprej zelene
-        //potem rumene
         //loči logiko od grafike. Dve funkciji
-        var n = 0
         function guess() {
-            n += 1
             myGuess = document.getElementById("myGuess").value.toUpperCase()
             console.log(myGuess)
             if (myGuess.length != 5) {
-                document.getElementById('neveljavna').innerHTML = 'Beseda mora imeti 5 črk!'
+                document.getElementById('warning').innerHTML = 'Beseda mora imeti 5 črk!'
                 return
             }
-            document.getElementById('neveljavna').innerHTML = ''
+            document.getElementById('warning').innerHTML = ''
 
-            var pravilneČrke = {}
-            var napačneČrke = {}
-            var displaced = {}
-            var unguessed = {}
+
+            const matchingLetters = getMatches(myGuess, toGuess)
+            showNewGuessRow(matchingLetters)
+
+
+        }
+
+
+        function getMatches(myGuess, toGuess) {
+            let greenLetters = {}
+            let greyLetters = {}
+            let yellowLetters = {}
+            let unguessed = {}
             for (let i = 0; i < 5; i++) {
-                var letter = myGuess[i]
+                let letter = myGuess[i]
                 if (letter == toGuess[i]) {
-                    pravilneČrke[i] = letter
+                    greenLetters[i] = letter
 
                 } else if (toGuess.includes(letter) == false) {
-                    napačneČrke[i] = letter
+                    greyLetters[i] = letter
                     unguessed[i] = toGuess[i]
                 } else { unguessed[i] = toGuess[i] }
 
@@ -72,7 +59,7 @@
             for (let i = 0; i < 5; i++) {
 
                 let letter = myGuess[i]
-                if (i in pravilneČrke || i in napačneČrke) {
+                if (i in greenLetters || i in greyLetters) {
                     continue
                 }
                 console.log(i)
@@ -80,76 +67,43 @@
                 console.log(unguessed)
                 for (const [key, value] of Object.entries(unguessed)) {
                     if (value == letter && isYellow == false) {
-                        displaced[i] = letter
+                        yellowLetters[i] = letter
                         delete unguessed[key]
                         isYellow = true
                     }
                 }
 
                 if (isYellow == false) {
-                    napačneČrke[i] = letter
+                    greyLetters[i] = letter
                 }
             }
-            console.log('PRAVILNE', pravilneČrke)
-            console.log('NAPAČNE', napačneČrke)
-            console.log('NAROBNO MESTO', displaced)
 
-            toDisplay = "<tr>"
+
+            return [greenLetters, greyLetters, yellowLetters]
+        }
+
+        function showNewGuessRow(matchingLetters) {
+            let [greenLetters, greyLetters, yellowLetters] = matchingLetters
             let tr = document.createElement('tr')
-            tr.setAttribute("id", toString(n))
 
             for (let i = 0; i < 5; i++) {
                 let td = document.createElement('td')
-                //td.setAttribute("id", toString(n) + toString(i))
-                if (i in pravilneČrke) {
-                    td.append(pravilneČrke[i])
+                if (i in greenLetters) {
+                    td.append(greenLetters[i])
                     td.style.color = 'green'
-                } else if (i in napačneČrke) {
-                    td.append(napačneČrke[i])
+                } else if (i in greyLetters) {
+                    td.append(greyLetters[i])
                     td.style.color = 'grey'
                 } else {
-                    td.append(displaced[i])
+                    td.append(yellowLetters[i])
                     td.style.color = 'yellow'
                 }
 
                 tr.append(td)
 
             }
-            document.getElementById('tabela').append(tr)
-
+            document.getElementById('guesses').append(tr)
         }
-
-        /*
-        repeats = []
-        for (let i = 0; i < 5; i++) {
-            letter = myGuess[i]
-            console.log(letter)
-            if (toGuess.includes(letter) == false) {
-                document.getElementById('L' + (i + 1)).innerHTML = letter
-                document.getElementById('L' + (i + 1)).style.color = 'grey'
-            } else if (repeats.includes(letter) == false) {
-                repeats += letter
-                if (letter == toGuess[i]) {
-                    document.getElementById('L' + (i + 1)).innerHTML = letter
-                    document.getElementById('L' + (i + 1)).style.color = 'green'
-                } else {
-                    document.getElementById('L' + (i + 1)).innerHTML = letter
-                    document.getElementById('L' + (i + 1)).style.color = 'yellow'
-                    document.getElementById('L' + (i + 1)).style.backgroundColor = 'black'
-                }
-            }
-
-
-        }
-        */
-
-
-
-
-
-
-
-
     </script>
 </body>
 
