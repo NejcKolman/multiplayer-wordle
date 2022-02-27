@@ -1,0 +1,17 @@
+body {
+    /* Display contents in a column and center aligned */
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    /* Make height 100% of the screen height and no border */
+    height: 100vh;
+    margin: 0;
+}
+
+input {
+    border: 1px solid grey;  /* Thin border */
+    border-radius: 100px; /* Rounded corners */
+    padding: 0.7em; /* Some whitespace around text */
+    font-size: 1.1em; /* Bigger text */
+}
