@@ -18,14 +18,34 @@
     </table>
 
     <script>
+
+
+        async function fetchWords(language) {
+            let response = await fetch("data/besede/" + language + ".txt")
+            let words = await response.text()
+            return words.toUpperCase().split('\n')
+        }
+        let ALL_WORDS = fetchWords("eng")
+        let VSE_BESEDE = fetchWords("slo")
+
+
+
+
         const params = new URLSearchParams(window.location.search)
         encoded = params.get('beseda')
         toGuess = unescape(atob(encoded)).toUpperCase()
-
+        language = params.get('language')
         //display:none; block
         function guess() {
             myGuess = document.getElementById("myGuess").value.toUpperCase()
-
+            if (language == 'eng' && ALL_WORDS.includes(myGuess) == false) {
+                document.getElementById('warning').innerHTML = 'The word is not in the word list!'
+                return
+            }
+            if (language == 'slo' && VSE_BESEDE.includes(myGuess) == false) {
+                document.getElementById('warning').innerHTML = 'Besede ni v seznamu besed!'
+                return
+            }
             console.log(myGuess)
             if (myGuess.length != 5) {
                 document.getElementById('warning').innerHTML = 'Beseda mora imeti 5 črk!'
@@ -109,16 +129,7 @@
 
 
 
-        async function fetchWords(language) {
-            let response = await fetch("data/besede/" + language + ".txt")
-            let words = await response.text()
-            return words.split('\n')
-        }
-        //let ALL_WORDS = fetchWords("eng")
-        let VSE_BESEDE = fetchWords("slo")
 
-
-        //console.log(VSE_BESEDE[2])
     </script>
 </body>
 
