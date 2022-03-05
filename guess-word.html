@@ -92,15 +92,12 @@
                 let td = document.createElement('td')
                 if (i in greenLetters) {
                     td.append(greenLetters[i])
-                    //td.style.color = 'green'
                     td.className = 'correct'
                 } else if (i in greyLetters) {
                     td.append(greyLetters[i])
-                    //td.style.color = 'grey'
                     td.className = 'wrong'
                 } else {
                     td.append(yellowLetters[i])
-                    //td.style.color = 'yellow'
                     td.className = 'partial'
                 }
 
@@ -109,6 +106,19 @@
             }
             document.getElementById('guesses').append(tr)
         }
+
+
+
+        async function fetchWords(language) {
+            let response = await fetch("data/besede/" + language + ".txt")
+            let words = await response.text()
+            return words.split('\n')
+        }
+        //let ALL_WORDS = fetchWords("eng")
+        let VSE_BESEDE = fetchWords("slo")
+
+
+        //console.log(VSE_BESEDE[2])
     </script>
 </body>
 
