@@ -20,7 +20,7 @@
     <script>
         const params = new URLSearchParams(window.location.search)
         encoded = params.get('beseda')
-        toGuess = atob(encoded).toUpperCase()
+        toGuess = unescape(atob(encoded)).toUpperCase()
 
         //display:none; block
         function guess() {
