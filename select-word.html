@@ -5,37 +5,21 @@
 </head>
 
 <body>
-    <input type="text" placeholder="Enter word" autofocus onkeyup="updateShareLink(this.value)" maxlength="5">
+    <input type="text" placeholder="Enter word" autofocus onkeyup="updateNovaBeseda(this.value)" maxlength="5">
 
-    <select id="language" onchange="whatLanguage(this.value)">
+    <select id="language" onchange="updateLanguage(this.value)">
         <option value="eng"> ENG </option>
         <option value="slo"> SLO </option>
-
-
     </select>
 
     <a id="link"></a>
 
     <script>
-        jezik = 'eng'
-        function whatLanguage(language) {
-
-            let novaBeseda = beseda
-            console.log(novaBeseda)
-            jezik = language
-            if (novaBeseda.length == 5) {
-                encoded = btoa(escape(novaBeseda))
-                const url = "guess-word.html?beseda=" + encoded + '&language=' + jezik;
-                const link = document.getElementById("link");
-                link.href = url
-                link.innerHTML = url
-            }
-        }
-        var beseda = '_'
-        function updateShareLink(novaBeseda) {
-            beseda = novaBeseda
-            if (novaBeseda.length == 5) {
-                encoded = btoa(escape(novaBeseda))
+        let jezik = 'eng'
+        let beseda = '_'
+        function updateShareLink() {
+            if (beseda.length == 5) {
+                encoded = btoa(escape(beseda))
                 const url = "guess-word.html?beseda=" + encoded + '&language=' + jezik;
                 const link = document.getElementById("link");
                 link.href = url
@@ -44,6 +28,14 @@
                 link.removeAttribute('href')
                 document.getElementById("link").innerHTML = 'Beseda mora biti dolga 5 znakov'
             }
+        }
+        function updateNovaBeseda(novaBeseda) {
+            beseda = novaBeseda
+            updateShareLink()
+        }
+        function updateLanguage(language) {
+            jezik = language
+            updateShareLink()
         }
     </script>
 </body>

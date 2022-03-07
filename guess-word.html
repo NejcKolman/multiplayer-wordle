@@ -11,11 +11,16 @@
 
     <p id="warning"></p>
 
-
+    <button id='clipboard' onclick="copyToClipBoard()" style="display: none">Copy to clipboard</button>
     <table id='guesses'>
 
 
     </table>
+
+
+    <textarea id="myTextarea" style="display: none">
+
+    </textarea>
 
     <script>
 
@@ -23,10 +28,16 @@
         async function fetchWords(language) {
             let response = await fetch("data/besede/" + language + ".txt")
             let words = await response.text()
-            return words.toUpperCase().split('\n')
+            return words.split('\n')
         }
-        let ALL_WORDS = fetchWords("eng")
-        let VSE_BESEDE = fetchWords("slo")
+        let ALL_WORDS = []
+        let VSE_BESEDE = []
+        async function preloadWords() {
+            const word_lists = await Promise.all([fetchWords("slo"), fetchWords("eng")]);
+            VSE_BESEDE = word_lists[0];
+            ALL_WORDS = word_lists[1];
+        }
+        preloadWords()
 
 
 
@@ -38,11 +49,11 @@
         //display:none; block
         function guess() {
             myGuess = document.getElementById("myGuess").value.toUpperCase()
-            if (language == 'eng' && ALL_WORDS.includes(myGuess) == false) {
+            if (language == 'eng' && ALL_WORDS.includes(myGuess.toLowerCase()) == false) {
                 document.getElementById('warning').innerHTML = 'The word is not in the word list!'
                 return
             }
-            if (language == 'slo' && VSE_BESEDE.includes(myGuess) == false) {
+            if (language == 'slo' && VSE_BESEDE.includes(myGuess.toLowerCase()) == false) {
                 document.getElementById('warning').innerHTML = 'Besede ni v seznamu besed!'
                 return
             }
@@ -60,7 +71,7 @@
 
         }
 
-
+        let all_guesses = ''
         function getMatches(myGuess, toGuess) {
             let greenLetters = {}
             let greyLetters = {}
@@ -113,21 +124,44 @@
                 if (i in greenLetters) {
                     td.append(greenLetters[i])
                     td.className = 'correct'
+                    all_guesses += 'Z'//🟩
                 } else if (i in greyLetters) {
                     td.append(greyLetters[i])
                     td.className = 'wrong'
+                    all_guesses += 'S'//⬜
                 } else {
                     td.append(yellowLetters[i])
                     td.className = 'partial'
+                    all_guesses += 'R'//🟨
                 }
 
                 tr.append(td)
 
+
+
+
             }
+            if (all_guesses.includes('ZZZZZ')) {
+                console.log('here')
+                correctGuess()
+            }
+            all_guesses += '-'
             document.getElementById('guesses').append(tr)
         }
 
+        function correctGuess() {
+            document.getElementById('clipboard').removeAttribute('style')
+        }
+        function copyToClipBoard() {
+            document.getElementById('myTextarea').removeAttribute('style')
+            document.getElementById('myTextarea').value = all_guesses
+            var content = document.getElementById('myTextarea');
 
+            content.select();
+            document.execCommand('copy');
+
+            alert("Copied to clipboard");
+        }
 
 
     </script>
