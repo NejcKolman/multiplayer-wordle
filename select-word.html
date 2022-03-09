@@ -5,7 +5,8 @@
 </head>
 
 <body>
-    <input type="text" placeholder="Enter word" autofocus onkeyup="updateNovaBeseda(this.value)" maxlength="5">
+    <input type="text" autofocus placeholder="Enter word" autofocus onkeyup="updateNovaBeseda(this.value)"
+        maxlength="5">
 
     <select id="language" onchange="updateLanguage(this.value)">
         <option value="eng"> ENG </option>
@@ -15,16 +16,44 @@
     <a id="link"></a>
 
     <script>
+
+
+        async function fetchWords(language) {
+            let response = await fetch("data/besede/" + language + ".txt")
+            let words = await response.text()
+            return words.split('\n')
+        }
+        let ALL_WORDS = []
+        let VSE_BESEDE = []
+        async function preloadWords() {
+            const word_lists = await Promise.all([fetchWords("slo"), fetchWords("eng")]);
+            VSE_BESEDE = word_lists[0];
+            ALL_WORDS = word_lists[1];
+        }
+        preloadWords()
+
+
+
         let jezik = 'eng'
         let beseda = '_'
         function updateShareLink() {
             if (beseda.length == 5) {
-                encoded = btoa(escape(beseda))
-                const url = "guess-word.html?beseda=" + encoded + '&language=' + jezik;
-                const link = document.getElementById("link");
-                link.href = url
-                link.innerHTML = url;
-            } else {
+                if (jezik == 'eng' && ALL_WORDS.includes(beseda) == false) {
+                    link.removeAttribute('href')
+                    document.getElementById("link").innerHTML = 'The word is not in the word list!'
+                } else if (jezik == 'slo' && VSE_BESEDE.includes(beseda) == false) {
+                    link.removeAttribute('href')
+                    document.getElementById("link").innerHTML = 'Beseda ni v seznamu besed!'
+                } else {
+                    encoded = btoa(escape(beseda))
+                    const url = "guess-word.html?beseda=" + encoded + '&language=' + jezik;
+                    const link = document.getElementById("link");
+                    link.href = url
+                    link.innerHTML = url;
+                }
+            }
+
+            else {
                 link.removeAttribute('href')
                 document.getElementById("link").innerHTML = 'Beseda mora biti dolga 5 znakov'
             }
