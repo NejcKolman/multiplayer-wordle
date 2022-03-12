@@ -21,7 +21,7 @@
         async function fetchWords(language) {
             let response = await fetch("data/besede/" + language + ".txt")
             let words = await response.text()
-            return words.split('\n')
+            return words.toLowerCase().split('\n')
         }
         let ALL_WORDS = []
         let VSE_BESEDE = []
@@ -59,7 +59,7 @@
             }
         }
         function updateNovaBeseda(novaBeseda) {
-            beseda = novaBeseda
+            beseda = novaBeseda.toLowerCase()
             updateShareLink()
         }
         function updateLanguage(language) {

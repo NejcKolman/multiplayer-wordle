@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="css/landing.css" />
     <link rel="stylesheet" href="css/guess.css" />
+    <meta charset="utf-8" />
 </head>
 
 <body>
@@ -13,14 +14,7 @@
 
     <button id='clipboard' onclick="copyToClipBoard()" style="display: none">Copy to clipboard</button>
     <table id='guesses'>
-
-
     </table>
-
-
-    <textarea id="myTextarea" style="display: none">
-
-    </textarea>
 
     <script>
 
@@ -28,7 +22,7 @@
         async function fetchWords(language) {
             let response = await fetch("data/besede/" + language + ".txt")
             let words = await response.text()
-            return words.split('\n')
+            return words.toLowerCase().split('\n')
         }
         let ALL_WORDS = []
         let VSE_BESEDE = []
@@ -125,28 +119,25 @@
                 if (i in greenLetters) {
                     td.append(greenLetters[i])
                     td.className = 'correct'
-                    all_guesses += 'Z'//🟩
+                    all_guesses += '🟩'
                 } else if (i in greyLetters) {
                     td.append(greyLetters[i])
                     td.className = 'wrong'
-                    all_guesses += 'S'//⬜
+                    all_guesses += '⬜'
                 } else {
                     td.append(yellowLetters[i])
                     td.className = 'partial'
-                    all_guesses += 'R'//🟨
+                    all_guesses += '🟨'
                 }
 
                 tr.append(td)
-
-
-
-
             }
-            if (all_guesses.includes('ZZZZZ')) {
+            if (all_guesses.includes('🟩🟩🟩🟩🟩')) {
                 console.log('here')
                 correctGuess()
             }
-            all_guesses += '-'
+            all_guesses += '\n'
+            console.log(all_guesses)
             document.getElementById('guesses').append(tr)
         }
 
@@ -154,13 +145,7 @@
             document.getElementById('clipboard').removeAttribute('style')
         }
         function copyToClipBoard() {
-            document.getElementById('myTextarea').removeAttribute('style')
-            document.getElementById('myTextarea').value = all_guesses
-            var content = document.getElementById('myTextarea');
-
-            content.select();
-            document.execCommand('copy');
-
+            navigator.clipboard.writeText(all_guesses);
             alert("Copied to clipboard");
         }
 
