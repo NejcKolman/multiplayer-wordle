@@ -14,8 +14,16 @@
     </select>
 
     <a id="link"></a>
-
+    <button id="copyLink" onclick="copyLink()" style='display:none'>
+        Copy link
+    </button>
     <script>
+
+
+        function copyLink() {
+            navigator.clipboard.writeText(link)
+        }
+
 
 
         async function fetchWords(language) {
@@ -41,21 +49,25 @@
                 if (jezik == 'eng' && ALL_WORDS.includes(beseda) == false) {
                     link.removeAttribute('href')
                     document.getElementById("link").innerHTML = 'The word is not in the word list!'
+                    document.getElementById('copyLink').setAttribute('style', 'display:none')
                 } else if (jezik == 'slo' && VSE_BESEDE.includes(beseda) == false) {
                     link.removeAttribute('href')
                     document.getElementById("link").innerHTML = 'Beseda ni v seznamu besed!'
+                    document.getElementById('copyLink').setAttribute('style', 'display:none')
                 } else {
                     encoded = btoa(escape(beseda))
-                    const url = "guess-word.html?beseda=" + encoded + '&language=' + jezik;
+                    const url = "play.html?beseda=" + encoded + '&language=' + jezik;
                     const link = document.getElementById("link");
                     link.href = url
                     link.innerHTML = url;
+                    document.getElementById('copyLink').removeAttribute('style')
                 }
             }
 
             else {
                 link.removeAttribute('href')
                 document.getElementById("link").innerHTML = 'Beseda mora biti dolga 5 znakov'
+                document.getElementById('copyLink').setAttribute('style', 'display:none')
             }
         }
         function updateNovaBeseda(novaBeseda) {

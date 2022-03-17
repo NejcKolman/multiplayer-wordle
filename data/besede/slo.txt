@@ -215484,7 +215484,8 @@ poneverjevalka
 poneverljivec
 ponevihten
 ponevtraliti
-ponev (ponva)
+ponev
+ponva
 ponezgoden
 ponežiti
 ponf
