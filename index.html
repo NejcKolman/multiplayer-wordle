@@ -5,17 +5,24 @@
 </head>
 
 <body>
-    <input type="text" autofocus placeholder="Enter word" autofocus onkeyup="updateNovaBeseda(this.value)"
-        maxlength="5">
+    <input type="text" id='inputText' autofocus placeholder="Enter word" autofocus
+        onkeyup="updateNovaBeseda(this.value)" maxlength="5">
 
+
+
+    <div>
+        Hide the word: <input type="checkbox" id="myCheck" onclick="hide()">
+    </div>
     <select id="language" onchange="updateLanguage(this.value)">
         <option value="eng"> ENG </option>
         <option value="slo"> SLO </option>
     </select>
-
-    <a id="link"></a>
     <button id="copyLink" onclick="copyLink()" style='display:none'>
         Copy link
+    </button>
+    <a id="link"></a>
+    <button id="randomWord" onclick="pickRandomWord()">
+        Random word
     </button>
     <script>
 
@@ -37,10 +44,24 @@
             const word_lists = await Promise.all([fetchWords("slo"), fetchWords("eng")]);
             VSE_BESEDE = word_lists[0];
             ALL_WORDS = word_lists[1];
+            new_VseBesede = []
+            new_AllWords = []
+            for (let i = 0; i < VSE_BESEDE.length; i++) {
+                word = VSE_BESEDE[i]
+                if (word.length == 5) {
+                    new_VseBesede.push(word)
+                }
+            }
+            for (let i = 0; i < ALL_WORDS.length; i++) {
+                word = ALL_WORDS[i]
+                if (word.length == 5) {
+                    new_AllWords.push(word)
+                }
+            }
+            VSE_BESEDE = new_VseBesede
+            ALL_WORDS = new_AllWords
         }
         preloadWords()
-
-
 
         let jezik = 'eng'
         let beseda = '_'
@@ -77,6 +98,29 @@
         function updateLanguage(language) {
             jezik = language
             updateShareLink()
+        }
+
+
+        function hide() {
+            isHidden = document.getElementById('myCheck').checked
+            if (isHidden == true) {
+                document.getElementById('inputText').type = 'password'
+            }
+            else document.getElementById('inputText').type = 'text'
+        }
+
+        function pickRandomWord() {
+            if (jezik == 'eng') {
+                WL = ALL_WORDS
+            }
+            else if (jezik == 'slo') {
+                WL = VSE_BESEDE
+            }
+
+            randomWord = WL[Math.floor(Math.random() * (WL.length))]
+            console.log(randomWord)
+            document.getElementById('inputText').value = randomWord
+            updateNovaBeseda(randomWord)
         }
     </script>
 </body>

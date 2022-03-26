@@ -39,7 +39,7 @@ const Keyboard = {
         const keyLayout = [
             "q", "w", "e", "r", "t", "z", "u", "i", "o", "p", "š",
             "a", "s", "d", "f", "g", "h", "j", "k", "l", "č", "ž",
-            "done", "y", "x", "c", "v", "b", "n", "m", "backspace"
+            "enter", "y", "x", "c", "v", "b", "n", "m", "backspace"
         ];
         const createIconHTML = (icon_name) => {
             return `<i class="material-icons">${icon_name}</i>`
@@ -57,41 +57,20 @@ const Keyboard = {
                     keyElement.classList.add('keyboard__key--wide');
                     keyElement.innerHTML = createIconHTML('backspace');
 
-                    keyElement.addEventListener('click', () => {
-                        myGuess = myGuess.substring(0, myGuess.length - 1);
-                        this._triggerEvent('oninput')
-                        document.getElementById("myGuess").focus()
-                        document.getElementById('myGuess').value = myGuess.toLowerCase()
-                        //guess()
-                    });
+                    keyElement.addEventListener('click', () => { guess(key) });
                     break
 
-                case 'done':
+                case 'enter':
                     keyElement.classList.add('keyboard__key--dark');
                     keyElement.innerHTML = createIconHTML('check_circle');
 
-                    keyElement.addEventListener('click', () => {
-                        this.close();
-                        this._triggerEvent('onclose')
-                        document.getElementById("myGuess").focus()
-                        done = true
-                        console.log('here')
-                        guess()
-                    });
+                    keyElement.addEventListener('click', () => { guess(key) });
                     break
 
                 default:
                     keyElement.textContent = key.toLowerCase();
                     keyElement.setAttribute('Id', key)
-                    keyElement.addEventListener('click', () => {
-                        if (myGuess.length != 5) {
-                            myGuess += key;
-                            this._triggerEvent('oninput')
-                            document.getElementById("myGuess").focus()
-                            myGuess = myGuess.toUpperCase()
-                            //guess()
-                        }
-                    })
+                    keyElement.addEventListener('click', () => { guess(key) })
 
                     break
 

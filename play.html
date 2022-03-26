@@ -9,14 +9,23 @@
 </head>
 
 <body>
-    <input type="text" id="myGuess" autofocus onkeyup="guess(event)" minlength="5" maxlength="5" placeholder="guess"
-        class="use-keyboard-input">
+
     <span id="result"></span>
 
     <p id="warning"></p>
 
     <button id='clipboard' onclick="copyToClipBoard()" style="display: none">Copy your score to clipboard</button>
     <table id='guesses'>
+    </table>
+
+    <table id='myGuess'>
+        <tr>
+            <td class="blank" id="L1"></td>
+            <td class="blank" id="L2"></td>
+            <td class="blank" id="L3"></td>
+            <td class="blank" id="L4"></td>
+            <td class="blank" id="L5"></td>
+        </tr>
     </table>
 
 
@@ -35,6 +44,9 @@
         done = false
         let GL = []
         let YL = []
+        let GRAL = []
+
+        //geting the dictionarys
         async function fetchWords(language) {
             let response = await fetch("data/besede/" + language + ".txt")
             let words = await response.text()
@@ -51,44 +63,79 @@
 
 
 
-
+        //read the URL
         const params = new URLSearchParams(window.location.search)
         encoded = params.get('beseda')
         toGuess = unescape(atob(encoded)).toUpperCase()
         language = params.get('language')
-        //display:none; block
-        function guess() {
-
-            if (event.keyCode === 13 || done == true) {
-                console.log('here')
-                done = false
-                //event.preventDefault();
 
 
-
-                myGuess = document.getElementById("myGuess").value.toUpperCase()
-                if (language == 'eng' && ALL_WORDS.includes(myGuess.toLowerCase()) == false) {
-                    document.getElementById('warning').innerHTML = 'The word is not in the word list!'
-                    return
-                }
-                if (language == 'slo' && VSE_BESEDE.includes(myGuess.toLowerCase()) == false) {
-                    document.getElementById('warning').innerHTML = 'Besede ni v seznamu besed!'
-                    return
-                }
-                console.log(myGuess)
-                if (myGuess.length != 5) {
-                    document.getElementById('warning').innerHTML = 'Beseda mora imeti 5 črk!'
-                    return
-                }
-                document.getElementById('warning').innerHTML = ''
+        //keboard keypress
+        document.addEventListener('keydown', (event) => {
+            var keyName = event.key;
+            guess(keyName)
+        }, false);
 
 
-                const matchingLetters = getMatches(myGuess, toGuess)
-                showNewGuessRow(matchingLetters)
-                document.getElementById('myGuess').value = ""
 
+        myGuess = ''
+        function guess(key) {
+            console.log(key)
+            key = key.toLowerCase()
+            switch (key) {
+                case 'enter':
+                    if (myGuess.length != 5) {
+                        document.getElementById('warning').innerHTML = ''
+                        return
+                    }
+
+                    else if (language == 'eng' && ALL_WORDS.includes(myGuess.toLowerCase()) == false) {
+                        document.getElementById('warning').innerHTML = 'The word is not in the word list!'
+                        return
+                    }
+
+
+                    else if (language == 'slo' && VSE_BESEDE.includes(myGuess.toLowerCase()) == false) {
+                        document.getElementById('warning').innerHTML = 'Besede ni v seznamu besed!'
+                        return
+                    }
+
+                    else {
+                        myGuess = myGuess.toUpperCase()
+                        const matchingLetters = getMatches(myGuess, toGuess)
+                        showNewGuessRow(matchingLetters)
+                        myGuess = ''
+                        for (let i = 0; i < 5; i++) {
+                            document.getElementById('L' + (i + 1).toString()).innerHTML = ''
+                        }
+                        return
+                    }
+
+
+                case 'backspace':
+                    if (myGuess.length != 0) {
+                        document.getElementById('warning').innerHTML = ''
+                        myGuess = myGuess.slice(0, -1)
+                    }
+                    break
+
+                default:
+
+                    if (myGuess.length != 5 && key.toLowerCase() != key.toUpperCase() && key.length == 1) {
+                        myGuess += key.toLowerCase()
+                        console.log(myGuess)
+                        document.getElementById('warning').innerHTML = ''
+                    }
             }
+            for (let i = 0; i < 5; i++) {
+                if (i < myGuess.length) {
+                    document.getElementById('L' + (i + 1).toString()).innerHTML = myGuess[i].toUpperCase()
+                }
+                else document.getElementById('L' + (i + 1).toString()).innerHTML = ''
+            }
+
         }
+
 
         let all_guesses = 'My Score \n'
         function getMatches(myGuess, toGuess) {
@@ -100,12 +147,16 @@
                 let letter = myGuess[i]
                 if (letter == toGuess[i]) {
                     greenLetters[i] = letter
+                    document.getElementById(letter.toLowerCase()).classList.remove('yellowKey')
+
                     document.getElementById(letter.toLowerCase()).classList.add('greenKey')
                     GL += letter
 
                 } else if (toGuess.includes(letter) == false) {
                     greyLetters[i] = letter
                     unguessed[i] = toGuess[i]
+                    GRAL += letter
+
                 } else { unguessed[i] = toGuess[i] }
 
             }
@@ -131,6 +182,12 @@
 
                 if (isYellow == false) {
                     greyLetters[i] = letter
+                }
+            }
+            for (let i = 0; i < GRAL.length; i++) {
+                letter = GRAL[i]
+                if (YL.includes(letter) == false && GL.includes(letter) == false) {
+                    document.getElementById(letter.toLowerCase()).classList.add('greyKey')
                 }
             }
 
