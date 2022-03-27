@@ -118,10 +118,10 @@
             let word = choice.value
             if (word.length == 5 && word.toLowerCase() != 'hotel') {
                 error.innerHTML = 'Invalid word'
-                outline.classList.add(errorClass)
+                choice.valid = false
             } else {
                 error.innerHTML = ''
-                outline.classList.remove(errorClass)
+                choice.valid = true
             }
         }
 
