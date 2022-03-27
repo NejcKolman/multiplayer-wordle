@@ -14,11 +14,11 @@ table {
     font-family: sans-serif;
     text-align: center;
     border-spacing: 0.25em;
+    top: 0em;
 
 }
 .history {
-    bottom:0px;
-    float:top
+    top: 0.25em;
 }
 td {
     --tile-color: gray;
@@ -62,6 +62,7 @@ td.partial, td.correct, td.wrong, td.blank {
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     user-select:none;
     transition: bottom 0.4s;
+    position: relative
 }
 
 .keyboardHidden{
