@@ -1,0 +1,149 @@
+<html>
+
+<head>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Multiplayer wordl</title>
+    <style>
+        body {
+            margin: auto;
+            text-align: center;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .choice-container {
+            display: inline-flex;
+            flex-flow: column;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Text box -->
+    <div class="choice-container">
+        <label id="outline"
+            class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon mdc-text-field--with-trailing-icon">
+            <!-- Outline formatting and label for the text field -->
+            <span class="mdc-notched-outline">
+                <span class="mdc-notched-outline__leading"></span>
+                <span class="mdc-notched-outline__notch">
+                    <span class="mdc-floating-label" id="choice-label">Write word</span>
+                </span>
+                <span class="mdc-notched-outline__trailing"></span>
+            </span>
+
+            <!-- Language picker -->
+            <button class="mdc-text-field__icon mdc-text-field__icon--leading mdc-icon-button" style="margin-left: 0"
+                onclick="toggleLanguage()">
+                <img src="en.png" id="language" />
+            </button>
+            <!-- Actual input field -->
+            <input id="choice" type="text" class="mdc-text-field__input" aria-labelledby="choice-label" maxlength="5"
+                onkeyup="validateWord()" onchange="validateWord()">
+            <!-- Visibility button -->
+            <i id="visibility" class="material-icons mdc-text-field__icon mdc-text-field__icon--trailing" tabindex="0"
+                role="button" onclick="toggleVisibility()">visibility</i>
+        </label>
+        <div class="mdc-text-field-helper-line">
+            <!-- Report invalid word -->
+            <div id="error"
+                class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg"
+                role="alert">
+            </div>
+            <!-- Report character count -->
+            <div class="mdc-text-field-character-counter">0 / 5</div>
+        </div>
+    </div>
+    <br>
+
+    <!-- Buttons for sharing, copying and follwing play link -->
+    <div>
+        <button class="mdc-icon-button material-icons" onclick="randomWord()" style="margin-right: 2em;">
+            <div class="mdc-icon-button__ripple"></div>
+            shuffle
+        </button>
+        <button class="mdc-icon-button material-icons">
+            <div class="mdc-icon-button__ripple"></div>
+            content_copy
+        </button>
+        <button class="mdc-icon-button material-icons">
+            <div class="mdc-icon-button__ripple"></div>
+            share
+        </button>
+        <button class="mdc-icon-button material-icons">
+            <div class="mdc-icon-button__ripple"></div>
+            play_arrow
+        </button>
+    </div>
+
+    <script>
+        // Activate JS for text and button components
+        const choice = mdc.textField.MDCTextField.attachTo(document.querySelector('.mdc-text-field'))
+        mdc.textField.MDCTextFieldCharacterCounter.attachTo(document.querySelector('.mdc-text-field-character-counter'))
+        for (const btn of document.querySelectorAll('.mdc-button')) {
+            mdc.ripple.MDCRipple.attachTo(btn)
+        }
+
+        // Dynamic elements
+        const outline = document.getElementById("outline")
+        const visibility = document.getElementById("visibility")
+        const error = document.getElementById("error")
+        const language = document.getElementById("language")
+
+        // Application state
+        let lang = 'en'
+
+        // Toogle text/password type of input field
+        function isTextVisible() {
+            return choice.input.getAttribute('type') == 'text'
+        }
+
+        function toggleVisibility() {
+            if (isTextVisible()) {
+                choice.input.setAttribute('type', 'password')
+                visibility.innerHTML = 'visibility_off'
+            } else {
+                choice.input.setAttribute('type', 'text')
+                visibility.innerHTML = 'visibility'
+            }
+        }
+
+        // Show error for invalid word
+        function validateWord() {
+            let word = choice.value
+            if (word.length == 5 && word.toLowerCase() != 'hotel') {
+                error.innerHTML = 'Invalid word'
+                outline.classList.add(errorClass)
+            } else {
+                error.innerHTML = ''
+                outline.classList.remove(errorClass)
+            }
+        }
+
+        // Random word picker also hides the text
+        function randomWord() {
+            if (isTextVisible()) {
+                toggleVisibility()
+            }
+            choice.value = 'hotel'
+            validateWord()
+        }
+
+        // Change the language icon
+        function toggleLanguage() {
+            if (lang === 'en') {
+                lang = 'sl'
+            } else {
+                lang = 'en'
+            }
+            language.setAttribute('src', `${lang}.png`)
+        }
+    </script>
+</body>
+
+</html>
