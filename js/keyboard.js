@@ -7,7 +7,6 @@ const Keyboard = {
 
     eventHandlers: {
         oninput: null,
-        onclose: null
     },
 
     properties: {
@@ -83,29 +82,8 @@ const Keyboard = {
             }
 
         });
-
         return fragment
     },
-
-    _triggerEvent(handlerName) {
-        if (typeof this.eventHandlers[handlerName] == "function") {
-            this.eventHandlers[handlerName](myGuess.toLowerCase());
-        }
-    },
-
-    open(initialValue, oninput, onclose) {
-        myGuess = initialValue || "";
-        this.eventHandlers.oninput = oninput;
-        this.eventHandlers.onclose = onclose;
-        this.elements.main.classList.remove("keyboardHidden")
-    },
-
-    close() {
-        myGuess = "";
-        this.eventHandlers.oninput = oninput;
-        this.eventHandlers.onclose = onclose;
-        //this.elements.main.classList.add("keyboardHidden")
-    }
 }
 
 

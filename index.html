@@ -5,24 +5,34 @@
 </head>
 
 <body>
-    <input type="text" id='inputText' autofocus placeholder="Enter word" autofocus
-        onkeyup="updateNovaBeseda(this.value)" maxlength="5">
+    <div style="margin-bottom: 1em;">
+        <a id="link"></a>
+        <button id="copyLink" onclick="copyLink()" style='display:none'>
+            Copy link
+        </button>
+    </div>
+
+    <div style="margin-bottom: 1em;">
+        <select id="language" onchange="updateLanguage(this.value)">
+            <option value="eng"> ENG </option>
+            <option value="slo"> SLO </option>
+        </select>
+        <input type="text" id='inputText' autofocus placeholder="Enter word" autofocus
+            onkeyup="updateNovaBeseda(this.value)" maxlength="5">
+
+    </div>
 
 
 
-    <div>
+    <div style="margin-bottom: 1em;">
         Hide the word: <input type="checkbox" id="myCheck" onclick="hide()">
     </div>
-    <select id="language" onchange="updateLanguage(this.value)">
-        <option value="eng"> ENG </option>
-        <option value="slo"> SLO </option>
-    </select>
-    <button id="copyLink" onclick="copyLink()" style='display:none'>
-        Copy link
-    </button>
-    <a id="link"></a>
+
+
+
+
     <button id="randomWord" onclick="pickRandomWord()">
-        Random word
+        Pick a random word
     </button>
     <script>
 

@@ -5,6 +5,7 @@ button {
     border: 1px solid black;
 }
 
+
 table {
     display: inline-block;
     color: white;
@@ -13,8 +14,12 @@ table {
     font-family: sans-serif;
     text-align: center;
     border-spacing: 0.25em;
-}
 
+}
+.history {
+    bottom:0px;
+    float:top
+}
 td {
     --tile-color: gray;
     border: solid 2px var(--tile-color);
@@ -29,7 +34,7 @@ td.partial {
 td.correct {
     --tile-color: #6aaa64;
 }
- 
+
 td.wrong {
     --tile-color: #787c7e;
  }
@@ -53,7 +58,7 @@ td.partial, td.correct, td.wrong, td.blank {
     bottom: 0;
     width: 100%;
     padding: 5px 0;
-    background:#004134;
+    background:#dcdcdc;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     user-select:none;
     transition: bottom 0.4s;
@@ -65,11 +70,12 @@ td.partial, td.correct, td.wrong, td.blank {
 
 .keyboardKeys{
     text-align: center;
+    width: 100%
 }
 
 .keyboardKey{
     height: 45px;
-    width: 6%;
+    width: 7%;
     max-width: 90px;
     margin: 3px;
     border-radius: 4px;
@@ -105,7 +111,7 @@ td.partial, td.correct, td.wrong, td.blank {
 }
 
 .greenKey{
-    background: green
+    background: #90ee90	
 }
 
 .yellowKey{
