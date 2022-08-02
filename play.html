@@ -10,15 +10,22 @@
 </head>
 
 <body style="justify-content: flex-end;">
-
     <span id="result"></span>
 
-    <p id="warning"></p>
 
-    <button id='clipboard' onclick="copyToClipBoard()" style="display: none">Copy your score to clipboard</button>
+    <div class="history">
 
-    <table id='guesses' class="history">
-    </table>
+        <table id='guesses'>
+        </table>
+        <p id="warning"></p>
+
+        <button id='clipboard' onclick="copyToClipBoard()" style="display: none">Copy your score to clipboard</button>
+
+        <button id="pickWord" onclick="location.href='index.html'" style='display:none'>
+            Pick another word
+        </button>
+
+    </div>
 
     <table id='myGuess'>
         <tr>
@@ -31,18 +38,8 @@
     </table>
 
 
-    <button id="pickWord" onclick="location.href='index.html'" style='display:none'>
-        Pick another word
-    </button>
-
-
-
-
-
-
-
-
     <script>
+        window.scrollTo(0, document.body.scrollHeight);
         done = false
         let GL = []
         let YL = []
@@ -87,20 +84,19 @@
             switch (key) {
                 case 'enter':
                     if (myGuess.length != 5) {
-                        document.getElementById('warning').innerHTML = ''
                         return
                     }
 
-                    else if (language == 'eng' && ALL_WORDS.includes(myGuess.toLowerCase()) == false) {
-                        document.getElementById('warning').innerHTML = 'The word is not in the word list!'
+                    else if ((language == 'eng' && ALL_WORDS.includes(myGuess.toLowerCase()) == false) || (language == 'slo' && VSE_BESEDE.includes(myGuess.toLowerCase()) == false)) {
+                        document.getElementById('L1').className = 'invalid'
+                        document.getElementById('L2').className = 'invalid'
+                        document.getElementById('L3').className = 'invalid'
+                        document.getElementById('L4').className = 'invalid'
+                        document.getElementById('L5').className = 'invalid'
+
                         return
                     }
 
-
-                    else if (language == 'slo' && VSE_BESEDE.includes(myGuess.toLowerCase()) == false) {
-                        document.getElementById('warning').innerHTML = 'Besede ni v seznamu besed!'
-                        return
-                    }
 
                     else {
                         myGuess = myGuess.toUpperCase()
@@ -115,6 +111,12 @@
 
 
                 case 'backspace':
+                    document.getElementById('L1').className = 'blank'
+                    document.getElementById('L2').className = 'blank'
+                    document.getElementById('L3').className = 'blank'
+                    document.getElementById('L4').className = 'blank'
+                    document.getElementById('L5').className = 'blank'
+
                     if (myGuess.length != 0) {
                         document.getElementById('warning').innerHTML = ''
                         myGuess = myGuess.slice(0, -1)
@@ -218,6 +220,7 @@
                 }
 
                 tr.append(td)
+
             }
             if (all_guesses.includes('🟩🟩🟩🟩🟩')) {
                 console.log('here')
@@ -227,6 +230,7 @@
             all_guesses += '\n'
             console.log(all_guesses)
             document.getElementById('guesses').append(tr)
+            tr.scrollIntoView();
         }
 
         function correctGuess() {
