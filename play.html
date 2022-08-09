@@ -75,7 +75,11 @@
             guess(keyName)
         }, false);
 
-
+        function setClassNameForLetters(CLASSNAME) {
+            for (let i = 1; i <= 5; i++) {
+                document.getElementById(`L${i}`).className = CLASSNAME
+            }
+        }
 
         myGuess = ''
         function guess(key) {
@@ -88,11 +92,7 @@
                     }
 
                     else if ((language == 'eng' && ALL_WORDS.includes(myGuess.toLowerCase()) == false) || (language == 'slo' && VSE_BESEDE.includes(myGuess.toLowerCase()) == false)) {
-                        document.getElementById('L1').className = 'invalid'
-                        document.getElementById('L2').className = 'invalid'
-                        document.getElementById('L3').className = 'invalid'
-                        document.getElementById('L4').className = 'invalid'
-                        document.getElementById('L5').className = 'invalid'
+                        setClassNameForLetters('invalid')
 
                         return
                     }
@@ -111,11 +111,7 @@
 
 
                 case 'backspace':
-                    document.getElementById('L1').className = 'blank'
-                    document.getElementById('L2').className = 'blank'
-                    document.getElementById('L3').className = 'blank'
-                    document.getElementById('L4').className = 'blank'
-                    document.getElementById('L5').className = 'blank'
+                    setClassNameForLetters('blank')
 
                     if (myGuess.length != 0) {
                         document.getElementById('warning').innerHTML = ''

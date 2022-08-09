@@ -1,7 +1,6 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="css/landing.css" />
 
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
@@ -43,7 +42,7 @@
             <!-- Language picker -->
             <button class="mdc-text-field__icon mdc-text-field__icon--leading mdc-icon-button" style="margin-left: 0"
                 onclick="toggleLanguage()">
-                <img src="en.png" id="language" />
+                <img src="img/eng.png" id="language" />
             </button>
             <!-- Actual input field -->
             <input id="choice" type="text" class="mdc-text-field__input" aria-labelledby="choice-label" maxlength="5"
@@ -128,7 +127,7 @@
             } else {
                 jezik = 'eng'
             }
-            language.setAttribute('src', `${jezik}.png`)
+            language.setAttribute('src', `img/${jezik}.png`)
         }
 
 
@@ -157,7 +156,7 @@
 
             randomWord = WL[Math.floor(Math.random() * (WL.length))]
             console.log(randomWord)
-            document.getElementById('choice').value = randomWord
+            choice.value = randomWord
             updateNovaBeseda(randomWord)
 
             validateWord()
@@ -166,6 +165,8 @@
 
         let jezik = 'eng'
         let beseda = '_'
+        let curLoc = location.href.substr(0, location.href.length - 10)
+        console.log(curLoc)
         function validateWord() {
             beseda = choice.value
 
@@ -180,7 +181,7 @@
                     choice.valid = false
                 } else {
                     encoded = btoa(escape(beseda))
-                    url = "play.html?beseda=" + encoded + '&language=' + jezik;
+                    url = curLoc + "play.html?beseda=" + encoded + '&language=' + jezik;
                     choice.valid = true
                 }
             }
