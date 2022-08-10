@@ -1,46 +1,201 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="css/landing.css" />
+
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Multiplayer wordl</title>
+    <style>
+        body {
+            margin: auto;
+            text-align: center;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .choice-container {
+            display: inline-flex;
+            flex-flow: column;
+        }
+    </style>
 </head>
 
 <body>
-    <div style="margin-bottom: 1em;">
-        <a id="link"></a>
-        <button id="copyLink" onclick="copyLink()" style='display:none'>
-            Copy link
+
+    <!-- Text box -->
+    <div class="choice-container">
+        <label id="outline"
+            class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon mdc-text-field--with-trailing-icon">
+            <!-- Outline formatting and label for the text field -->
+            <span class="mdc-notched-outline">
+                <span class="mdc-notched-outline__leading"></span>
+                <span class="mdc-notched-outline__notch">
+                    <span class="mdc-floating-label" id="choice-label">Write word</span>
+                </span>
+                <span class="mdc-notched-outline__trailing"></span>
+            </span>
+
+            <!-- Language picker -->
+            <button class="mdc-text-field__icon mdc-text-field__icon--leading mdc-icon-button" style="margin-left: 0"
+                onclick="toggleLanguage()">
+                <img src="img/eng.png" id="language" />
+            </button>
+            <!-- Actual input field -->
+            <input id="choice" type="text" class="mdc-text-field__input" aria-labelledby="choice-label" maxlength="5"
+                onkeyup="validateWord()" onchange="validateWord()">
+            <!-- Visibility button -->
+            <i id="visibility" class="material-icons mdc-text-field__icon mdc-text-field__icon--trailing" tabindex="0"
+                role="button" onclick="toggleVisibility()">visibility</i>
+        </label>
+        <div class="mdc-text-field-helper-line">
+            <!-- Report invalid word -->
+            <div id="error"
+                class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg"
+                role="alert">
+            </div>
+            <!-- Report character count -->
+            <div class="mdc-text-field-character-counter">0 / 5</div>
+        </div>
+    </div>
+    <br>
+
+    <!-- Buttons for sharing, copying and follwing play link -->
+    <div>
+        <button class="mdc-icon-button material-icons" id="randomWord" onclick="pickRandomWord()"
+            style="margin-right: 2em;">
+            <div class="mdc-icon-button__ripple"></div>
+            shuffle
+        </button>
+        <button class="mdc-icon-button material-icons" onclick="copyLink()">
+            <div class="mdc-icon-button__ripple"></div>
+            content_copy
+        </button>
+        <button class="mdc-icon-button material-icons" onclick="shareLink()">
+            <div class="mdc-icon-button__ripple"></div>
+            share
+        </button>
+        <button class="mdc-icon-button material-icons" onclick="playWord()">
+            <div class="mdc-icon-button__ripple"></div>
+            play_arrow
         </button>
     </div>
 
-    <div style="margin-bottom: 1em;">
-        <select id="language" onchange="updateLanguage(this.value)">
-            <option value="eng"> ENG </option>
-            <option value="slo"> SLO </option>
-        </select>
-        <input type="text" id='inputText' autofocus placeholder="Enter word" autofocus
-            onkeyup="updateNovaBeseda(this.value)" maxlength="5">
-
-    </div>
-
-
-
-    <div style="margin-bottom: 1em;">
-        Hide the word: <input type="checkbox" id="myCheck" onclick="hide()">
-    </div>
 
 
 
 
-    <button id="randomWord" onclick="pickRandomWord()">
-        Pick a random word
-    </button>
     <script>
+
+        // Activate JS for text and button components
+        const choice = mdc.textField.MDCTextField.attachTo(document.querySelector('.mdc-text-field'))
+        mdc.textField.MDCTextFieldCharacterCounter.attachTo(document.querySelector('.mdc-text-field-character-counter'))
+        for (const btn of document.querySelectorAll('.mdc-button')) {
+            mdc.ripple.MDCRipple.attachTo(btn)
+        }
+
+        // Dynamic elements
+        const outline = document.getElementById("outline")
+        const visibility = document.getElementById("visibility")
+        const error = document.getElementById("error")
+        const language = document.getElementById("language")
+
+
+
+        function toggleVisibility() {
+            if (isTextVisible()) {
+
+                choice.input.setAttribute('type', 'password')
+                visibility.innerHTML = 'visibility_off'
+            } else {
+                choice.input.setAttribute('type', 'text')
+                visibility.innerHTML = 'visibility'
+            }
+        }
+
+        function isTextVisible() {
+            return choice.input.getAttribute('type') == 'text'
+        }
+
+
+        function toggleLanguage() {
+            if (jezik === 'eng') {
+                jezik = 'slo'
+            } else {
+                jezik = 'eng'
+            }
+            language.setAttribute('src', `img/${jezik}.png`)
+        }
 
 
         function copyLink() {
-            navigator.clipboard.writeText(link)
+            console.log('COPY')
+            if (choice.valid == true & beseda.length == 5) {
+                console.log('copy')
+                navigator.clipboard.writeText(url)
+            }
         }
 
+        function updateNovaBeseda(novaBeseda) {
+            beseda = novaBeseda.toLowerCase()
+        }
+
+        let url = ''
+
+
+        function pickRandomWord() {
+            if (jezik == 'eng') {
+                WL = ALL_WORDS
+            }
+            else if (jezik == 'slo') {
+                WL = VSE_BESEDE
+            }
+
+            randomWord = WL[Math.floor(Math.random() * (WL.length))]
+            console.log(randomWord)
+            choice.value = randomWord
+            updateNovaBeseda(randomWord)
+
+            validateWord()
+        }
+
+
+        let jezik = 'eng'
+        let beseda = '_'
+        let curLoc = location.href.substr(0, location.href.length - 10)
+        console.log(curLoc)
+        function validateWord() {
+            beseda = choice.value
+
+            if (beseda.length == 5) {
+
+                if (jezik == 'eng' && ALL_WORDS.includes(beseda) == false) {
+                    error.innerHTML = 'Invalid word'
+                    choice.valid = false
+
+                } else if (jezik == 'slo' && VSE_BESEDE.includes(beseda) == false) {
+                    error.innerHTML = 'Invalid word'
+                    choice.valid = false
+                } else {
+                    encoded = btoa(escape(beseda))
+                    url = curLoc + "play.html?beseda=" + encoded + '&language=' + jezik;
+                    choice.valid = true
+                }
+            }
+
+            else {
+                error.innerHTML = ''
+                choice.valid = true
+            }
+        }
+
+
+        function playWord() {
+            location.href = url
+        }
 
 
         async function fetchWords(language) {
@@ -73,64 +228,9 @@
         }
         preloadWords()
 
-        let jezik = 'eng'
-        let beseda = '_'
-        function updateShareLink() {
-            if (beseda.length == 5) {
-                if (jezik == 'eng' && ALL_WORDS.includes(beseda) == false) {
-                    link.removeAttribute('href')
-                    document.getElementById("link").innerHTML = 'The word is not in the word list!'
-                    document.getElementById('copyLink').setAttribute('style', 'display:none')
-                } else if (jezik == 'slo' && VSE_BESEDE.includes(beseda) == false) {
-                    link.removeAttribute('href')
-                    document.getElementById("link").innerHTML = 'Beseda ni v seznamu besed!'
-                    document.getElementById('copyLink').setAttribute('style', 'display:none')
-                } else {
-                    encoded = btoa(escape(beseda))
-                    const url = "play.html?beseda=" + encoded + '&language=' + jezik;
-                    const link = document.getElementById("link");
-                    link.href = url
-                    link.innerHTML = url;
-                    document.getElementById('copyLink').removeAttribute('style')
-                }
-            }
 
-            else {
-                link.removeAttribute('href')
-                document.getElementById("link").innerHTML = 'Beseda mora biti dolga 5 znakov'
-                document.getElementById('copyLink').setAttribute('style', 'display:none')
-            }
-        }
-        function updateNovaBeseda(novaBeseda) {
-            beseda = novaBeseda.toLowerCase()
-            updateShareLink()
-        }
-        function updateLanguage(language) {
-            jezik = language
-            updateShareLink()
-        }
-
-
-        function hide() {
-            isHidden = document.getElementById('myCheck').checked
-            if (isHidden == true) {
-                document.getElementById('inputText').type = 'password'
-            }
-            else document.getElementById('inputText').type = 'text'
-        }
-
-        function pickRandomWord() {
-            if (jezik == 'eng') {
-                WL = ALL_WORDS
-            }
-            else if (jezik == 'slo') {
-                WL = VSE_BESEDE
-            }
-
-            randomWord = WL[Math.floor(Math.random() * (WL.length))]
-            console.log(randomWord)
-            document.getElementById('inputText').value = randomWord
-            updateNovaBeseda(randomWord)
+        function shareLink() {
+            console.log('just copy the link')
         }
     </script>
 </body>
