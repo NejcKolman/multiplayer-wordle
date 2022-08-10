@@ -19,12 +19,17 @@ table {
 }
 .history {
     top: 0.25em;
+    overflow-y: auto;
+    max-width: 20em;
+    position:center
+
 }
+
 td {
     --tile-color: gray;
     border: solid 2px var(--tile-color);
-    height: 2em;
-    width: 1.8em;
+    height: 1.5em;
+    width: 1.3em;
 }
 
 td.partial {
@@ -39,12 +44,16 @@ td.wrong {
     --tile-color: #787c7e;
  }
 
- td.blank {
+td.blank {
     --tile-color: white;
     color: black
     
  }
-
+td.invalid {
+    --tile-color: black;
+    color:#ff6347;
+    border: solid 2px var(--tile-color);
+}
 td.partial, td.correct, td.wrong, td.blank {
     background-color: var(--tile-color);
     border-color: black;
@@ -62,7 +71,7 @@ td.partial, td.correct, td.wrong, td.blank {
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
     user-select:none;
     transition: bottom 0.4s;
-    position: relative
+    position:relative
 }
 
 .keyboardHidden{
@@ -108,15 +117,16 @@ td.partial, td.correct, td.wrong, td.blank {
 
 .keyboard__key--dark{
     background: rgba(0, 0, 0, 0.25);
-    color: #ffffff
+    color: #ffffff;
+    width: 20%
 }
 
 .greenKey{
-    background: #90ee90	
+    background: #6aaa64	
 }
 
 .yellowKey{
-    background: yellow;
+    background: #c9b458;
 }
 .greyKey{
     background: grey;
