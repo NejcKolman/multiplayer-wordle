@@ -124,8 +124,12 @@
         function toggleLanguage() {
             if (jezik === 'eng') {
                 jezik = 'slo'
+                document.getElementById("choice-label").innerHTML = "Napi\u0161i besedo"
+                validateWord()
             } else {
                 jezik = 'eng'
+                document.getElementById("choice-label").innerHTML = "Write word"
+                validateWord()
             }
             language.setAttribute('src', `img/${jezik}.png`)
         }
@@ -168,7 +172,7 @@
         let curLoc = location.href.substr(0, location.href.length - 10)
         console.log(curLoc)
         function validateWord() {
-            beseda = choice.value
+            beseda = choice.value.toLowerCase()
 
             if (beseda.length == 5) {
 
@@ -177,7 +181,7 @@
                     choice.valid = false
 
                 } else if (jezik == 'slo' && VSE_BESEDE.includes(beseda) == false) {
-                    error.innerHTML = 'Invalid word'
+                    error.innerHTML = 'Neveljavna beseda'
                     choice.valid = false
                 } else {
                     encoded = btoa(escape(beseda))
