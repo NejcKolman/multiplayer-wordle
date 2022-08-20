@@ -412,7 +412,6 @@ absurdiziranje
 absurdno
 absurdnohumoren
 absurdnost
-abs.
 abšajdasnik
 abšid
 abtah
@@ -917,7 +916,6 @@ administriranje
 administriranost
 administrirati
 adminski
-admin.
 admiral
 admiralat
 admiralen
@@ -1151,7 +1149,6 @@ advokatski
 advokatstvo
 advokatura
 advokaturski
-adv.
 adzerbajdžanski
 adža
 adžarski
@@ -1388,7 +1385,6 @@ aerozaprega
 aerozapreka
 aerozaviranje
 aerozol
-aero...
 aes
 aevum
 afabulacija
@@ -1608,7 +1604,6 @@ afrotrend
 afta
 aftah
 aften
-after-ski
 aftizacija
 aftozen
 aftra
@@ -2021,7 +2016,6 @@ agrumi
 agrumov
 agrumovec
 agrumski
-agr.
 agusin
 agusinov
 agusta
@@ -2313,13 +2307,11 @@ akademski
 akademskost
 akademskoteoretski
 akademstvo
-akadem.
 akadijski
 akadiščina
 akadologija
 akadski
 akadščina
-akad.
 akafist
 akajizem
 akaleja
@@ -2722,7 +2714,6 @@ akrotrofen
 akrotrofičen
 akrski
 akrydlaka
-akr.
 aksa
 aksakal
 aksamit
@@ -4814,7 +4805,6 @@ aminotransferaza
 aminov
 aminovalerianski
 aminožveplen
-amino...
 aminski
 amiodaron
 amiodaronski
@@ -5852,11 +5842,6 @@ angloslovenski
 angloslovenščina
 anglosovjetski
 angložerec
-anglo-
-anglo-francoski
-anglo-iranski
-anglo...
-angl.
 angolana
 angolar
 angolski
@@ -8453,9 +8438,6 @@ antižidovski
 antiživljenje
 antižupanski
 antižupnik
-anti-gledališče
-anti-heroj
-anti...
 antla
 antlati
 antleder
@@ -9145,7 +9127,6 @@ aprehenzija
 aprehenziven
 aprekacija
 apresorij
-apres-ski
 apreter
 apreterka
 apreterski
@@ -9155,7 +9136,6 @@ apretiren
 apretura
 apreturen
 apreturski
-apre-ski
 aprikot
 aprikoza
 april
@@ -10300,7 +10280,6 @@ ascendirati
 ascet
 ascetičen
 ascidija
-ASCII-format
 asciten
 ascites
 ascolana
@@ -10477,7 +10456,6 @@ asistirati
 asistiren
 asistoličen
 asistolija
-asist.
 asiški
 ask
 askanijski
@@ -10844,7 +10822,6 @@ astrovideo
 astrovirus
 astrovirusen
 astrozanesenjak
-astro...
 astrukturalen
 astrukturalnost
 astrum
@@ -11100,7 +11077,6 @@ atletov
 atletski
 atletskokolesarski
 atletstvo
-atl.
 atmadharma
 atman
 atmičen
@@ -11590,7 +11566,6 @@ avdiovsebina
 avdiovtičnica
 avdiozapis
 avdiozveza
-avdio...
 avditirati
 avditiven
 avditivnost
@@ -11677,7 +11652,6 @@ avguštinka
 avguštinovec
 avguštinovski
 avguštinski
-avg.
 avi
 aviacija
 aviacijski
@@ -11758,7 +11732,6 @@ aviotransport
 aviotretiranje
 avioturističen
 avioturizem
-avio...
 avirozen
 avirulenten
 avirulentnost
@@ -11934,10 +11907,6 @@ avstroslavist
 avstroslavističen
 avstroslavizem
 avstroslovanski
-avstro-
-avstro...
-avstr.
-avst.
 avša
 avšast
 avšati
@@ -12822,7 +12791,6 @@ avtoritativen
 avtoritativizem
 avtoritativnost
 avtoritatizem
-avtoritat.
 avtoritet
 avtoriteta
 avtoriteten
@@ -13063,8 +13031,6 @@ avtožarnica
 avtožerjav
 avtožir
 avtožiro
-avto-moto (avtomoto)
-avto...
 avtracol
 avulzija
 avulzijski
@@ -13227,7 +13193,6 @@ azotogen
 azotometer
 azoturija
 azovski
-azo...
 aztec
 azteščina
 azteški
@@ -13278,7 +13243,6 @@ a priori
 a propos
 a tergo
 a vista
-a...
 b
 ba
 baaa
@@ -13403,7 +13367,6 @@ babuza
 babuznik
 baby
 baby beef
-baby-sitter
 bac
 bacač
 bacardi
@@ -13752,7 +13715,6 @@ bajža
 bajžaje
 bajželjka
 bajžulek
-baj-baj
 bak
 baka
 bakala
@@ -13913,7 +13875,6 @@ bakrovit
 bakrovnat
 bakrovoapnen
 bakrovooksidulen
-bakro...
 bakrščak
 bakšiš
 bakšiški
@@ -16460,7 +16421,6 @@ beloželezen
 beložilen
 beložilnat
 beložrelar
-belo...
 belpupu
 belski
 belskost
@@ -16733,7 +16693,6 @@ benzensulfonil
 benzensulfonski
 benzentiol
 benzentiosulfonat
-benzen...
 benzerazid
 benzfetamin
 benzgrozden
@@ -16831,12 +16790,10 @@ benzotriazin
 benzotriazol
 benzotropin
 benzov
-benzo...
 benzpiren
 benztiazid
 benztiazol
 benztropin
-benz...
 beocijski
 beocita
 beočinski
@@ -17625,7 +17582,6 @@ biatlonist
 biatlonka
 biatlonski
 biatrijski
-biat.
 biavralen
 biba
 bibab
@@ -17722,7 +17678,6 @@ biblioteški
 biblioura
 biblistika
 biblos
-bibl.
 bibolez
 biborat
 bibret
@@ -18089,7 +18044,6 @@ bilaterala
 bilateralen
 bilateralizem
 bilateralnost
-bilater.
 bilbaoški
 bilček
 bilčenje
@@ -18587,7 +18541,6 @@ biograjski
 biogram
 biogramatika
 biogrena
-biogr.
 biohazarden
 bioherbal
 bioherma
@@ -18768,7 +18721,6 @@ bioluminiscenca
 bioluminiscenca (bioluminescenca)
 bioluminiscenčen
 bioluminiscenten
-biol.
 biom
 biomagneten
 biomagnetizem
@@ -19066,7 +19018,6 @@ biosenzorski
 bioseparacija
 bioseparacijski
 bioserotip
-bioser.
 biosestavina
 biosfera
 biosferen
@@ -19276,7 +19227,6 @@ biožaga
 biožemljica
 biožito
 bioživilo
-bio...
 bip
 biparametričen
 biparen
@@ -19647,7 +19597,6 @@ bisulfiten
 bisurman
 bisus
 bisus (bis)
-bis...
 biševski
 biškot
 biškotek
@@ -19878,8 +19827,6 @@ bižuter
 bižuterija
 bižuterijski
 bižuterist
-bi-oblika
-bi...
 bje
 bjedota
 bjelovarski
@@ -20115,7 +20062,6 @@ blagozvočnost
 blagozvoneč
 blagoženstvo
 blagožitje
-blago...
 blagrati
 blagriti
 blagrovalen
@@ -20479,7 +20425,6 @@ bledozelen
 bledozelenkast
 bledozlat
 bledožarek
-bledo...
 bledski
 bleduh
 bledun
@@ -20618,7 +20563,6 @@ bleški
 blez
 blezo
 blezu
-blg.
 bligenklamid
 blihniti
 blimp
@@ -20941,7 +20885,6 @@ bluznatost
 bluznica
 bluzon
 bluzovski
-bl.
 bms
 bo
 boa
@@ -21235,7 +21178,6 @@ bodulski
 body
 bodyartističen
 bodycheck
-body-building
 bodžpurski
 bodžpurščina
 boehajmski
@@ -21617,7 +21559,6 @@ bogozoren
 bogozornost
 bogozrenje
 bogoževen
-bogo...
 bogplačaj
 bogplati
 bogpomagaj
@@ -21671,7 +21612,6 @@ bogvekod
 bogvekoliko
 bogvekolikokrat
 bogveodkod
-bogve...
 bogzna
 bogznaodkodnik
 bogznejkam
@@ -22010,7 +21950,6 @@ bolgarofilen
 bolgarski
 bolgarstvo
 bolgarščina
-bolg.
 bolha
 bolhač
 bolhača
@@ -22350,7 +22289,6 @@ bonvivanstvo
 bonvivantski
 bonvivar
 boogi
-boogie-woogie
 bookling
 bookmaker
 bookmakerjev
@@ -23139,7 +23077,6 @@ brahistrohrona
 brahiterapevtski
 brahiterapija
 brahium
-brahi...
 brahma
 brahmačari
 brahmačarja
@@ -24954,7 +24891,6 @@ brezprekinjen
 brezpreklicen
 brezpreklicno
 brezprekoren
-brezprek.
 brezpremičen
 brezpremijski
 brezprepričanost
@@ -25604,8 +25540,6 @@ brezživljenjskost
 brezžlezen
 brezžolčen
 brezžveplen
-brez-duhovnost
-brez...
 brežan
 brežanka
 brežanski
@@ -26440,7 +26374,6 @@ bronptica
 bronsa
 bronsen
 bronsiranje
-bronsirati (broncirati, bronzirati)
 bronsirnik
 bronta
 brontid
@@ -27000,7 +26933,6 @@ brzovoz
 brzovozen
 brzovrtalen
 brzozrezen
-brzo...
 brž
 bržanka
 bržčas
@@ -27252,7 +27184,6 @@ bugenvilka
 bugenvilovka
 buggy
 bugi
-bugivugi (boogie-woogie)
 bugsprit
 buh
 buha
@@ -27856,7 +27787,6 @@ buržoaznodemokratičen
 buržoaznonacionalističen
 buržoaznorepublikanski
 buržoaznost
-buržoazno...
 buržuazen
 buržuazij
 buržuj
@@ -28597,13 +28527,9 @@ cavrati
 cavsati
 cavtatski
 cayennski
-ca.
 cc
 cca
 ccm
-CD-plošča
-CD-ROM-plošča
-CD-zapisovalnik
 ce
 ceamaks
 ceanot
@@ -29076,7 +29002,6 @@ celozija
 celozimski
 celozrnat
 celoživljenjski
-celo...
 celsius
 celt
 celtarski
@@ -29351,7 +29276,6 @@ centralnost
 centralnovzhoden
 centralnovzhodnoevropski
 centralnoživčen
-centralno...
 centraš
 centrati
 centrator
@@ -30090,7 +30014,6 @@ chaudeau
 chaumontski
 chavignolski
 chavinski
-cha-cha-cha (čačača, cha-cha)
 chedar
 cheerot
 cheironomija
@@ -30707,7 +30630,6 @@ cikloundeken
 ciklovoltametrija
 cikloza
 cikložir
-ciklo...
 ciklski
 ciklusen
 ciklustiran
@@ -30929,7 +30851,6 @@ cinefob
 cinek
 cineklub
 cinemaskopski (cinemascopski)
-cinemaskop (cinemascope, cinemaskop, sinemaskop)
 cinematičen
 cinematično
 cinematik
@@ -31853,7 +31774,6 @@ cobol
 cobra
 cocacolovski
 cocati
-coca-cola
 cochonček
 cockbit
 cockney
@@ -31961,7 +31881,6 @@ comes
 comet
 cometovec
 come back
-commedia dell'arte
 commendator
 commerce
 commodo
@@ -32257,7 +32176,6 @@ croquis
 crossbar
 crossbred
 crossovec
-cross-country
 crotonski
 croupier
 crownski
@@ -32297,7 +32215,6 @@ cucljar
 cucljast
 cucljati
 cucljavček
-cucl-faks
 cucoramo
 cuda
 cufati
@@ -33549,7 +33466,6 @@ cyranojevski
 čekoven
 čekovnik
 čekovnopraven
-ček-ček
 čela
 čelada
 čeladar
@@ -34278,7 +34194,6 @@ cyranojevski
 četverozvočje
 četverozvok
 četverožaren
-četvero...
 četvorček
 četvoren
 četvorica
@@ -34477,7 +34392,6 @@ cyranojevski
 čezzimski
 čezzvočen
 čezžanrski
-čez...
 čežana
 čežanija
 čežaniti
@@ -35095,8 +35009,6 @@ cyranojevski
 človeškov
 človeštvo
 človiti
-člov.
-čl.
 čmar
 čmažiti
 čmekati
@@ -35639,7 +35551,6 @@ cyranojevski
 črkovniški
 črkovnjak
 črkovnonumeričen
-črko...
 črlen
 črlenka
 črlenkast
@@ -36051,7 +35962,6 @@ cyranojevski
 črnožolt
 črnožolten
 črnožoltež
-črno...
 črnski
 črnskoameriški
 črnskoduhoven
@@ -36370,7 +36280,6 @@ cyranojevski
 čudozgoda
 čudoznanstven
 čudožalen
-čudo...
 čuf
 čufa
 čufarica
@@ -36920,7 +36829,6 @@ dalekovidnik
 dalekovidnost
 dalekozor
 dalekozvočen
-daleko...
 dalešnji
 dalfopristin
 dalihokefalija
@@ -37015,7 +36923,6 @@ daljnozorek
 daljnozvočen
 daljnožarek
 daljnoželjen
-daljno...
 daljomeren
 daljost
 daljšanje
@@ -37471,7 +37378,6 @@ dcl
 dči
 dd
 ddr
-ddr.
 ddv
 de
 deabsolutizirati
@@ -37777,7 +37683,6 @@ debelozrnat
 debelozrnatost
 debeložilnat
 debeloživoten
-debelo...
 debelski
 debeluh
 debeluha
@@ -38348,7 +38253,6 @@ defter
 defterdar
 deftin
 deftinast
-def.
 dega
 degage
 degalan
@@ -38772,7 +38676,6 @@ dekatron
 dekatura
 dekavec
 deka sistem
-deka...
 dekelce
 dekelski
 dekelstvo
@@ -40672,7 +40575,6 @@ deseminacija
 desen
 desenater
 desenator
-desenirati (desinirati, dezenirati)
 deseniški
 desensitizacija
 desenski
@@ -40768,7 +40670,6 @@ deseteroverzen
 deseterovrstičen
 deseterozložnost
 deseterozrn
-desetero...
 desetetapen
 desetetažen
 desetfunten
@@ -40961,7 +40862,6 @@ desetvrstičnica
 desetzložen
 desetznakoven
 desetžilnat
-deset...
 desezioniran
 desezoniran
 desezoniranje
@@ -41127,7 +41027,6 @@ desnovijačen
 desnovrtilen
 desnozmičen
 desnozvezen
-desno...
 desocializacija
 desocializacijski
 desocializiran
@@ -41644,7 +41543,6 @@ deveterorok
 deveterosomeren
 deveterotrnast
 deveterovrstičen
-devetero...
 devetfunten
 devetfuntnik
 devetfuntski
@@ -41852,7 +41750,6 @@ devetvrsten
 devetvrstičen
 devetzložen
 devetzvezden
-devet...
 deviacija
 deviacijski
 deviacionist
@@ -42199,7 +42096,6 @@ dezurbanizacija
 dezurbanizacijski
 dezutopičen
 dezutopija
-dez...
 dež
 deža
 dežček
@@ -42320,7 +42216,6 @@ dežurništvo
 dežurstvo
 de facto
 de iure
-de...
 dfgjevec
 dhakov
 dharamsalski
@@ -42788,8 +42683,6 @@ diazotipija
 diazotiran
 diazotiranje
 diazotiren
-diazo...
-dia...
 dibakrov
 dibazen
 dibazičen
@@ -43633,7 +43526,6 @@ dikumarol
 dikura
 dikuran
 dikvat
-dik-dik
 dil
 dila
 dilaceracija
@@ -43991,7 +43883,6 @@ dinamon
 dinamopločevina
 dinamostroj
 dinamovec
-dinamo...
 dinamski
 dinapsiden
 dinar
@@ -44140,7 +44031,6 @@ diolefin
 diolen
 diolenloft
 diolenski
-diolen-loft
 diomedski
 dionea
 dioneja
@@ -44759,7 +44649,6 @@ diskvalifikatoren
 diskvalifikatoričen
 diskvalifikatornost
 diskvalifikatorski
-diskv.
 dislalija
 disleksičen
 disleksija
@@ -45082,7 +44971,6 @@ disulfotetramin
 disulfoton
 disurija
 disutopija
-dis...
 dišalen
 dišanje
 dišati
@@ -45401,7 +45289,6 @@ dižma
 dižmast
 dižnost
 dižveplov
-di...
 djačiti
 djačok
 djadidon
@@ -45966,7 +45853,6 @@ dobroživen
 dobroživka
 dobroživnost
 dobroživost
-dobro...
 dobrskati
 dobršen
 dobrudžanski
@@ -46386,7 +46272,6 @@ dohtarjev
 dohtarski
 dohtarstvo
 dohvaliti
-doh.
 doigranje
 doigrati
 doigravanje
@@ -47258,7 +47143,6 @@ dolgoživec
 dolgoživeč
 dolgoživljenjski
 dolgoživost
-dolgo...
 doli
 dolica
 dolicenciranje
@@ -47348,7 +47232,6 @@ dolnjemarijski
 dolnjepanonski
 dolnjerenski
 dolnjeslaveški
-dolnje...
 dolnji
 dolnošlezijski
 določajoč
@@ -47813,7 +47696,6 @@ domoznanstven
 domoznanstvo
 domožalje
 domožgančen
-domo...
 domplja
 dompterski
 dompteur
@@ -48283,7 +48165,6 @@ dopuščenec
 dopuščenje
 dopuščujoč
 dopušiti
-dop.
 dor
 dora
 dorada
@@ -49221,7 +49102,6 @@ dožvečiti
 dožvekovati
 dožveplanje
 dožveplati
-do...
 dpa
 dr
 dra
@@ -50416,7 +50296,6 @@ drobnožilen
 drobnoživec
 drobnoživelj
 drobnoživka
-drobno...
 drobogled
 drobolenje
 droboleti
@@ -50930,7 +50809,6 @@ drugovrsten
 drugovrstnica
 drugovrstnost
 drugožanrski
-drugo...
 drugstore
 druhal
 druid
@@ -51037,7 +50915,6 @@ družbenočloveški
 družbenodejaven
 družbenoekološki
 družbenoekonomski
-družbenoekon.
 družbenoetičen
 družbenofilozofski
 družbenofinančen
@@ -51454,7 +51331,6 @@ državnozboren
 državnozbornik
 državnozborovski
 državnozborski
-državno...
 državobranitelj
 državobraniteljski
 državograditeljski
@@ -52298,7 +52174,6 @@ dvajseturen
 dvajsetvaljen
 dvajsetvekoven
 dvajsetvrstičen
-dvajset...
 dvajsti
 dvajšica
 dvake
@@ -52448,7 +52323,6 @@ dvanajstvrsten
 dvanajstvrstičen
 dvanajstzložen
 dvanajstzvočen
-dvanajst...
 dvanajščak
 dvanajščica
 dvanodvajsti
@@ -52478,11 +52352,8 @@ dvatisočprvi
 dvatisočštiristotica
 dvatisočtonski
 dvatisočtrsen
-dva...
 dvd
 dvdjevski
-DVD-plošča
-DVD-zapisovalnik
 dve
 dvečiti
 dvečrkoven
@@ -52596,7 +52467,6 @@ dvetretjinski
 dveuren
 dvevrstičen
 dvevrstičnica
-dve...
 dvig
 dvigač
 dvigača
@@ -53075,7 +52945,6 @@ dvojnovzbočen
 dvojnovzbokel
 dvojnozakrivljen
 dvojnožlebast
-dvojno...
 dvojsten
 dvojstven
 dvojstvenost
@@ -54045,7 +53914,6 @@ dvoživkarstvo
 dvoživljenjski
 dvoživost
 dvožleben
-dvo...
 dyke
 dyna
 dynamis
@@ -54223,7 +54091,6 @@ džus (juice)
 džuveč
 džuz
 džžin
-d'annunzianstvo
 đakovski
 đukanovićevec
 e
@@ -54407,7 +54274,6 @@ edukt
 edvardijanski
 edvardjanski
 edwardski
-ed. (ed)
 ee
 eemien
 eevce
@@ -54615,7 +54481,6 @@ ehosonder
 ehosonografija
 ehosonogram
 ehosounder
-eho...
 eht
 eia
 eichmann
@@ -54861,7 +54726,6 @@ ekonomskosvetovalen
 ekonomskotehniški
 ekonomskoteoretičen
 ekonomskotržen
-ekon.
 ekoobnašanje
 ekootok
 ekoparanoja
@@ -55372,7 +55236,6 @@ eksotoksin
 eksotski
 eksoumetnost
 eksozoologist
-ekso...
 ekspander
 ekspandiranje
 ekspandirati
@@ -55579,11 +55442,9 @@ ekspropriacijski
 ekspropriator
 ekspropriiranec
 ekspropriirati
-ekspr.
 ekspulzija
 ekspulziven
 ekspulzivnost
-eksp.
 ekssocialističen
 ekstabulacija
 ekstabuliranje
@@ -55826,7 +55687,6 @@ ekstraverzija
 ekstrazaznaven
 ekstrazonalen
 ekstrazonalno
-ekstra...
 ekstrem
 ekstrema
 ekstremadurski
@@ -55883,7 +55743,6 @@ eksurbanizacija
 eksuvialen
 eksvodilen
 eksžupan
-eks...
 ektakrom
 ektazija
 ektenija
@@ -55910,7 +55769,6 @@ ektrokrin
 ektromelija
 ektropij
 ektropizem
-ekt.
 eku
 ekuberanten
 ekumena
@@ -55985,7 +55843,6 @@ ekvivokacija
 ekvivoken
 ekvivoknost
 ekzantem
-ek.
 el
 elaboracija
 elaborat
@@ -56856,10 +56713,8 @@ elektrožaga
 elektroželezniški
 elektrožica
 elektrožičen
-elektro...
 elektrum
 elektuarij
-elekt.
 elembejevec
 eleme
 element
@@ -57416,7 +57271,6 @@ enajstvrsten
 enajstvrstičen
 enajstvrstičnica
 enajstzložen
-enajst...
 enak
 enaklen
 enakobarven
@@ -57585,7 +57439,6 @@ enakozvočje
 enakozvočnica
 enakozvočnost
 enakožilen
-enako...
 enakšen
 enakšnost
 enamelen
@@ -57605,7 +57458,6 @@ enaodstoten
 enargit
 enarh
 enatol
-ena...
 enbart
 enbeajevec
 enbrel
@@ -57845,7 +57697,6 @@ endovazalen
 endovenozen
 endovenski
 endozmoza
-endo...
 endrin
 endvatrijevski
 eneada
@@ -58968,7 +58819,6 @@ enožičnat
 enožilen
 enožilnat
 enožlebnat
-eno...
 enpot
 ens
 ensamkrat
@@ -59073,7 +58923,6 @@ en gros
 eoantrop
 eocen
 eocenski
-eoc.
 eohip
 eoličen
 eolid
@@ -59166,7 +59015,6 @@ epidimis
 epidot
 epidularen
 epiduralen
-epid.
 epifanija
 epifanizem
 epifascialen
@@ -59869,7 +59717,6 @@ espressivo
 espresso
 espritovec
 espri (esprit)
-esp.
 esquire
 esrar
 esseksit
@@ -60045,7 +59892,6 @@ etažnik
 etažnocvetoč
 etcetera
 etchomatic
-etc.
 ete
 etejevski
 eten
@@ -60179,7 +60025,6 @@ etilsulfonil
 etiltetraflouroetilen
 etiltiocianat
 etilvanilin
-etil...
 etimolog
 etimologičen
 etimologija
@@ -60345,7 +60190,6 @@ etnozamaknjenost
 etnozasedba
 etnozgodovina
 etnozgodovinski
-etn.
 eto
 etogram
 etokratija
@@ -60448,7 +60292,6 @@ evangelizirati
 evangelj
 evangelje
 evangeljski
-evang.
 evaporacija
 evaporacijski
 evaporator
@@ -60556,7 +60399,6 @@ evidentirati
 evidentist
 evidentizem
 evidentnost
-evid.
 evikcija
 Evin
 evincent
@@ -61003,7 +60845,6 @@ evropstvo
 evropščina
 evropšenica
 evropuhlica
-evrop.
 evroračun
 evroradijski
 evroraketa
@@ -61115,7 +60956,6 @@ evrozgodovina
 evrožargon
 evroželja
 evrski
-evr.
 evskol
 Evstahijev
 evstahijev
@@ -61167,7 +61007,6 @@ ex cathedra
 ex offo
 ex tempore
 ex voto
-ex...
 eyra
 eza
 ezerjo
@@ -61193,7 +61032,6 @@ ezotski
 ezul
 ezulski
 ežetar
-e-pošta
 f
 fa
 faamakon
@@ -61469,7 +61307,6 @@ fakulteten
 fakultetica
 fakultetnik
 fakultetski
-fak.
 falaček
 faladri
 faladro
@@ -61589,7 +61426,6 @@ falzifikacija
 falzifikat
 falzifikator
 falzifikatorstvo
-fal.
 fama
 familia
 familiaren
@@ -61949,7 +61785,6 @@ fascinovati
 fascinujoč
 fascio
 fascioloza
-fasc.
 faselček
 faser
 faseta
@@ -62195,7 +62030,6 @@ fedracija
 fedresati
 fedrovski
 feedback
-feed-back
 feerija
 fefernica
 feferon
@@ -62457,7 +62291,6 @@ feniltrikloroetan
 fenilvalin
 fenilvinil
 fenilživosrebrov
-fenil...
 fenirec
 fenist
 feniščina
@@ -62589,7 +62422,6 @@ ferit
 feriten
 feritin
 feritinski
-feri...
 ferjača
 ferjaz
 ferjuks
@@ -62699,7 +62531,6 @@ ferovanadij
 ferovolfram
 feroza
 ferozlitina
-fero...
 ferpantičen
 ferpantiš
 ferrada
@@ -62978,7 +62809,6 @@ fifelj
 fififi
 fiflena
 fifnjati
-fifty-fifty
 figa
 figamož
 figanka
@@ -63432,7 +63262,6 @@ filozofskoteoretičen
 filozofskozgodovinski
 filozofstvo
 filozoj
-filo...
 filski
 filstalski
 filter
@@ -63969,7 +63798,6 @@ fizkulturniški
 fizlej
 fizostogmin
 fizz
-fiz.
 fižek
 fižiti
 fižmašter
@@ -64515,7 +64343,6 @@ fluvioglacialen
 fluviokras
 fluviokraški
 fluvioperiglacialen
-fl.
 fob
 fobičen
 fobičnost
@@ -64671,7 +64498,6 @@ folksvagen
 folksverovski
 follet
 follis
-fol.
 fominovec
 fon
 fonacija
@@ -64768,7 +64594,6 @@ fonovid
 fonovizija
 fonovizor
 fonovpojen
-fono...
 fonski
 font
 fontan
@@ -65356,7 +65181,6 @@ fotokopirnica
 fotokopirnik
 fotokopirniški
 fotokopistka
-fotokop.
 fotokosten
 fotokot
 fotokotiček
@@ -65828,7 +65652,6 @@ fotožirija
 fotožurnalist
 fotožurnalističen
 fotožurnalizem
-foto...
 fotrati
 fotrov
 foucaultovski
@@ -66035,7 +65858,6 @@ francozovstvo
 francožen
 francožnost
 franctireur
-franc.
 frančezarija
 frančičevski
 frančiščanski
@@ -66144,7 +65966,6 @@ franzovski
 franža
 franžast
 franžati
-fran.
 frap
 frapanten
 frapantnost
@@ -66730,7 +66551,6 @@ fržmagati
 fržol
 fržolovka
 fržov
-fr.
 fš
 ft
 ftalanhidrid
@@ -68116,7 +67936,6 @@ gažirati
 gažist
 gažji
 gažnja
-ga.
 gda
 gdaj
 gdanec
@@ -68124,7 +67943,6 @@ gdanski
 gdar
 gdare
 gdašte
-gdč.
 gde
 gea
 geba
@@ -68303,7 +68121,6 @@ generiranje
 generirati
 generozen
 generoznost
-gener.
 genesis
 geneta
 genetičarka
@@ -68525,7 +68342,6 @@ geografskoinformacijski
 geografskokulturen
 geografskolingvističen
 geografskost
-geog.
 geohidravličen
 geohidrologija
 geohidrološki
@@ -68591,7 +68407,6 @@ geolokacijski
 geološki
 geološkopaleontološki
 geološkoraziskovalen
-geol.
 geomagmatski
 geomagneten
 geomagnetičen
@@ -68776,7 +68591,6 @@ geoznanost
 geoznanstven
 geoznanstvenik
 geoživljenjski
-geo...
 gepapovec
 gepard
 gepardka
@@ -68992,7 +68806,6 @@ gez
 gezica
 gezovski
 gfretar
-gg.
 ghetto
 ghibli
 giacca
@@ -69138,7 +68951,6 @@ gigawaten
 gigawatten
 gigazlog
 gigazložen
-giga...
 gigerl
 gigerlizem
 gigerlski
@@ -69223,12 +69035,10 @@ gimnokodij
 gimnopedija
 gimnosofist
 gimnot
-gimn.
 gimp
 gimpa
 gimpelj
 gimpeljček
-gim.
 gin
 gina
 ginandrija
@@ -69471,7 +69281,6 @@ gladkovrh
 gladkozob
 gladkozobec
 gladkozrnat
-gladko...
 gladnež
 gladnica
 gladnik
@@ -69656,7 +69465,6 @@ glasbotvorstvo
 glasbovanje
 glasbovitost
 glasboznanstven
-glasbo...
 glase
 glasek
 glasen
@@ -69923,7 +69731,6 @@ glažuta
 glažutarski
 glažutarstvo
 glb
-gld. (gld)
 gled
 gledalce
 gledalčev
@@ -70619,7 +70426,6 @@ glutinski
 glutograf
 gluvičevski
 glyndebournski
-gl.
 gmah
 gmajn
 gmajna
@@ -71278,7 +71084,6 @@ goldonijevski
 goldsmithiada
 goldsteinizem
 goldwaterizem
-gold.
 goleada
 golec
 golečina
@@ -71602,7 +71407,6 @@ golovški
 golozob
 golože
 goložo
-golo...
 golsniti
 golša
 golšak
@@ -72116,7 +71920,6 @@ gornjetrški
 gornjeustničen
 gornjevipavski
 gornjevoden
-gornje...
 gornji
 gornjica
 gornjik
@@ -72403,7 +72206,6 @@ gospoščinski
 gospoščiti
 gospoški
 gospoštija
-gosp.
 gosračun
 gost
 gostač
@@ -72616,7 +72418,6 @@ gostožilnat
 gostožim
 gostožirci
 gostoživček
-gosto...
 gostrest
 gostujoč
 gostüvančar
@@ -72906,7 +72707,6 @@ gozdnovegetacijski
 gozdnovilinski
 gozdnovzgojen
 gozdnozaščiten
-gozdno...
 gozdogospodarski
 gozdomerec
 gozdopoln
@@ -72940,7 +72740,6 @@ gožnik
 gožnjati
 gožva
 gožvica
-go-cart
 gpujevski
 graal
 graalov
@@ -73408,7 +73207,6 @@ gramski
 gramšijevski
 gramteža
 gramzelišče
-gram...
 gran
 grana
 granadina
@@ -74350,7 +74148,6 @@ grižnat
 grižnica
 grižnik
 grižnja
-gri-gri
 grjača
 grk
 grkanje
@@ -74891,7 +74688,6 @@ grškost
 grškovzhoden
 gršovski
 grštvo
-grš.
 grtan
 grtančen
 grtanec
@@ -75038,7 +74834,6 @@ gruzinščina
 grvan
 grzica
 grzun
-gr.
 gschnitz
 gschnitzski
 guadalupanec
@@ -75856,7 +75651,6 @@ halistaza
 halister
 halit
 halitoza
-hali-halo
 halja
 haljar
 haljast
@@ -76370,7 +76164,6 @@ hati
 hatib
 hatišerif
 hatiški
-hati-humajum
 hatolški
 hau
 hauda
@@ -76461,7 +76254,6 @@ haznadar
 haznadarski
 hazrkopf
 hazul
-ha-či
 hcati
 hčer
 hčera
@@ -76512,7 +76304,6 @@ hebrejski
 hebrejščina
 hebridski
 hebronski
-hebr.
 hebski
 hec
 hecajoč
@@ -76724,7 +76515,6 @@ heksatoničen
 heksatonika
 heksatonski
 heksavalenten
-heksa...
 heksen
 heksilalkohol
 heksilbromid
@@ -76769,7 +76559,6 @@ hektopaskal
 hektoplazmičen
 hektovat
 hektovaten
-hekto...
 heladski
 helanca (helanka)
 helanodik
@@ -77023,7 +76812,6 @@ hemitonion
 hemitonski
 hemitoraks
 hemizigot
-hemi...
 hemlok
 hemlokov
 hemocianin
@@ -77111,7 +76899,6 @@ hemotoraks
 hemotropen
 hemov
 hemovigilanca
-hemo...
 hempa
 hempast
 hena
@@ -77618,7 +77405,6 @@ heterozigot
 heterozigota
 heterozigoten
 heterozis
-hetero...
 heterski
 heterstvo
 hetitolog
@@ -78164,7 +77950,6 @@ hidrozol
 hidrozontala
 hidrozoon
 hidrozračen
-hidro...
 hiengovski
 hierarh
 hierarhičen
@@ -78251,7 +78036,6 @@ higrostat
 higrotermalen
 higrotermičen
 higrotermometer
-higro...
 hih
 hihanje
 hihet
@@ -79244,7 +79028,6 @@ hiperzvok
 hiperžariščen
 hiperživčen
 hiperživljenjski
-hiper...
 hiphop
 hiphopar
 hiphoparski
@@ -79610,7 +79393,6 @@ hipovitaminoza
 hipovitaminozen
 hipovolitivnost
 hipozmija
-hipo...
 hippi
 hippijevski
 hippijevskopopartističen
@@ -80048,8 +79830,6 @@ hitrožarilen
 hitroživ
 hitroživka
 hitroživnost
-hitro...
-hitr.
 hiv
 hizop
 hizopov
@@ -80057,7 +79837,6 @@ hiža
 hižen
 hižica
 hižišče
-hi-fi
 hja
 hjaa
 hju
@@ -81187,7 +80966,6 @@ homo ludens
 homo politicus
 homo sapiens
 homo sapiens
-homo...
 homski
 homški
 homulica
@@ -81242,7 +81020,6 @@ hontadrajlilalalo
 hontadrajlo
 honved
 honvedski
-hon.
 hoo
 hoodija
 hooo
@@ -81941,7 +81718,6 @@ hrizolit
 hrizoliten
 hrizopraz
 hrizotil
-hrizo...
 hrk
 hrka
 hrkadalamina
@@ -82271,8 +82047,6 @@ hrvatskokajkavski
 hrvatskosrbski
 hrvatstvo
 hrvoljev
-hrvsrb.
-hrv.
 hrzanje
 hrzati
 hrzav
@@ -82287,14 +82061,12 @@ hrzzz
 hrženica
 hržica
 hržula
-hr.
 hšc
 hše
 hššš
 hteti
 hti
 htinjski
-HTML-dokument
 htoničen
 htonski
 hu
@@ -82514,7 +82286,6 @@ hudožestveniški
 hudoživ
 hudožnik
 hudožniški
-hudo...
 hudson
 hueristika
 huernija
@@ -82589,7 +82360,6 @@ hulahop
 hulahopka
 hulahup
 hulahupke (holahopke)
-hulahup (hula-hoop)
 hulast
 hulec
 hulež
@@ -82939,7 +82709,6 @@ iatrokemija
 iatrokemik
 iatromatematičen
 iatrotehničen
-iatro...
 iba
 ibadanski
 ibadit
@@ -83100,7 +82869,6 @@ identitetnik
 identitetnosten
 identiziranje
 identnosten
-ident.
 ideogenetičen
 ideograf
 ideografičen
@@ -83234,7 +83002,6 @@ idro
 idrski
 idrskocerkljanski
 idrščina
-idr.
 idumejski
 iearnovec
 iekavski
@@ -83769,7 +83536,6 @@ ilustriranje
 ilustrirati
 ilustrovanje
 ilustrovati
-ilustr.
 iluvialen
 iluzija
 iluzijnost
@@ -84385,7 +84151,6 @@ imunotoleranten
 imunski
 imunskoaktiven
 imunskotoleranten
-im...
 in
 ina
 inače
@@ -84662,7 +84427,6 @@ individuirati
 individuj
 individuum
 indivizibilnost
-indiv.
 indoamerikanizem
 indoangleški
 indoarabski
@@ -84780,7 +84544,6 @@ industrijskotehnološki
 industriozen
 induški
 induzij
-ind.
 inek
 ineks
 ineksistenca
@@ -84918,7 +84681,6 @@ influencirati
 influenčen
 influenten
 influirati
-infl.
 info
 infobus
 infocenter
@@ -85008,8 +84770,6 @@ informiranost
 informirati
 informovati
 informprostranstvo
-inform.
-infor.
 infosfera
 infosistem
 infosmog
@@ -85069,7 +84829,6 @@ infrazvok
 infrazvokoven
 infražarek
 infražarnica
-infra...
 infula
 infulirati
 infundiranje
@@ -85085,7 +84844,6 @@ infuzorija
 infuzorijski
 infuzorizem
 infuzum
-inf.
 ingenialnost
 ingenij
 ingeniozen
@@ -85119,7 +84877,6 @@ ingverov
 ingverovec
 ingverski
 ingvinalen
-ing.
 inhabiliteta
 inhalabilen
 inhalacija
@@ -85433,14 +85190,11 @@ inozemstvo
 inozemščina
 inozit
 inozitol
-ino...
-inpd.
 inpersonalizem
 inplantacija
 inplantiranje
 inpluvium
 input
-inp.
 inquieto
 inrotulacija
 inrotuliranje
@@ -85636,7 +85390,6 @@ instrumentiranje
 instrumentirati (inštrumentirati)
 instrumentomanija
 instrumentov
-instr.
 insubordinacija
 insubstancialen
 insuficienca
@@ -86468,7 +86221,6 @@ intervjuviranec
 intervjuvist
 intervjuvomanija
 intervokalen
-inter...
 intestaten
 intestinalen
 intestirati
@@ -86732,7 +86484,6 @@ intravertirati
 intravitalen
 intravladen
 intravzklik
-intra...
 intriga
 intrigant
 intrigantek
@@ -86817,7 +86568,6 @@ intumescirati
 inturist
 inturistovec
 intususcepcija
-int.
 inuitivizem
 inuitski
 inuj
@@ -86947,7 +86697,6 @@ involvirati
 invultacija
 invultator
 invultirati
-inv.
 inzula
 inzularen
 inzulin
@@ -86973,7 +86722,6 @@ inženirskotehničen
 inženirstvo
 inženjerija
 inžep
-inž.
 in abstracto
 in bianco
 in concreto
@@ -86985,7 +86733,6 @@ in natura
 in situ
 in vitro
 in vivo
-in...
 iojevski
 ion
 ionescovski
@@ -87021,14 +86768,12 @@ iowski
 ip
 ipak
 ipdašljar
-ipd.
 ipe
 ipek
 ipekakuana
 ipekakuanja
 iperit
 ipika
-ipn.
 ipod
 ipodov
 ipoh
@@ -87047,7 +86792,6 @@ ipsilonski
 ipsist
 ipsofon
 ipso facto
-ip.
 ir
 ira
 iracionala
@@ -87350,7 +87094,6 @@ islandizirati
 islandski
 islandščina
 isletin
-isl.
 ismailijski
 ismailit
 isodaites
@@ -87611,7 +87354,6 @@ istozvrsten
 istozvrstnost
 istožanrski
 istožariščen
-isto...
 istran
 istranec
 istranski
@@ -87685,7 +87427,6 @@ italijanskost
 italijanskošovinističen
 italijanstvo
 italijanščina
-italij.
 italika
 italionat
 italiotski
@@ -87701,12 +87442,9 @@ italofonski
 italovestern
 italski
 italskopanonski
-ital.
 itanija
 itarpejevski
 itaški
-ita. (ita)
-itd.
 itede
 iteesovec
 item
@@ -87733,17 +87471,12 @@ itinerarski
 itinerar (itinerarij)
 itis
 itison
-itm.
-itn.
 itrakonazol
 itranzitiven
 itrij
 itrijev
 iturijski
-it.
 iudicatus
-iun.
-iur.
 iva
 ivan
 ivanče
@@ -88469,7 +88202,6 @@ izdvojeno
 izdvojitev
 izdvojiti
 izdvojljiv
-izd.
 izeksercirati
 izeksperimentirati
 izem
@@ -88501,7 +88233,6 @@ izentropa
 izentropen
 izentropičen
 izentropski
-izen.
 izer
 izerima
 izerotizirati
@@ -88768,7 +88499,6 @@ izgubonosen
 izguljen
 izguncati
 izguran (zguran)
-izg.
 izhabiti
 izhajalen
 izhajanje
@@ -89318,7 +89048,6 @@ izkuštvo
 izkužiti
 izkvariti
 izkveružen
-izk.
 izlačniti (zlačniti)
 izlačnjevati
 izladjati
@@ -90090,7 +89819,6 @@ izobrnjen
 izobrnjenje
 izobrnjenost
 izobronta
-izobr.
 izobutan
 izobutanol
 izobuten
@@ -90489,7 +90217,6 @@ izovolumski
 izozad
 izoževati
 izožiti
-izo...
 izpačen
 izpačiti
 izpad
@@ -90955,7 +90682,6 @@ izpodžirati
 izpodžirati (spodžirati)
 izpodžreti (spodžreti)
 izpod (spod)
-izpod... (spod...)
 izpogajalski
 izpogajan
 izpogajanje
@@ -91709,7 +91435,6 @@ izrvan
 izrvanec
 izrvanost
 izrvati
-izr.
 izsačiti
 izsadek
 izsaditi
@@ -92898,7 +92623,6 @@ izvenžilen
 izvenživčen
 izvenživljenjski
 izvenžupnijski
-izven...
 izverjenje
 izverugati
 izverziran
@@ -93210,7 +92934,6 @@ izvzetek
 izvzeti
 izvzetje
 izvzetost
-izv.
 izza
 izzamlada
 izzavoljo
@@ -93392,7 +93115,6 @@ izžvižgovati
 izžvrgoleti
 izžvrkljati
 iz uševalen
-iz... (z..., s...)
 iž
 iža
 ižakovski
@@ -93403,8 +93125,6 @@ ižesen
 ižesnica
 ižica
 ižop
-i-a
-i...
 j
 ja
 jaa
@@ -95886,7 +95606,6 @@ jirhov
 jirs
 jislik
 jitteerbug
-jiu-jitsu
 jive
 jja
 jlajevski
@@ -96449,7 +96168,6 @@ jugoslovenizem
 jugoslovenski
 jugoslovenstvo
 jugoslovenščina
-jugoslov.
 jugosocializacija
 jugosocializem
 jugosoden
@@ -96532,7 +96250,6 @@ jugozombi
 jugozveza
 jugozvezda
 jugožurnalizem
-jugo...
 jugularen
 jugularka
 jugur
@@ -96589,7 +96306,6 @@ juk
 juka
 jukatanski
 jukati
-juke-box (džuboks)
 jukonščina
 juksta
 jukstaponiran
@@ -97096,7 +96812,6 @@ južnozahodnoslovenski
 južnozapaden
 južnozapadnik
 južnoželezniški
-južno...
 jyppi
 jyväskylski
 k
@@ -97815,7 +97530,6 @@ kalavdra
 kalavec
 kalavin
 kalavnik
-kala-azar
 kalcedon
 kalcedonijski
 kalcedonski
@@ -98349,7 +98063,6 @@ kamenščica
 kamenščnica
 kamenški
 kamentrica
-kamen...
 kamera
 kamerad
 kameraditi
@@ -98546,9 +98259,7 @@ kamnoznanec
 kamnoznanstvo
 kamnožer
 kamnoživka
-kamno...
 kamnski
-kamn...
 kamo
 kamogaskar
 kamogaskarski
@@ -99830,7 +99541,6 @@ kardiovadba
 kardiovaskularen
 kardioverzija
 kardiozaščiten
-kardio...
 kardiranje
 kardirati
 kardiren
@@ -100758,7 +100468,6 @@ katatonik
 katatonika
 katatonski
 katavotron
-kata...
 katčipski
 kateder
 katedersocialist
@@ -101684,7 +101393,6 @@ kemotropizem
 kemp
 kempfer
 kempiranje
-kem.
 ken
 kenaf
 kenarijski
@@ -102014,7 +101722,6 @@ kibernetizem
 kibernetiziran
 kibernetizirati
 kibernetski
-kibern.
 kiberobčinstvo
 kiberobleka
 kiberodvisnost
@@ -102321,7 +102028,6 @@ kilowattmeter
 kilowattura
 kilozlog
 kilozofija
-kilo...
 kilski
 kilt
 kim
@@ -102632,7 +102338,6 @@ kinovstopnica
 kinozol
 kinozvezda
 kinožurnal
-kino...
 kinpetarica
 kinski
 kinskogodben
@@ -104781,7 +104486,6 @@ klorovodik
 klorovodikov
 kloroza
 klorožveplov
-kloro...
 klorpikrin
 klorplatinast
 klorpromazin
@@ -104792,7 +104496,6 @@ klortetraciklin
 klortiazid
 klortoluron
 klorvodikov
-klor...
 klosač
 klosta
 klosterneuburški
@@ -104907,7 +104610,6 @@ kluški
 kluvak
 kluzijev
 kluža
-kl. (kl)
 kmalen
 kmali
 kmalo
@@ -104915,8 +104617,6 @@ kmalu
 kmaluda
 kmalušnji
 kmašen
-kmdt.
-kmd.
 kmečina
 kmečki
 kmečkodelavski
@@ -105299,8 +104999,6 @@ knjižura
 knjižurica
 knjižurina
 knjižurstvo
-knjiž.
-knj.
 knobleh
 knockdown
 knockouterski
@@ -105320,11 +105018,9 @@ knokavt
 knoper
 knorov
 knowhow
-know-how
 knoxvillski
 knut
 knuta
-kn. (kn)
 ko
 koacervat
 koacervaten
@@ -106405,7 +106101,6 @@ koledrati
 koledvar
 koledvati
 koledžiski
-koledž (kolidž, college)
 koleg
 kolega
 koleganca
@@ -107363,7 +107058,6 @@ komedizacija
 komedizirati
 komedo
 komedon
-komed.
 komelina
 komelinovka
 komemoracija
@@ -107949,7 +107643,6 @@ komputacijski
 komputer
 komputist
 komputističen
-komp.
 komsalonec
 komski
 komsomol
@@ -108114,7 +107807,6 @@ koncentriški
 koncentrovanje
 koncentrovati
 koncentrski
-koncentr.
 koncenzirati
 koncepcija
 koncepcijski
@@ -108871,7 +108563,6 @@ konkvistadorstvo
 konkvistator
 konkvistatorski
 konkvistor
-konk. (konk)
 konmakroskopski
 konoaser
 konoba
@@ -109677,7 +109368,6 @@ kontravotant
 kontravotum
 kontrazgodovinski
 kontraznak
-kontra...
 kontrega
 kontrektacija
 kontrektacijski
@@ -109972,7 +109662,6 @@ konzumizem
 konzumnost
 konzumski
 konzumšok
-kon...
 koodon
 koompeticija
 kooperacija
@@ -110556,7 +110245,6 @@ kordometer
 kordomon
 kordon
 kordoneten
-kordone (kordonet, cordonnet)
 kordonist
 kordonski
 kordov
@@ -112099,7 +111787,6 @@ kovinotiskar
 kovinotiskarski
 kovinoznanski
 kovinoznanstvo
-kovino...
 kovinski
 kovinskobleščeč
 kovinskoindustrijski
@@ -112502,7 +112189,6 @@ kožušek
 kožušen
 kožušinje
 kožuška
-ko...
 kra
 kraal
 kraba
@@ -113316,7 +113002,6 @@ kratkoživeč
 kratkoživen
 kratkoživka
 kratkoživost
-kratko...
 kratnik
 kratnja
 kraton
@@ -113929,7 +113614,6 @@ krepkozrastel
 krepkoživčen
 krepkoživen
 krepkoživljenjski
-krepko...
 kreplin
 kreplina
 kreplja
@@ -114350,7 +114034,6 @@ krimsagis
 krimsagiz
 krimski
 krimtehničen
-krim.
 krinček
 krinčica
 krinica
@@ -114430,7 +114113,6 @@ kriotron
 krioturbacija
 krioturbaten
 kriovulkan
-krio...
 kripa
 kripati
 kripelj
@@ -114928,7 +114610,6 @@ krivovrat
 krivovraten
 krivovratka
 krivozob
-krivo...
 krivulja
 krivuljar
 krivuljast
@@ -115619,7 +115300,6 @@ kromov
 kromovec
 kromovina
 kromozal
-kromo...
 krompati
 kromperuša
 krompir
@@ -115650,7 +115330,6 @@ kromvelur
 kromvolframov
 kromžveplen
 kromžveplov
-krom...
 krona
 kronaksija
 kronanec
@@ -116094,7 +115773,6 @@ krščevalec
 krščevalski
 krščevanje
 krščevati
-kršč.
 kršec
 kršelj
 kršen
@@ -116426,7 +116104,6 @@ krvavožilast
 krvavožiličast
 krvavožolt
 krvavožuljav
-krvavo...
 krvavski
 krvca
 krvčica
@@ -116445,7 +116122,6 @@ krvižejen
 krviželje
 krviželjen
 krviželjnost
-krvi...
 krvnat
 krvnatost
 krvnica
@@ -116583,7 +116259,6 @@ krvoželjnost
 krvožila
 krvožilen
 krvožilje
-krvo...
 kryniški
 kryologija
 kryptogam
@@ -116713,7 +116388,6 @@ kserotermofilen
 kserotisk
 kserotoleranten
 kseroza
-ksero...
 ksiht
 ksilamon
 ksilamonski
@@ -117310,7 +116984,6 @@ kulturotvoren
 kulturotvornost
 kulturovarstven
 kulturovarstvenik
-kulturo...
 kulturpolitik
 kulturski
 kultursko
@@ -118050,7 +117723,6 @@ kužnoruski
 kužnost
 kužon
 kužuhovinast
-ku-klux-klan
 kva
 kvabam
 kvač
@@ -118174,8 +117846,6 @@ kvalifikator
 kvalifikatoren
 kvalifikatorski
 kvalifikovati
-kvalifk.
-kvalif.
 kvalitativen
 kvalitativnointerpretativen
 kvalitativnost
@@ -118187,7 +117857,6 @@ kvalitetnosten
 kvalunkvist
 kvalunkvističen
 kvalunkvizem
-kval. (kval)
 kvama
 kvangizacija
 kvank
@@ -119034,7 +118703,6 @@ kvazizvezdniški
 kvazizvezen
 kvazizvezniti
 kvazižupanski
-kvazi...
 kvebrača
 kvebračev
 kveca
@@ -119198,7 +118866,6 @@ kvrcniti
 kvrga
 kvrhu
 kvržica
-kv.
 kw
 kwh
 kyu
@@ -119243,7 +118910,6 @@ labioskrotalen
 labiovelar
 labiovelaren
 labiovelarizacija
-labio...
 labirint
 labirintar
 labirintast
@@ -119954,7 +119620,6 @@ laktovegetarijanski
 laktovegetarijansko
 laktoza
 laktozen
-lakto...
 laktuloza
 lakuna
 lakunaren
@@ -120695,7 +120360,6 @@ latinskoevropski
 latinskost
 latinstvo
 latinščina
-latin.
 latir
 latiren
 latisanski
@@ -121062,7 +120726,6 @@ lažiznanostnik
 lažiznanstven
 lažiznanstvenik
 lažiznanstvo
-laži...
 lažjekategornik
 lažjenesen
 lažji
@@ -121367,7 +121030,6 @@ legendizirati
 legendotvoren
 legenski
 legetaren
-leget.
 leggero
 leggiero
 leghorn
@@ -122041,7 +121703,6 @@ lepozvočen
 lepozvočje
 lepozvočnost
 lepoželjen
-lepo...
 lepra
 leprabacil
 leprin
@@ -122221,7 +121882,6 @@ lesnosurovinski
 lesnotehniški
 lesnotehnološki
 lesnovlaknen
-lesno...
 lesobeton
 lesobran
 lesobrusilnica
@@ -122275,7 +121935,6 @@ lesovje
 lesovnat
 lesovrt
 lesožer
-leso...
 lespedecija
 lessepski
 lessingovski
@@ -122465,7 +122124,6 @@ letnina
 letniški
 letnja
 letnjak
-letn.
 leto
 letodroben
 letograd
@@ -122749,7 +122407,6 @@ levovje
 levovski
 levozankast
 levozavijalen
-levo...
 levski
 levstek
 levstik
@@ -124239,7 +123896,6 @@ litovski
 litovščina
 litoželezen
 litoželezo
-lito...
 litra
 litran
 litraža
@@ -124512,7 +124168,6 @@ ljubljenkin
 ljubljenost
 ljubljenski
 ljubljiv
-ljublj.
 ljubnik
 ljubodajka
 ljubodejstvo
@@ -124663,7 +124318,6 @@ ljudstvece
 ljudstven
 ljudstvo
 ljudstvujušč
-ljud.
 ljulj
 ljuljati
 ljuljčin
@@ -124684,7 +124338,6 @@ ljutomerec
 ljutomerski
 ljutomerški
 ljutost
-lj.
 llaner
 llivijski
 lm
@@ -124780,7 +124433,6 @@ locomotion
 locrijski
 loculus
 locus
-loc.
 loč
 ločaj
 ločast
@@ -126733,7 +126385,6 @@ madžarstvo
 madžarščina
 madžioničar
 madžurski
-madž.
 maelstrom
 maelstromski
 maestetičen
@@ -126978,7 +126629,6 @@ magnetoupor
 magnetoupornost
 magnetov
 magnetovec
-magneto...
 magnetron
 magnetronski
 magnetski
@@ -127164,7 +126814,6 @@ maistrovec
 maistrovščina
 maithili
 maitre
-maitre d'hotel
 maj
 maja
 majak
@@ -127392,7 +127041,6 @@ maketen
 maketiranje
 maketirati
 makeup
-make-up (make)
 maki
 makiavelijevski
 makiavelističen (machiavellističen)
@@ -127793,7 +127441,6 @@ makrozbirnik
 makrozgodba
 makrozooplankton
 makrožilen
-makro...
 maksi
 maksigraf
 maksikošarkar
@@ -128509,7 +128156,6 @@ malozveden
 maloželezniški
 maloživ
 maloživost
-malo...
 malpigijev
 malta
 maltar
@@ -129050,7 +128696,6 @@ manjšinskovarstven
 manjšinskozaščiten
 manjšinstvo
 manjštevilen
-manjš.
 manjvaren
 manjvračunljiv
 manjvreden
@@ -129551,11 +129196,9 @@ marksisten
 marksističen
 marksističnoideološki
 marksističnost
-marksistično-leninističen
 marksistka
 marksistovski
 marksizem
-marksizem-leninizem
 marksizirati
 marksofil
 marksolog
@@ -130733,7 +130376,6 @@ mcluhanitski
 mcluhanovski
 mconovsko
 mdarata
-mdr.
 me
 meaculpa
 meander
@@ -131504,7 +131146,6 @@ medlovišnjev
 medlozelen
 medlozelenkast
 medlozlat
-medlo...
 medlušen
 medmačji
 medmafijski
@@ -131627,7 +131268,6 @@ mednovembrski
 mednoviški
 mednožen
 mednožje
-medn.
 medo
 medobalen
 medobčinski
@@ -132234,7 +131874,6 @@ medživljenjski
 medžlis
 medžupanijski
 medžupnijski
-med...
 meek
 meem
 mefističen
@@ -132594,7 +132233,6 @@ megazvezdnik
 megazvezdniški
 megažanr
 megažur
-mega...
 megdan
 megera
 megerski
@@ -132893,7 +132531,6 @@ mehkoželezen
 mehkožičen
 mehkožičnat
 mehkožilen
-mehko...
 mehkunka
 mehkuž
 mehkuža
@@ -133375,7 +133012,6 @@ mempleks
 memrati
 memsahib
 memski
-mem.
 mena
 menada
 menadski
@@ -133901,7 +133537,6 @@ merozigota
 meroznanski
 meroznanstvo
 merozoit
-mero...
 merpan
 merseburški
 mersikati
@@ -134057,7 +133692,6 @@ mesnorjav
 mesnosiv
 mesnost
 mesnozelenjaven
-mesno...
 meso
 mesočina
 mesoderm
@@ -134817,7 +134451,6 @@ metazoj
 metazoon
 metažanr
 metažanrski
-meta...
 metec
 meteh
 metek
@@ -134869,7 +134502,6 @@ meteorologijski
 meteorologinja
 meteorologiški
 meteorološki
-meteorol.
 meteoropat
 meteoroskop
 meteorosofist
@@ -134878,7 +134510,6 @@ meteorotropen
 meteorotropičen
 meteorotropizem
 meteorski
-meteo.
 meter
 metercent
 metercentski
@@ -134888,7 +134519,6 @@ meterkilogram
 meterkilopond
 meternica
 meterski
-meter...
 metev
 metež
 metežen
@@ -134993,7 +134623,6 @@ metilenmoder
 metilenoksid
 metilenski
 metilentetrahidrofolat
-metilen...
 metilergometrin
 metilester
 metilesterski
@@ -135108,7 +134737,6 @@ metiltrisulfid
 metilvijoličen
 metilvinil
 metilživ
-metil...
 metin
 metina
 metionin
@@ -135599,7 +135227,6 @@ mezozoik
 mezozoiški
 mezozojski
 mezozooplankton
-mezo...
 mezuza
 mezva
 mezzadro
@@ -135763,7 +135390,6 @@ midlandski
 midraš
 midraška
 midriatikum
-midva (medve, midve)
 mielin
 mieliniziran
 mieliniziranje
@@ -136053,7 +135679,6 @@ mikrobiologija
 mikrobiologinja
 mikrobiologist
 mikrobiološki
-mikrobiol.
 mikrobios
 mikrobiota
 mikrobiotičen
@@ -137125,7 +136750,6 @@ mikrožilje
 mikrožival
 mikrožleben
 mikrožlebič
-mikro...
 mikrprocesor
 miks
 miksanje
@@ -137352,7 +136976,6 @@ milivolt
 milivoltmeter
 milivoltmetrski
 miliwatt
-mili...
 milja
 milje
 miljejen
@@ -138732,7 +138355,6 @@ mjertuk
 mjul
 mjurid
 mjuzikel
-mkv.
 mlackanje
 mlackati
 mlač
@@ -139029,7 +138651,6 @@ mladoženin
 mladoženja
 mladoženje
 mladoženski
-mlado...
 mladstvo
 mlahadrati
 mlahast
@@ -139131,7 +138752,6 @@ mlavka
 mlaz
 mlazav
 mlazen
-mld.
 mleč
 mlečar
 mlečarica
@@ -139199,7 +138819,6 @@ mlečnozobnež
 mlečnozobnost
 mlečnozrel
 mlečnožolt
-mlečno...
 mledica
 mledva
 mlekar
@@ -139328,7 +138947,6 @@ mlomotati
 mlrd
 mluvči
 mluvnica
-ml.
 mm
 mmhg
 mmhh
@@ -139823,7 +139441,6 @@ mnogožilen
 mnogožilnat
 mnogoživ
 mnogožlezen
-mnogo...
 mnoštven
 mnoštvenost
 mnoštvo
@@ -139865,9 +139482,7 @@ množitven
 množje
 množnik
 množnost
-mnsg.
 mnzjevec
-mn. (mn)
 moa
 moabitski
 moabski
@@ -140493,7 +140108,6 @@ modrožaren
 modrožarkoven
 modrožilnat
 modrožolt
-modro...
 modruh
 modrulj
 modruljica
@@ -141332,7 +140946,6 @@ monografski
 monogram
 monogramist
 monogramski
-monogr.
 monohalogenski
 monohibrid
 monohibriden
@@ -141703,7 +141316,6 @@ monovinil
 monovolumenski
 monozigot
 monozigoten
-mono...
 monrealski
 Monroejev
 monrovijec
@@ -141725,7 +141337,6 @@ monstruozen
 monstruoznost
 monsun
 monsunski
-mons.
 monšer
 monštranca
 monštrancar
@@ -141734,7 +141345,6 @@ monta
 montafonec
 montafonka
 montafonski
-montagnard (montanjar, montanjard)
 montaigneovski
 montaignist
 montaignovski
@@ -142664,7 +142274,6 @@ motozbor
 motozveza
 motožurnal
 moto (motto)
-moto...
 motrenje
 motrič
 motrilec
@@ -142895,7 +142504,6 @@ možnosten
 možun
 mpafuj
 mpah
-mpc.
 mračan
 mrače
 mraček
@@ -143588,7 +143196,6 @@ mrtvozaspan
 mrtvozdeven
 mrtvoživ
 mrtvoživje
-mrtvo...
 mrukniti
 mrva
 mrvalo
@@ -143699,7 +143306,6 @@ mrzlovroč
 mrzlozelen
 mrzlozimski
 mrzložarek
-mrzlo...
 mrzniti
 mrzost
 mrzovoljen
@@ -143712,8 +143318,6 @@ mržnja
 mržnjak
 mržnost
 ms
-msgr.
-msg.
 mSv
 mščora
 mšzšjevec
@@ -144671,7 +144275,6 @@ multižanrski
 multižanrskost
 multižarkoven
 multižur
-multi...
 multum
 muluskicid
 mulveyjevski
@@ -145244,7 +144847,6 @@ myrtil
 mythos
 mz
 mzabit
-m-da
 n
 na
 naa
@@ -145717,7 +145319,6 @@ nacionalnozapuščinski
 nacionalnozaveden
 nacionalnozdružitven
 nacionalnozgodovinski
-nacionalno...
 nacionalpatriot
 nacionalpatriotizem
 nacionalpatriotsko
@@ -145975,7 +145576,6 @@ nadbirič
 nadbirokracija
 nadbiskup
 nadbiskupski
-nadbisk.
 nadbit
 nadbiten
 nadbitje
@@ -147129,7 +146729,6 @@ nadprt
 nadpsihološki
 nadpulten
 nadpust
-nadp.
 nadra
 nadrabin
 nadracionalen
@@ -147265,7 +146864,6 @@ nadrzati
 nadržanje
 nadržati
 nadržek
-nadr.
 nadsaharski
 nadsamica
 nadscenski
@@ -147459,7 +147057,6 @@ nadškofovanje
 nadškofovati
 nadškofovski
 nadškofovstvo
-nadšk.
 nadšolanost
 nadšpekulacija
 nadštaben
@@ -147821,7 +147418,6 @@ nadzvočnost
 nadzvok
 nadzvokoven
 nadzvrst
-nadz.
 nadžafski
 nadžagar
 nadžak
@@ -147849,7 +147445,6 @@ nadžupnijski
 nadžupnik
 nadžupnikov
 nadžupnikovina
-nad...
 naelektrenje
 naelektrenost
 naelektritev
@@ -148100,7 +147695,6 @@ naglovedec
 naglovitost
 naglovoljen
 naglovožnina
-naglo...
 nagluh
 nagluha
 nagluhost
@@ -148492,7 +148086,6 @@ najbrž
 najbržda
 najbrže
 najbržnikoli
-najb.
 najč
 najček
 najčkati
@@ -148682,7 +148275,6 @@ najzadi
 najzadnji
 najzadnjič
 najzadnjokrat
-naj...
 nak
 naka
 nakacati
@@ -149925,7 +149517,6 @@ nanožiček
 nanožička
 nanožnica
 nanožnik
-nano...
 nanteski
 nantokit
 nantski
@@ -150723,7 +150314,6 @@ naprtiti
 naprtovati
 naprvo
 naprzniti
-napr.
 napsikati
 napsovati
 napster
@@ -151382,7 +150972,6 @@ narodnozavednost
 narodnozavesten
 narodnozdruževalen
 narodnozgodovinski
-narodno...
 narodobožen
 narodobuden
 narodobuditeljski
@@ -151422,7 +151011,6 @@ narodovstvo
 narodoznanski
 narodoznanstven
 narodoznanstvo
-narodo...
 narodski
 narodstvo
 narogati se
@@ -151477,7 +151065,6 @@ narvalov
 narvalski
 narvati
 narzan
-nar...
 nas
 nasad
 nasada
@@ -151874,7 +151461,6 @@ naslutevati
 naslutiti
 nasluziti
 naslužiti
-nasl.
 nasmeh
 nasmehanje
 nasmehavati se
@@ -152209,7 +151795,6 @@ nastrunjenost
 nastružek
 nastružiti
 nastržek
-nast.
 nasugerirati
 nasuhel
 nasukati
@@ -153222,7 +152807,6 @@ navpodse
 navprašati
 navprek
 navpreko
-navp.
 navračati
 navrat
 navraten
@@ -153544,7 +153128,6 @@ nazovimarksist
 nazovislava
 nazoviučenjak
 nazoviumetnost
-nazovi...
 nazračiti
 nazreti
 nazrniti
@@ -153633,11 +153216,9 @@ nažvižgati
 nažvrgoleti
 na eks
 na izust
-na...
 nbajevec
 nbajevski
 ndebelejski
-ndp.
 ndrangheta
 ne
 neabeceden
@@ -153726,7 +153307,6 @@ neaktivnosten
 neaktualen
 neaktualističen
 neaktualnost
-neakt.
 neakumulativen
 neakumulatorski
 neakuraten
@@ -154530,7 +154110,6 @@ nečlovekoljubnost
 nečloveški
 nečloveškost
 nečloveštvo
-nečl.
 nečohan
 nečokoladen
 nečreden
@@ -155526,7 +155105,6 @@ neenakovrednost
 neenakovrsten
 neenakozložen
 neenakozložnica
-neenako...
 neenakšen
 neenciklopedičen
 neenciklopedično
@@ -157289,7 +156867,6 @@ nekajtonski
 nekajuren
 nekajvrstičen
 nekajzložen
-nekaj...
 nekak
 nekako
 nekakošen
@@ -157394,7 +156971,6 @@ nekator
 nekatoriaza
 nekatoržnik
 nekatraniziran
-nekat.
 nekav
 nekavalirski
 nekavbojsko
@@ -157581,7 +157157,6 @@ nekolikoleten
 nekolikomesečen
 nekolikosten
 nekolikouren
-nekoliko...
 nekolikšen
 nekolinearen
 nekolizija
@@ -161070,7 +160645,6 @@ neoživljiv
 neožuljen
 neožurnalist
 neožurnalističen
-neo...
 nep
 nepacifističen
 nepadajoč
@@ -163021,7 +162595,6 @@ nepreživetje
 nepreživljen
 neprežvečen
 neprežvekovalec
-nepre...
 nepribit
 nepribliževanje
 nepribližljiv
@@ -167519,7 +167092,6 @@ nevroznanstvenica
 nevroznanstvenik
 nevroznanstvo
 nevrožilen
-nevro...
 nevrsten
 nevrstičen
 nevrstnat
@@ -168514,7 +168086,6 @@ neznanokje
 neznanost
 neznanosten
 neznanoznan
-neznano...
 neznanski
 neznanskokrat
 neznanskost
@@ -168767,7 +168338,6 @@ nežnozeleneč
 nežnozvočen
 nežnožalen
 nežnožarek
-nežno...
 nežrebeten
 nežrebetnica
 nežrtev
@@ -168996,26 +168566,6 @@ ne zavajati
 ne zavesti
 ne zbrisati
 ne združiti
-ne-do-bivan
-ne-dvomljiv
-ne-istost
-ne-konsum
-ne-Kranjec
-ne-kupec
-ne-las
-ne-lovec
-ne-meso
-ne-metodovski
-ne-nov
-ne-Slovenec
-ne-slutenje
-ne-tradicija
-ne-vprašljivost
-ne-zavest
-ne-zavezujoč
-ne-zdravnik
-ne-živeti
-ne...
 ngakh
 ngandonški
 nh
@@ -169638,7 +169188,6 @@ nitrozomioglobin
 nitrozomiokromogen
 nitrozomonas
 nitroželatina
-nitro...
 nittijevec
 nitzschejanski
 nitzschejevski
@@ -169983,14 +169532,11 @@ nizkozamolkel
 nizkozavesten
 nizkozmogljiv
 nizkozmogljivosten
-nizko...
-nizk.
 niznodoli
 nizoldipina
 nizonemški
 nizozemski
 nizozemščina
-nizozem.
 nizteznica
 nizvoden
 niža
@@ -170084,7 +169630,6 @@ nižjevoden
 nižjevreden
 nižjevrednosten
 nižjevrsten
-nižje...
 nižjost
 nižninovgorodski
 nižnjenovgorodski
@@ -170102,7 +169647,6 @@ njegoševski
 njegov
 njegovost
 njeguški
-njeg.
 njek
 njello
 njelma
@@ -170164,9 +169708,7 @@ njuton
 njutonovski
 njuv
 njuzati
-nj.
 nk
-nlat.
 nlpjevski
 nm
 nmv
@@ -171013,7 +170555,6 @@ notranjeznanstven
 notranjezrcalen
 notranjezunanji
 notranježilen
-notranje...
 notranji
 notranjica
 notranjičar
@@ -171821,7 +171362,6 @@ novozvarjen
 novoželjen
 novoženec
 novožiznjenec
-novo...
 novum
 novurit
 nozdrevat
@@ -171877,7 +171417,6 @@ nožničen
 nožničnolisten
 nožnik
 nožura
-npr.
 nrav
 nraven
 nravitost
@@ -172120,7 +171659,6 @@ nymanovski
 nymansko
 nymphenburški
 nynorsk
-n-ti
 o
 oa
 oaklandski
@@ -172215,7 +171753,6 @@ obavljati
 obavten
 obavtocesten
 obazovski
-oba (obadva, obe, obedve)
 obbaleten
 obbalkanski
 obbaltiški
@@ -172391,7 +171928,6 @@ občeznan
 občezvezen
 občeživalski
 občeživljenjski
-obče...
 obči
 občilen
 občilo
@@ -172478,7 +172014,6 @@ občutnica
 občutnost
 občutovati
 občuvati
-obč.
 obdačba
 obdačben
 obdačenec
@@ -172654,7 +172189,6 @@ obdurje
 obdušec
 obdušje
 obdverje
-obd.
 obečanje
 obečati
 obečavati
@@ -173242,7 +172776,6 @@ objokovanje
 objokovati
 objopiti
 objordanski
-obj.
 obkaditi
 obkajati
 obkalati
@@ -173886,7 +173419,6 @@ obloževati
 obložitev
 obložiti
 obložnik
-oblo...
 obluški
 obmahovati
 obmajati
@@ -174219,7 +173751,6 @@ obolos (obolus)
 oboltaren
 obolzniti
 obol (obolos)
-obol (obolos, obolus)
 oboperativen
 oboperativno
 obor
@@ -175076,7 +174607,6 @@ obrzdanost
 obrzdati
 obrzdavati
 obržek
-obr.
 obsad
 obsaditev
 obsaditi
@@ -175953,7 +175483,6 @@ obvzeti
 obvzetost
 obvznožen
 obvznožje
-obv. (obv)
 obzadevati
 obzadnjičen
 obzakonski
@@ -176070,7 +175599,6 @@ obžrelen
 obžreti
 obžuliti
 obžvižgavati
-ob...
 ocariniti
 ocarinjenje
 ocarinjevalen
@@ -177022,7 +176550,6 @@ oddvojenost
 oddvojevati
 oddvojitev
 oddvojiti
-odd.
 odebelel
 odebelelost
 odebelenje
@@ -177273,7 +176800,6 @@ odgugljati
 odgumbati
 odguncati
 odguzniti
-odg.
 odhacati
 odhahniti
 odhajač
@@ -177939,8 +177465,6 @@ odličnjaštvo
 odličnost
 odličnosten
 odličnoznan
-odličn.
-odlič.
 odlijač
 odlijalec
 odlika
@@ -178072,7 +177596,6 @@ odluščenje
 odluščina
 odluščiti
 odlužiti
-odl.
 odmagliti
 odmagnetizirati
 odmagovati
@@ -179560,7 +179083,6 @@ odstotkoven
 odstotkovno
 odstotnina
 odstotnost
-odstot.
 odstramba
 odstrančevati
 odstranitelj
@@ -179624,7 +179146,6 @@ odstrumljati
 odstružek
 odstružiti
 odstržek
-odst. (odst)
 odsugerirati
 odsuk
 odsukati
@@ -179667,7 +179188,6 @@ odsvojitev
 odsvojiti
 odsvojitven
 odsvojljiv
-ods.
 odšafati
 odšantati
 odšapati
@@ -180364,7 +179884,6 @@ odvzeti
 odvzetje
 odvzetnost
 odvzetost
-odv.
 odzabiti
 odzad
 odzadaj
@@ -180544,11 +180063,9 @@ odžvižgavati
 odžvrgljati
 odžvrgoleti
 odžvrgolevati
-od...
 oechsle
 oechslov
 oecus
-oec.
 oedema
 oef
 oefar
@@ -181093,7 +180610,6 @@ ognježaren
 ognježer
 ognježerec
 ognježerski
-ognje...
 ognjica
 ognjič
 ognjičar
@@ -182717,7 +182233,6 @@ okroglovina
 okroglozidan
 okroglozrn
 okroglozrnat
-okroglo...
 okrogprinašanje
 okrogšnina
 okrogvrč
@@ -182918,7 +182433,6 @@ oksitonski
 oksiton (oksitonon)
 oksitril
 oksiur
-oksi...
 oksokislina
 oksolinski
 oktaeder
@@ -182966,7 +182480,6 @@ oktobronočje
 oktobrov
 oktobrski
 oktobrščica
-oktob.
 oktocin
 oktoda
 oktodrahma
@@ -182990,7 +182503,6 @@ oktroa
 oktroiranje
 oktroiranost
 oktroirati
-okt.
 okučman
 okučmati
 okuhati
@@ -183129,7 +182641,6 @@ okvirjevanje
 okvirka
 okvirnica
 okvirnost
-okv.
 ol
 ola
 oladidi
@@ -183362,7 +182873,6 @@ oligoterapevtski
 oligoterapija
 oligotrofen
 oligotrofičen
-oligo...
 oligurija
 olih
 olijalej
@@ -184249,7 +183759,6 @@ omrzovati
 omrženec
 omrženje
 omržnja
-omr.
 omtidjom
 omtlih
 omuhavati se
@@ -186111,7 +185620,6 @@ oprtost
 oprtotrosnica
 oprtovanje
 oprtovati
-opr.
 ops
 opsa
 opsin
@@ -186253,7 +185761,6 @@ opuščevalec
 opušeljcati
 opužiti
 opuživnik
-op.
 or
 ora
 oracija
@@ -186593,7 +186100,6 @@ organizmov
 organizovalec
 organizovanje
 organizovati
-organiz.
 organoaluminijev
 organoarzenik
 organoarzenov
@@ -186652,7 +186158,6 @@ organotipski
 organotitanov
 organotropen
 organožveplov
-organo...
 organsina
 organsinski
 organski
@@ -186715,7 +186220,6 @@ orglociklometer
 orgobiro
 orgonski
 orgopsiha
-org.
 orhan
 orhidaceja
 orhideja
@@ -186784,7 +186288,6 @@ originarnost
 originator
 originatorjev
 originatorski
-orig.
 oriks
 oriksov
 oriktografija
@@ -187092,7 +186595,6 @@ orožnikov
 orožniški
 orožništvo
 orožnjak
-oro...
 orpank
 orpingtonka
 orpo
@@ -187263,7 +186765,6 @@ ortotski
 ortovanadat
 ortovodik
 ortoza
-orto...
 ortsgruppenführer
 ortsgruppenleiter
 orubiti
@@ -187861,7 +187362,6 @@ osemznakoven
 osemzoben
 osemžaren
 osemžilen
-osem...
 osen
 osena
 osenca
@@ -188382,7 +187882,6 @@ osmerozložen
 osmerozob
 osmerožaren
 osmerožarkast
-osmero...
 osmešek
 osmešenec
 osmešenje
@@ -188769,7 +188268,6 @@ osrednjesudanski
 osrednještajerski
 osrednjevzhoden
 osrednjevzhodnoevropski
-osrednje...
 osrednji
 osrednjitev
 osrednjost
@@ -189199,7 +188697,6 @@ ostrožničen
 ostrožničje
 ostrožnik
 ostrožnikov
-ostro...
 ostruganje
 ostrugati
 ostrugavati
@@ -189477,7 +188974,6 @@ osvobojevalec
 osvobojevalen
 osvobojevanje
 osvobojevati
-osvob.
 osvodati
 osvoditi
 osvojeglaviti
@@ -190355,7 +189851,6 @@ otrpnovati
 otrt
 otruti
 otrzniti
-otr.
 ottakrinški
 ottawski
 otto
@@ -190394,7 +189889,6 @@ otvornica
 otvrzniti
 otzovist
 otzovizem
-ot. (ot)
 ou
 ouburka
 ouhu
@@ -190909,7 +190403,6 @@ ovzdušje
 ovzmeten
 ovzmetenje
 ovzorčenje
-ov. (ov)
 owenist
 owenizem
 oxfordčanka
@@ -191275,7 +190768,6 @@ ozkovrat
 ozkovrstičen
 ozkozvonast
 ozkožrel
-ozko...
 ozlatiti
 ozleda
 ozleti
@@ -191449,7 +190941,6 @@ ozrenjski
 ozreti se
 ozrniti
 ozrnjenje
-ozr.
 oztec
 ozujevski
 ozvanjanje
@@ -191477,7 +190968,6 @@ ozvočje
 ozvočljiv
 ozvončiti
 ozvoniti
-oz.
 ož
 ožaga
 ožagati
@@ -191669,7 +191159,6 @@ ožvaliti
 ožveplan
 ožveplati
 ožvepliti
-o...
 p
 pa
 paberek
@@ -192432,7 +191921,6 @@ paleozoogeografski
 paleozoolog
 paleozoologija
 paleozoološki
-paleo...
 paler
 palermski
 palesglajt
@@ -193218,7 +192706,6 @@ panzofija
 panzofijski
 panzofističen
 panzootija
-pan...
 paobčutek
 paobel
 paobla
@@ -194169,8 +193656,6 @@ parazolček
 parazolen
 parazolka
 paražon
-para-ski
-para...
 parbacač
 parbrzostrelka
 parcela
@@ -194621,7 +194106,6 @@ parožica
 parožič
 parožnica
 parožnik
-paro...
 parpagliola
 parpallski
 pars
@@ -195194,7 +194678,6 @@ pašnjak
 pašnji
 pašnokosen
 pašnokošen
-pašn.
 pašovski
 pašt
 pašta
@@ -195749,7 +195232,6 @@ pažlot
 pažnica
 pažnik
 pažnja
-pa...
 pc
 pcina
 pcinje
@@ -196003,7 +195485,6 @@ pedenjski
 pedenjsrajca
 pedenj mož
 pedenj možek
-pedenj-carstvo
 pedentar
 peder
 pederast
@@ -196371,7 +195852,6 @@ peletizacija
 peletiziranje
 peleton
 pelež
-pele-mele
 pelhkati
 pelhrimovski
 pelickanje
@@ -196696,7 +196176,6 @@ pentatonski
 pentav
 pentavalenten
 pentazocin
-penta...
 penteconter
 pentek
 pentekontera
@@ -197909,7 +197388,6 @@ pesoldati
 pesolisjak
 pesoreznica
 pesov
-peso (pesos, pezo)
 pessisovski
 pest
 pesta
@@ -197981,7 +197459,6 @@ pestrosten
 pestrota
 pestrozlat
 pestrožaren
-pestro...
 pestruškin
 pestumski
 pestun
@@ -198257,7 +197734,6 @@ petdesettonski
 petdeseturen
 petdesetveslast
 petdesetvrstičen
-petdeset...
 petdiagonalen
 petdimenzijski
 petdimenzionalen
@@ -198425,7 +197901,6 @@ peterozobat
 peterozoben
 peterozvezdje
 peterozvok
-petero...
 petersberški
 petersburški
 petersenka
@@ -198785,7 +198260,6 @@ petnajsturen
 petnajstvaten
 petnajstvrstičen
 petnajstzložen
-petnajst...
 petnica
 petničen
 petnik
@@ -199106,7 +198580,6 @@ petzrnat
 petzvezden
 petžičen
 petžilen
-pet...
 peugeot
 peul
 pev
@@ -199210,7 +198683,6 @@ pfu
 pfuj
 pfunt
 pgd
-pg. (pg)
 ph
 pha
 phač
@@ -199242,7 +198714,6 @@ phildelphijski
 philips
 philipsovski
 philtrum
-phil.
 phja
 phnompenski
 phnompenški
@@ -199253,7 +198724,6 @@ phu
 phylo
 phynotist
 phyrnski
-ph. (ph)
 pi
 pia
 piacevole
@@ -199583,7 +199053,6 @@ pikata
 pikati
 pikav
 pikavica
-pika-pok-pok
 pikčanje
 pikčar
 pikčarski
@@ -199697,7 +199166,6 @@ pikot
 pikov
 pikowatt
 pikožer
-piko...
 pikpikati
 pikpikpik
 pikpok
@@ -200002,7 +199470,6 @@ pinkum
 pinkupikpom
 pinkupok
 pink ponk
-pink-ponk
 pino
 pinochetist
 pinocitoza
@@ -200050,7 +199517,6 @@ pinuron
 pinyin
 pinzenez
 pinzon
-pin-up girl
 piocianeus
 piocianeusen
 piodermija
@@ -200353,7 +199819,6 @@ pirožek
 pirožka
 pirožljek
 pirožveplov
-piro...
 pirpogačica
 pirraungaru
 pirrauru
@@ -200976,7 +200441,6 @@ pižmovčev
 pižmovec
 pižmovka
 pižo
-pi-bip
 pja
 pjam
 pjatialtinij
@@ -201884,7 +201348,6 @@ plavžnik
 playback
 playboy
 playboyski
-play-off
 plaz
 plaza
 plazek
@@ -202688,7 +202151,6 @@ plinovnik
 plinovod
 plinovoden
 plinovodski
-plino...
 plinski
 plinskočrpalen
 plinskodinamičen
@@ -203039,7 +202501,6 @@ ploskovnjak
 ploskovnobrusilen
 ploskovnost
 ploskoživoten
-plosko...
 ploskva
 ploskvast
 ploskvat
@@ -203253,7 +202714,6 @@ plurisegmenten
 pluriseksualen
 plurisignacija
 plurivalentnost
-pluri...
 plus
 plusk
 pluskvamperfekt
@@ -203338,7 +202798,6 @@ plymouth
 plzenčan
 plzenec
 plzenski
-pl.
 pm
 pneumatofor
 pneumatologija
@@ -204779,10 +204238,8 @@ podčrtnica
 podčrtovalen
 podčrtovanje
 podčrtovati
-podčr.
 podčutek
 podčuten
-podč.
 poddavkar
 poddeblo
 poddefinicija
@@ -204844,7 +204301,6 @@ poddružnik
 poddržava
 poddržaven
 poddveri
-podd.
 podebatirati
 podebeleti
 podebelitev
@@ -205193,7 +204649,6 @@ podiplomant
 podiplomantka
 podiplomec
 podiplomski
-podipl.
 podirač
 podiralec
 podiralen
@@ -206680,7 +206135,6 @@ podpulten
 podpultno
 podpustiti
 podpuščati
-podp.
 podrabokup
 podračun
 podrahljač
@@ -207928,7 +207382,6 @@ podžupanstvo
 podžupnija
 podžuriti
 podžveplast
-pod...
 poedin
 poedince
 poedinčev
@@ -208352,7 +207805,6 @@ poglobovati
 poglodan
 poglodanček
 poglodati
-pogl.
 pogmeranje
 pogmerati
 pogmotiti
@@ -208816,7 +208268,6 @@ poguznica
 poguzniti se
 poguznjenka
 pogvercati
-pog.
 pohaba
 pohabe
 pohaben
@@ -209114,7 +208565,6 @@ pohvaljevati
 pohvaljiv
 pohvalnica
 pohvatiti
-poh.
 poidejiti
 poidija
 poidiotenje
@@ -211159,7 +210609,6 @@ polfraza
 polfuntarica
 polfunten
 polfuzijski
-polf.
 polgamaša
 polgangster
 polgenialen
@@ -212049,7 +211498,6 @@ političnovzgojen
 političnovzgojiteljski
 političnozemljepisen
 političnozgodovinski
-politično...
 politija
 politik
 politika
@@ -212223,7 +211671,6 @@ polizučen
 polizun
 polizviren
 polizzvenel
-poli...
 poljaček
 poljačiti
 poljak
@@ -212987,7 +212434,6 @@ polnozvonek
 polnožiten
 polnoživ
 polnoživost
-polno...
 polo
 polobči
 polobčuten
@@ -214312,7 +213758,6 @@ polžnik
 polžolt
 polžopin
 polžvižg
-pol...
 pom
 pomacati
 pomada
@@ -214418,7 +213863,6 @@ pomanjševalnik
 pomanjševalnina
 pomanjševanje
 pomanjševati
-pomanjš.
 pomaovski
 pomaranča
 pomarančar
@@ -215594,7 +215038,6 @@ ponižnjakarski
 ponižnomil
 ponižnost
 ponižnosten
-poni-ekspres
 ponjava
 ponjavar
 ponjavarski
@@ -215786,7 +215229,6 @@ ponvičnik
 ponvin
 pony
 ponže
-pon.
 poobčenje
 poobčestviti
 poobčevanje
@@ -216558,7 +216000,6 @@ popolsestra
 popolsti
 popolubrat
 popolžiti
-popol...
 popometati
 popon
 popona
@@ -216865,7 +216306,6 @@ poprvec
 poprvenstven
 poprvoaprilski
 poprvomajski
-popr.
 popsetiti
 popshema
 popskladatelj
@@ -216953,7 +216393,6 @@ popzvezda
 popzvezdnica
 popzvezdnik
 popzvezdniški
-pop-scena
 por
 pora
 porab
@@ -217503,8 +216942,6 @@ pornozvezda
 pornozvezdnica
 pornozvezdnik
 pornožgečkljivost
-porno-film
-porno...
 poro
 porob
 poroba
@@ -217672,7 +217109,6 @@ poroževiniti
 porožljati
 porožljavanje
 porožljavati
-porp.
 porridge
 porsche
 port
@@ -217917,7 +217353,6 @@ posebnonamenski
 posebnost
 posebnosten
 posebnovrsten
-posebn.
 posecirati
 posečanje
 posečati
@@ -218113,7 +217548,6 @@ posiliti
 posilivoljec
 posiliznanstven
 posiliživ
-posili...
 posilje
 posiljenček
 posiljenec
@@ -218287,7 +217721,6 @@ poskuševati
 poskušina
 poskušnja (poizkušnja)
 poskušnjica
-posk.
 poslabeti
 poslabovestiti
 poslabšalen
@@ -219383,7 +218816,6 @@ posthumano
 posthumanost
 posthumen
 posthumus
-posth.
 postiberski
 posticum
 postidealističen
@@ -220165,7 +219597,6 @@ postzmagoslaven
 postzrcalen
 postzwentendorfski
 post festum
-post...
 posugubiti
 posuhopariti
 posukanje
@@ -220514,7 +219945,6 @@ poškrtavati
 poškrtniti
 poškrtovati
 poškurtati
-pošk.
 pošl
 pošlatati
 pošle
@@ -221188,7 +220618,6 @@ potniški
 potništvo
 potnjak
 potnomoker
-potn.
 poto
 potočarka
 potočati
@@ -221555,7 +220984,6 @@ potroštanje
 potroštati
 potroštništvo
 potroštovati
-potroš.
 potrp
 potrpati
 potrpečnost
@@ -222365,8 +221793,6 @@ povprečnosten
 povprek
 povpreka
 povpreko
-povpr.
-povp.
 povračaj
 povračalen
 povračalka
@@ -222794,7 +222220,6 @@ pozdravljiv
 pozdravnica
 pozdravnik
 pozdružitven
-pozdr.
 pozeb
 pozeba
 pozebati
@@ -223134,7 +222559,6 @@ poznozimec
 poznozimski
 poznozrel
 poznoživen
-pozno...
 pozobačkati
 pozoban
 pozobati
@@ -223635,7 +223059,6 @@ po vseunijsko
 po vzhodnoandsko
 po wertherjevsko
 po wimbledonsko
-po...
 pp
 ppb
 ppm
@@ -224460,7 +223883,6 @@ prapravica
 prapravnuk
 prapravnukinja
 prapravo
-prapra...
 praprebivalec
 praprebivalka
 praprebivalstvo
@@ -224516,7 +223938,6 @@ praptič
 praptičji
 prapunk
 prapuščava
-prap.
 praradost
 prarak
 prarasa
@@ -224665,7 +224086,6 @@ praslovanščina
 praslovenski
 praslovenstvo
 praslovenščina
-praslov.
 praslutnja
 prasluz
 prasmer
@@ -225164,7 +224584,6 @@ pravnozgodovinski
 pravnozmoten
 pravnoznanstven
 pravnoznanstvo
-pravno...
 pravnuček
 pravnuk
 pravnuka
@@ -225312,7 +224731,6 @@ pravoznanski
 pravoznanstven
 pravoznanstvo
 pravozveličaven
-pravo...
 pravprašanje
 pravrelec
 pravrelo
@@ -225518,7 +224936,6 @@ pražupnijski
 pražuželka
 pražužkojed
 pražužkojedec
-pra...
 prcati
 prceklikl
 prckaš
@@ -225782,7 +225199,6 @@ prebivatelj
 prebivateljica
 prebivaten
 prebivati
-prebiv.
 prebizarno
 preblag
 preblagodaten
@@ -226009,7 +225425,6 @@ prebuškati
 prebutast
 prebutati
 prebutavati
-preb.
 prec
 precartan
 precartljati
@@ -227674,7 +227089,6 @@ predmrazica
 predmrzličen
 predmuslimanski
 predmutacijski
-predm.
 prednabor
 prednacionalen
 prednacističen
@@ -227797,7 +227211,6 @@ prednjeindijski
 prednjejezičen
 prednjepogonski
 prednjestenski
-prednje...
 prednji
 prednjica
 prednjik
@@ -229001,7 +228414,6 @@ predsvetoven
 predsvit
 predsvitanjski
 predsviten
-preds.
 predširitven
 predškrgar
 predšola
@@ -229079,7 +228491,6 @@ predtiskovanje
 predtisočleten
 predtisočletje
 predtišina
-predtk.
 predtlačen
 predtočen
 predtoničen
@@ -229106,7 +228517,6 @@ predtržen
 predturbinski
 predturnirski
 predturški
-predt.
 predubaidski
 predudar
 predudbovski
@@ -229315,7 +228725,6 @@ predvzhajati
 predvzponski
 predvžig
 predvžiganje
-predv.
 predwürmski
 predzabeležba
 predzačeten
@@ -229420,7 +228829,6 @@ predživalski
 predživljenje
 predživljenjski
 predžupančičevski
-pred...
 preefekten
 preeklampsija
 preeksaminirati
@@ -230601,7 +230009,6 @@ prekinjevalen
 prekinjevalnik
 prekinjevanje
 prekinjevati
-prekinj.
 prekinkati
 prekinljiv
 prekinljivost
@@ -230910,7 +230317,6 @@ prekomponiranje
 prekomponirati
 prekomrežen
 prekomunističen
-prekom.
 prekonacionalen
 prekonacionalist
 prekonačrten
@@ -231077,7 +230483,6 @@ prekozrel
 prekozvočen
 prekozvok
 prekožiti
-preko...
 prekpisanje
 prekpot
 prekpotje
@@ -234159,7 +233564,6 @@ prepuščaviti
 prepuščenost
 prepuščevalec
 prepuščoben
-prep. (prep)
 prerabotati
 preracionalen
 preracionalističen
@@ -235534,7 +234938,6 @@ presvetljevati
 presvetlomoder
 presvetlost
 presvetlozelen
-presvetl.
 presvetohliniti
 presvetovati
 presvetovljanski
@@ -235558,7 +234961,6 @@ presvojeglav
 presvojeglaven
 presvojevrsten
 presvojski
-presv.
 preša
 prešablonski
 prešahirati
@@ -235827,7 +235229,6 @@ pretaljevanje
 pretaljevati
 pretancijozen
 pretančati
-pretanek (pretenek, pretenak)
 pretaniti
 pretanjati
 pretanjenost
@@ -237195,7 +236596,6 @@ prevztrajen
 prevzvišen
 prevzvišenost
 prevzviševati
-prev.
 preza
 prezabasati
 prezabavati
@@ -237758,7 +237158,6 @@ prežvižgovati
 prežvrgoleti
 prežvrkljan
 prežvrkljati
-pre...
 prfelast
 prfoks
 prfoksarica
@@ -237965,7 +237364,6 @@ približjek
 približnost
 približnosten
 pribloditi
-pribl.
 pribobljati
 pribobnati
 pribobneti
@@ -238867,7 +238265,6 @@ prihuljevati
 prihupati
 prihvaliti
 prihvatnica
-prih.
 priigrati
 priigravati
 priimek
@@ -239639,12 +239036,10 @@ priložnost
 priložnosten
 priložnostnica
 priložnostnost
-prilož.
 priluč
 prilukati
 prilupiti
 priluščiti
-pril.
 prim
 prima
 primabalerina
@@ -240669,7 +240064,6 @@ pripuščobovati
 pripušiti
 pripuzija
 pripuzina
-prip.
 priracati
 priračunanje
 priračunati
@@ -242423,7 +241817,6 @@ privzgojiti
 privzgojljiv
 privzgojljivost
 privzrediti
-priv.
 priza
 prizačarati
 prizadajati
@@ -242703,7 +242096,6 @@ prižvižgljati
 prižvižgniti
 prižvrgoleti
 prižvrkljati
-pri...
 prka
 prkanje
 prke
@@ -243879,7 +243271,6 @@ prometnovarstven
 prometnovzgojen
 prometnoznakoven
 prometnoznanstven
-prometno...
 prometovanje
 prometovati
 promicelij
@@ -243945,7 +243336,6 @@ promulgacijski
 promulgirati
 promuslimanski
 promuslimanskost
-prom.
 pronacionalističen
 pronacist
 pronacističen
@@ -244705,7 +244095,6 @@ prostozvezen
 prostozvočen
 prostozvočno
 prostoživeč
-prosto...
 prostracija
 prostralo
 prostran
@@ -244773,7 +244162,6 @@ prosvitljenec
 prosvitljenič
 prosvitljenost
 prosvitljenstvo
-prosv.
 proščenje
 proščenji
 proščenjski
@@ -246900,7 +246288,6 @@ protiživljenjski
 protižrtev
 protižrtvovanje
 protižupanov
-proti...
 protje
 protlačiti
 proto
@@ -247109,7 +246496,6 @@ protozoičen
 protozoj
 protozoon
 protozvezda
-proto...
 protrahiran
 protraktor
 protreptičen
@@ -247399,8 +246785,6 @@ pro domo
 pro et contra
 pro forma
 pro in kontra
-pro-drugačen
-pro...
 prper
 prpr
 prprejš
@@ -247995,7 +247379,6 @@ prvozdravnik
 prvoznanilka
 prvozvok
 prvožarkoven
-prvo...
 prvstvo
 prvščica
 pržen
@@ -248562,7 +247945,6 @@ psevdoznanstven
 psevdoznanstvenik
 psevdoznanstvenost
 psevdožanr
-psevdo...
 pshioterapevt
 psi
 psica
@@ -249022,7 +248404,6 @@ psihozgodovinski
 psihoznost
 psihozvočen
 psihožrtev
-psiho...
 psihrofilen
 psihrofilija
 psihrometer
@@ -250888,7 +250269,6 @@ radiozobotrebec
 radiozveza
 radiozvočnik
 radiožarnica
-radio...
 radiranje
 radiranka
 radirar
@@ -251026,7 +250406,6 @@ radoživec
 radoživen
 radoživka
 radoživost
-rado...
 radula
 raduljski
 radunanca
@@ -251206,7 +250585,6 @@ raid
 raiffeisenovka
 rainerjevski
 raison
-raison d'etre
 raizbočen
 raizbrisan
 raizglajen
@@ -251621,7 +250999,6 @@ randati
 rande
 randeriranje
 randevucati
-randevu (rendez-vous)
 randi
 randma
 randolektil
@@ -251712,7 +251089,6 @@ ranozimen
 ranozimski
 ranozrel
 ranoživen
-rano...
 ranski
 ransoniarati
 ranša
@@ -252251,7 +251627,6 @@ ravnovreden
 ravnozaslonski
 ravnozob
 ravnožilnat
-ravno...
 ravs
 ravsač
 ravsajoč
@@ -254926,7 +254301,6 @@ raznožiti
 raznožje
 raznožka
 raznožnost
-razno...
 raznraviti
 razobčiti
 razobesen
@@ -256919,7 +256293,6 @@ raztvorba
 raztvorbina
 raztvoritev
 raztvorljiv
-razt.
 razučiti
 razudba
 razudejanjenje
@@ -257587,7 +256960,6 @@ razžveplovalen
 razžveplovanje
 razžvižgati
 razžvrkljati
-raz...
 raž
 raža
 raželj
@@ -257808,7 +257180,6 @@ rdečežameten
 rdečežaren
 rdečežilast
 rdečežolt
-rdeče...
 rdečica
 rdečič
 rdečičen
@@ -258264,7 +257635,6 @@ recorzin
 recruitment
 recte
 rectum
-rec.
 reč
 rečca
 reček
@@ -258457,7 +257827,6 @@ redkozračen
 redkozračje
 redkozrnat
 redkožilnat
-redko...
 redkvar
 redkven
 redkvica
@@ -259248,7 +258617,6 @@ reklanje
 reklasacija
 reklasifikacija
 reklasiranje
-rekla-kazala
 reklo
 rekočen
 rekodiranje
@@ -259715,7 +259083,6 @@ renda
 rendati
 rendator
 rendement
-rendez-vous
 rendirati
 rendzina
 renec
@@ -259849,7 +259216,6 @@ rentobojen
 rentoilaža
 rentoilirati
 rentoželjnost
-rent-a-car
 renumeracija
 reo
 reobaza
@@ -260200,7 +259566,6 @@ reprostudio
 reprotehničen
 reprotehnika
 reproveriga
-repro...
 reps
 reptarij
 reptil
@@ -260908,7 +260273,6 @@ retrovizor
 retrovonjalno
 retrozvok
 retroživljenje
-retro...
 retur
 returen
 returneman
@@ -261471,7 +260835,6 @@ režnjat
 režnjič
 režočnost
 režun
-re...
 Rh
 rhea
 rheinsberški
@@ -262232,7 +261595,6 @@ rizičnost
 rizik
 riziko
 rizikopremija
-rizi-bizi
 rizlec
 rizling
 rizma
@@ -262273,7 +261635,6 @@ riževec
 riževica
 riževka
 rižišče
-riži-biži
 rižmojster
 rižnat
 rižnica
@@ -262388,7 +261749,6 @@ rjavozelen
 rjavozelenkast
 rjavozlat
 rjavožametast
-rjavo...
 rjazanski
 rjebati
 rjica
@@ -263288,7 +262648,6 @@ rokovodnik
 rokovodstvo
 rokovski
 rokovsko
-roko...
 roks
 rokus
 rokzvezdnik
@@ -263330,7 +262689,6 @@ rolkarski
 rolkati
 rollandovski
 rolls
-rolls-royce
 rolly
 rolmops
 rolnica
@@ -263779,7 +263137,6 @@ rotovator
 rotovški
 rotovž
 rotovžen
-roto...
 rotring
 rotseejski
 rotta
@@ -264071,7 +263428,6 @@ rožnovinka
 rožnožameten
 rožoprst
 rožoprsten
-RO-Ro
 rr
 rresk
 rrnk
@@ -264278,7 +263634,6 @@ rudotopilnica
 rudotvoren
 rudovit
 rudoznanstvo
-rudo...
 rudžinec
 ruelija
 rufaij
@@ -264486,7 +263841,6 @@ rumenozlat
 rumenozlato
 rumenozob
 rumenozoben
-rumeno...
 rumenski
 rumesan
 rumesanov
@@ -268347,7 +267701,6 @@ samozaložnik
 samozaložnikov
 samozaložniški
 samozaložništvo
-samozal.
 samozamenljiv
 samozanesljiv
 samozaničevalen
@@ -268568,7 +267921,6 @@ samožrtvovanec
 samožrtvovanje
 samožrtvovati
 samožrtvujoč
-samo...
 sampan
 sampostrežen
 samsamcat
@@ -268648,7 +268000,6 @@ sandwiški
 sandžak
 sandžakat
 sandžakbeg
-sandžak-beg
 sandžaški
 sandžik
 sanek
@@ -268724,7 +268075,6 @@ sanitetler
 sanitetnik
 sanitetski
 sanitol
-sanit.
 sanivec
 sanj
 sanja
@@ -269301,7 +268651,6 @@ sazanter
 sazivati
 sazujevec
 saženj
-sbh.
 sbila
 sbilica
 sbirro
@@ -269574,7 +268923,6 @@ scvrkniti se
 scvrknjenje
 scvrkovati
 scvrlina
-sc.
 sč
 sčajmati se (izčajmati se)
 sčajmiti
@@ -269667,7 +269015,6 @@ sebevreden
 sebezaničevanje
 sebezanikanje
 sebezaveden
-sebe...
 sebičen
 sebičje
 sebičnež
@@ -270039,7 +269386,6 @@ sedemzgiben
 sedemzložen
 sedemzvočniški
 sedemžalosten
-sedem...
 seden
 sedenje
 sedentaren
@@ -270175,7 +269521,6 @@ sedmerovršičen
 sedmerozvezdje
 sedmerozvok
 sedmerožaren
-sedmero...
 sedmi
 sedmica
 sedmič
@@ -270518,7 +269863,6 @@ sekretinizem
 sekretoren
 sekretoričen
 sekretovec
-sekr.
 seks
 seksač
 seksagezima
@@ -271101,7 +270445,6 @@ semivegetarijanski
 semivektor
 semivertikalen
 semiznan
-semi...
 semjonovec
 semjonovski
 semkaj
@@ -271692,7 +271035,6 @@ servovolanski
 servovtiskovalen
 servozavora
 servozavoren
-servo...
 servus
 serž
 seržant
@@ -272166,7 +271508,6 @@ severnozagrebški
 severnozahoden
 severnozapaden
 severnozavezniški
-severno...
 severoafriški
 severoalbanski
 severoamerikanski
@@ -272182,7 +271523,6 @@ severovzhoden
 severovzhodnik
 severovzhodnjak
 severovzhodnoslovenski
-severovz.
 severozahod
 severozahoden
 severozahodnež
@@ -272196,7 +271536,6 @@ severozahodnoslovanski
 severozapad
 severozapaden
 severozapadnik
-severo...
 severski
 severščak
 seviljski
@@ -272281,7 +271620,6 @@ sezuvanje
 sezuvati
 sezvati
 sezvedeti
-sez.
 sežagati
 sežagovanje
 sežagovati
@@ -272318,7 +271656,6 @@ sežreti
 sežvečiti
 sežvekati
 sežvrkljati
-se...
 sfabriciran
 sfabriciranost
 sfabricirati
@@ -272820,7 +272157,6 @@ siegfriedovski
 siemens
 siemensovec
 siemensovski
-Siemens-Martinov
 siena
 sienenovski
 sienit
@@ -273602,7 +272938,6 @@ sinhronski
 sinhrostudio
 sinhrotron
 sinhrotronski
-sinhr.
 sinica
 siniceza
 sinič
@@ -274402,7 +273737,6 @@ sivozelenoplav
 sivozlat
 sivožametast
 sivožlahtneti
-sivo...
 sivrščina
 sivuh
 sixpenec
@@ -274865,7 +274199,6 @@ skitovstvo
 skitski
 skitstvo
 skitščina
-ski-mobil
 sklač
 sklad
 sklada
@@ -275338,7 +274671,6 @@ skolcati
 skolčiti
 skolebati se
 skolečkati
-skolehati se (izkolehati se, izkolehati)
 skoleks
 skolektivizirati
 skolenčati
@@ -276416,7 +275748,6 @@ skvrniti
 skylight
 skyr
 skyvan
-sk.
 sla
 slab
 slabančica
@@ -276546,7 +275877,6 @@ slabozvezen
 slabozvočje
 slaboživ
 slaboživčen
-slabo...
 slabrn
 slabšajoč
 slabšalen
@@ -276558,7 +275888,6 @@ slabšeuvrščen
 slabševalen
 slabši
 slabšost
-slabš.
 slabušen
 slačar
 slačarica
@@ -276777,7 +276106,6 @@ sladkozvočen
 sladkozvok
 sladkožgoč
 sladkoživec
-sladko...
 sladkulja
 sladkunstvo
 sladljiv
@@ -279505,7 +278833,6 @@ socialnoznanstven
 socialnozvrsten
 socialnozvrstno
 socialnoživljenjski
-socialno...
 socialpacifizem
 socialpatriot
 socialpatriotičen
@@ -279661,7 +278988,6 @@ sociotop
 sociovarnosten
 sociozgodovinski
 sociozoolog
-socio...
 socirealizem
 socius
 socjezik
@@ -279674,7 +279000,6 @@ socrealizem
 socvet
 socveten
 socvetje
-soc.
 soč
 sočakalec
 sočanski
@@ -280757,7 +280082,6 @@ soloviola
 solovokalen
 solovox
 solovzpon
-solo...
 solpuga
 sols
 solski
@@ -282639,7 +281963,6 @@ sožnjak
 sožrtev
 sožupljan
 sožupnijski
-so...
 spacalovsko
 spacan
 spacati
@@ -283073,7 +282396,6 @@ spektroskopija
 spektroskopik
 spektroskopski
 spektrovizualen
-spektro...
 spektrumovec
 spektularen
 spekula
@@ -283118,7 +282440,6 @@ speleoterapevski
 speleoterapevt
 speleoterapevtski
 speleoterapija
-speleo...
 spelerp
 spelirati
 speliskati
@@ -283745,7 +283066,6 @@ splošnozastopniški
 splošnozgodovinski
 splošnoznan
 splošnoznanstven
-splošno...
 sploven
 splovilo
 splovišče
@@ -283762,7 +283082,6 @@ splunkati
 spluščiti
 spluti
 splužiti (izplužiti)
-spl.
 spobožniti
 spobrati
 spočasiti
@@ -283994,7 +283313,6 @@ spodnjetriasen
 spodnjetrikoten
 spodnjevipavski
 spodnjevišjesrednji
-spodnje...
 spodnji
 spodnjica
 spodnjice
@@ -284116,7 +283434,6 @@ spodžagati
 spodžgati
 spodžigati
 spodžreti
-spod... (izpod...)
 spoetizirati
 spogačati
 spogajan
@@ -284390,7 +283707,6 @@ spomnitev
 spomniti
 spomnjivost
 spomnovati
-spom.
 spon
 spona
 sponašanje
@@ -284612,7 +283928,6 @@ spoštovanje
 spoštovanost
 spoštovatelj
 spoštovati
-spošt.
 spot
 spotaklina
 spotakljiv
@@ -285544,9 +284859,7 @@ sprva
 sprvega
 spržiti
 spržnina
-spr.
 spsihologizirati
-spt.
 spucati
 spud
 spufanec
@@ -285608,7 +284921,6 @@ spužvarstvo
 spužvast
 spužvoreja
 spyrov
-sp. (sp)
 sql
 squash
 squatter
@@ -285740,7 +285052,6 @@ srbežen
 srbežiti
 srbežljiv
 srbežnost
-srbhrv.
 srbijanec
 srbijanski
 srbijanskoradikalen
@@ -286006,7 +285317,6 @@ srebrnozlat
 srebrnozvok
 srebrnozvonek
 srebrnoživ
-srebrno...
 srebro
 srebrobel
 srebrobromiden
@@ -286049,7 +285359,6 @@ srebrožaren
 srebroželatinast
 srebroželatinski
 srebroživ
-srebro...
 srebuckati
 sreča
 srečajoč
@@ -286393,7 +285702,6 @@ srednješolec
 srednješolka
 srednješolski
 srednješolstvo
-srednješol.
 srednještajerski
 srednjetanek
 srednjetehničen
@@ -286450,7 +285758,6 @@ srednjezrnast
 srednjezrnat
 srednježalosten
 srednježiv
-srednje...
 srednji
 srednjica
 srednjik
@@ -286729,7 +286036,6 @@ srtljivost
 srž
 sržen
 sržka
-sr.
 sset
 ssh
 sshd
@@ -287620,7 +286926,6 @@ starožitje
 starožitniški
 starožitnost
 staroživljenjski
-staro...
 starski
 starš
 staršen
@@ -288413,7 +287718,6 @@ stereoturbinski
 stereozapis
 stereozvočnik
 stereozvok
-stereo...
 steri
 steričen
 steridrol
@@ -289584,7 +288888,6 @@ stožkovit
 stožkovje
 stožnica
 stožnik
-sto...
 strabizem
 straca
 strad
@@ -290711,7 +290014,6 @@ strojnotehniški
 strojnotehnološki
 strojnotraktorski
 strojnoznanstven
-strojn.
 strojstvo
 strok
 stroka
@@ -291060,7 +290362,6 @@ stržiški
 stržiti
 stržkov
 stržnik
-str.
 stuartovski
 stuartski
 stubajski
@@ -291203,7 +290504,6 @@ stvoriti
 stvorjati
 stvorjenje
 stvornost
-stv.
 styrol
 su
 suada
@@ -291772,7 +291072,6 @@ subzvočen
 subžanr
 sub specie
 sub specie aeternitatis
-sub...
 sucerena
 sucre
 sucuri
@@ -292014,7 +291313,6 @@ suhozemski
 suhozid
 suhoziden
 suhozračen
-suho...
 suhulja
 suicid
 suicidalen
@@ -292219,14 +291517,12 @@ sulfosalicilen
 sulfoskupina
 sulfosol
 sulfovin
-sulfo...
 sulfur
 sulfuren
 sulfurimeter
 sulfuriranje
 sulfurirati
 sulfurizem
-sulf...
 sulica
 suličar
 suličarka
@@ -293274,7 +292570,6 @@ superženska
 superživilo
 superžoga
 superžužek
-super...
 supin
 supinirati
 supinski
@@ -293391,7 +292686,6 @@ supraumbilikalno
 supravaginalen
 supraventrikularen
 supravitalen
-supra...
 supremacija
 supremat
 suprematen
@@ -294157,7 +293451,6 @@ svetlozvočen
 svetložareč
 svetložaren
 svetložolt
-svetlo...
 svetluckati
 svetnica
 svetniček
@@ -294405,7 +293698,6 @@ svetožaljec
 svetožaljski
 svetoželjnost
 svetožiten
-sveto...
 svetski
 svetskodržavljanski
 svetskost
@@ -294766,7 +294058,6 @@ svobodstvo
 svoboduh
 svoboščina
 svoboščinski
-svob.
 svod
 svodanje
 svodast
@@ -294927,7 +294218,6 @@ szekesfehervarski
 szeletski
 szigetski
 szolgabiro
-s...
 š
 šabes
 šabesa
@@ -296269,7 +295559,6 @@ s...
 šesterozvok
 šesterožarek
 šesterožaren
-šestero...
 šestetapen
 šestetažen
 šestfaktorski
@@ -296635,7 +295924,6 @@ s...
 šestzoben
 šestžarkast
 šestžilen
-šest...
 šešarek
 šešelj
 šešija
@@ -297255,7 +296543,6 @@ s...
 širokozvonast
 širokožepen
 širokožrel
-široko...
 širokril
 širom
 široma
@@ -298806,7 +298093,6 @@ s...
 šolskovzgojen
 šolskozdravniški
 šolskozgodovinski
-šolsk.
 šolstvo
 šolšina
 šolujoč
@@ -299068,7 +298354,6 @@ s...
 špata
 špaten
 špazgati
-špa.
 špcola
 špec
 špeca
@@ -299407,7 +298692,6 @@ s...
 športnozgodovinski
 športnozgodovinsko
 športnoznanstven
-športno...
 športogen
 športokracija
 športolog
@@ -300601,7 +299885,6 @@ s...
 štirižičen
 štirižilen
 štirižiten
-štiri...
 štirjača
 štirjak
 štirjaščnica
@@ -301137,7 +300420,6 @@ s...
 šturmovka
 šturovski
 štver
-št.
 šu
 šuanec
 šuanski
@@ -302404,7 +301686,6 @@ tandem
 tandemski
 tandlerija
 tanec
-tanek (tenek, tenak)
 tanen
 tanforanski
 tanga
@@ -302613,7 +301894,6 @@ tankozračen
 tankozrn
 tankozrnat
 tankoživčen
-tanko... (tenko...)
 tanljiv
 tanljivost
 tanoform
@@ -302953,7 +302233,6 @@ tatata
 tatatataa
 tatauacija
 tatauiranje
-tata-mata
 tatba
 tatej
 tatek
@@ -303085,10 +302364,8 @@ tažba
 tažiti
 tbc
 tbilisijski
-tbl.
 tc
 tcikati
-tč.
 tdltdltdl
 te
 tea
@@ -303193,7 +302470,6 @@ tedniški
 tednovati
 tedrajlala
 tedroja
-ted.
 teenager
 teenagerica
 teenagerka
@@ -303387,7 +302663,6 @@ tehnološkoproizvoden
 tehnološkorazvojen
 tehnološkost
 tehnološkosvetovalen
-tehnol.
 tehnoman
 tehnomanija
 tehnomaraton
@@ -303447,7 +302722,6 @@ tehnozasedba
 tehnoznanost
 tehnoznanstven
 tehnožargon
-tehn.
 tehtač
 tehtalec
 tehtalen
@@ -303784,7 +303058,6 @@ telefotografija
 telefotografiranje
 telefotografski
 telefunken
-telef.
 telega
 telegen
 telegenca
@@ -304135,7 +303408,6 @@ telezgati
 teležka
 teležnik
 teležnjak
-tele...
 telfordski
 telharmonij
 telica
@@ -304467,7 +303739,6 @@ temnožarek
 temnožarjen
 temnožilast
 temnožolt
-temno...
 temon
 temota
 temoten
@@ -304551,7 +303822,6 @@ temprati
 temprirati
 temprov
 tempus
-temp. (temp)
 temulin
 temveč
 ten
@@ -305514,7 +304784,6 @@ termovski
 termozaščiten
 termozvočen
 termožaluzija
-termo...
 terna
 ternar
 ternaren
@@ -305968,7 +305237,6 @@ tetratonski
 tetravakcina
 tetravalenten
 tetražveplov
-tetra...
 tetrean
 tetrera
 tetrev
@@ -306187,7 +305455,6 @@ težkožameten
 težkoželezen
 težkoživ
 težkoživec
-težko...
 težnina
 težnja
 težnost
@@ -306583,7 +305850,6 @@ timer
 timerosal
 times
 timez
-time-out (time)
 timiak
 timičen
 timidnost
@@ -307066,7 +306332,6 @@ tisočlistek
 tisočlisten
 tisočlistka
 tisočlitrski
-tisočl.
 tisočmegavaten
 tisočmetrski
 tisočmiligramski
@@ -307141,7 +306406,6 @@ tisočvrsten
 tisočzob
 tisočzvočen
 tisočžarek
-tisoč...
 tisotič
 tisov
 tisovec
@@ -307305,7 +306569,6 @@ tjuner
 tjupetejka
 tjurkski
 tjutčevski
-tj.
 tk
 tkač
 tkaj
@@ -307700,7 +306963,6 @@ tokec
 tokej
 toker
 tokijski
-toki-voki
 tokle
 tokljanje
 tokljati
@@ -307990,7 +307252,6 @@ tolstovraten
 tolstovrški
 tolstovstvo
 tolstožaren
-tolsto...
 tolšč
 tolšča
 tolščak
@@ -308356,7 +307617,6 @@ toplozamolkel
 toplozračen
 toplozvočen
 topložareč
-toplo...
 topnica
 topničar
 topničarica
@@ -308502,7 +307762,6 @@ topovnjača
 topovodja
 topovrh
 topovski
-topo...
 topredmeten
 toprina
 tops
@@ -309499,7 +308758,6 @@ transfuziologija
 transfuziologinja
 transfuziološki
 transfuzirati
-transf.
 transgalaktičen
 transgen
 transgeneracijski
@@ -309839,7 +309097,6 @@ transvestizem
 transzgodovinski
 transznanstven
 transžanrski
-trans...
 tranša
 tranšeja
 tranširati
@@ -310370,7 +309627,6 @@ trdoživnjaški
 trdoživost
 trdoživstvo
 trdožuljav
-trdo...
 trealizem
 treatment
 treb
@@ -310862,7 +310118,6 @@ tretjevec
 tretjevrsten
 tretjezabaven
 tretjezmagovalen
-tretje...
 tretji
 tretjica
 tretjič
@@ -311192,7 +310447,6 @@ tričlenski
 tričrkje
 tričrkoven
 tričrten
-trič-trač
 tridakna
 tridebeln
 tridecilitrski
@@ -312459,7 +311713,6 @@ trižaren
 trižičen
 trižilen
 trižlebnat
-tri...
 trjaci
 trjače
 trjačen
@@ -313564,7 +312817,6 @@ trožilen
 trožilnat
 troživka
 trožvižg
-tro...
 trp
 trpanje
 trpati
@@ -314031,7 +313283,6 @@ tržnosocialen
 tržnost
 tržnozasebnolastninski
 tržnozaščiten
-tr.
 ts
 tsampa
 tsetse
@@ -314270,7 +313521,6 @@ tujezemstvo
 tujezlaten
 tujezveneč
 tujezvočen
-tuje...
 tujica
 tujina
 tujinec
@@ -314652,7 +313902,6 @@ turboventilatorski
 turbovetrilo
 turbovijačen
 turbozabavljaški
-turbo...
 turbuhaler
 turbulenca
 turbulenčen
@@ -314933,8 +314182,6 @@ tuzlanski
 tuzok
 tužen
 tužnost
-tu-bit
-tu-bivajoč
 TV
 tvar
 tvaren
@@ -317061,7 +316308,6 @@ ultrazvočen
 ultrazvok
 ultražabarski
 ultražarek
-ultra...
 ultrovec
 ululjati
 ululukati
@@ -317303,7 +316549,6 @@ umetnostnozgodovinski
 umetnosvilen
 umetnozgodovinski
 umetnozob
-umetn.
 umetovanje
 umetričenje
 umetuljiti
@@ -317741,7 +316986,6 @@ univerzitetski
 univerzum
 univira
 univox
-univ.
 unižati
 unjetiški
 unjka
@@ -318068,7 +317312,6 @@ upokojnina
 upokončiti
 upokoriti
 upokorjen
-upok.
 upomeniti
 upomenjati
 upomenjenost
@@ -318268,7 +317511,6 @@ upravnoupraven
 upravnovarstven
 upravnovodstven
 upravnozgodovinski
-upravno...
 upravoslovje
 upravosoden
 upraznitev
@@ -318323,7 +317565,6 @@ uprostorjen
 uprostorjenje
 uprostorjevanje
 uprtost
-upr.
 ups
 upuhliti
 uputnica
@@ -319134,7 +318375,6 @@ usnjica
 usnjičen
 usnjina
 usnjinar
-usnj.
 usnova
 usnovalen
 usnovati
@@ -320598,7 +319838,6 @@ užuganje
 užugati
 užugavati
 užuliti
-u...
 v
 vaalbos
 vab
@@ -320866,7 +320105,6 @@ vakuumirati
 vakuummeter
 vakuumometer
 vakuumski
-vaku-pak
 vakver
 vakverčič
 val
@@ -322876,7 +322114,6 @@ večživljenjski
 večžlebast
 večžleben
 večžupnijski
-več...
 ved
 veda
 vedanec
@@ -324148,7 +323385,6 @@ veleživljenje
 veležlahten
 veležupnija
 veležur
-vele...
 velhati
 veli
 velicati
@@ -324458,7 +323694,6 @@ velikozaslonski
 velikozrnat
 velikoželodčen
 velikožepen
-veliko...
 velikrat
 velilen
 veline
@@ -324958,7 +324193,6 @@ verskostoritven
 verskovzgojen
 verskozakladen
 verskoznanstven
-versko...
 verslibrist
 verstven
 verstvenost
@@ -325833,7 +325067,6 @@ vicešampionka
 vicešampionski
 viceuniforma
 vice versa
-vice...
 vichyjevec
 vichyjevski
 vichyjski
@@ -326213,7 +325446,6 @@ videozid
 videozmogljivost
 videozveza
 videozvočen
-video...
 videposnetek
 vider
 videro
@@ -326298,7 +325530,6 @@ vidrovnik
 vidski
 vidskost
 vidum
-vidva (vedve, vidve)
 vidžajanagarski
 vidžej
 vidžejanje
@@ -326992,7 +326223,6 @@ vinyon
 viola
 violarija
 viola da gamba
-viola d'amore
 violena
 violenten
 violentnost
@@ -327297,7 +326527,6 @@ visokociviliziran
 visokočanstvo
 visokočastit
 visokočastje
-visokočast.
 visokočel
 visokočelen
 visokočislan
@@ -327808,7 +327037,6 @@ visokozračen
 visokozveneč
 visokozvenečen
 visokožgan
-visoko...
 visol
 visolčan
 vison
@@ -327837,8 +327065,6 @@ vistralan
 vistram
 visvesvarski
 vis maior
-vis-a-vijček
-vis-a-vis (vizavi)
 viš
 viša
 višaj
@@ -327964,7 +327190,6 @@ višjevrednost
 višjevrednosten
 višjevrsten
 višjezemeljski
-višje...
 višjost
 viškati
 viški
@@ -329471,7 +328696,6 @@ vodozračen
 vodozvezdnica
 vodožitje
 vodoživnjak
-vodo...
 vodpaden
 vodrn
 vodstven
@@ -329740,7 +328964,6 @@ vojnozgodovinski
 vojnozvezden
 vojnozvezdičevski
 vojnozvezdniški
-vojno...
 vojscet
 vojska
 vojskar
@@ -329821,7 +329044,6 @@ vokalov
 vokativ
 vokec
 vokitoki
-voki-toki
 voklanski
 vokliški
 vokman
@@ -331729,7 +330951,6 @@ vročevod
 vročevoden
 vročezračen
 vročeživ
-vroče...
 vročica
 vročičen
 vročičnež
@@ -332270,7 +331491,6 @@ vsakovikendaški
 vsakovikendovski
 vsakovrsten
 vsakovrstnost
-vsako...
 vsakpot
 vsakrat
 vsakraten
@@ -333294,9 +332514,6 @@ vseživljenski
 vseživost
 vsežrc
 vsežrtvujoč
-vse-časje
-vse-zasegajoč
-vse...
 vsidranost
 vsidrati
 vsigdar
@@ -334562,13 +333779,11 @@ vzhodnoukrajinski
 vzhodnozahoden
 vzhodnoziljski
 vzhodnožidovski
-vzhodno...
 vzhodomanija
 vzhrepeneti
 vzhropsti
 vzhrumeti
 vzhrupeti
-vzh.
 vzibati
 vzibavati
 vzic
@@ -335301,7 +334516,6 @@ vzžarjati
 vzživeti
 vzžuboreti
 vzžvrkljati
-vz...
 vžagati
 vžareti
 vžarevanje
@@ -335368,7 +334582,6 @@ vžst
 vžuboreti
 vžvrkljati
 v gosteh
-v...
 w
 waadtlandski
 waco
@@ -335391,7 +334604,6 @@ waldorfski
 waleščina
 waleški (velški)
 waližanski
-walkie-talkie
 walkman
 wallensteinovski
 wallstreetski
@@ -336655,7 +335867,6 @@ zadnjestranski
 zadnjeuvrščen
 zadnjevina
 zadnjevlečen
-zadnje...
 zadnji
 zadnjica
 zadnjič
@@ -337091,7 +336302,6 @@ zafunkcionirati
 zafurati
 zafurnirati
 zafušati
-zaf...
 zaga
 zagaben
 zagabiti
@@ -337792,7 +337002,6 @@ zahodnovirginijski
 zahodnovišavski
 zahodnovremenski
 zahodnovzhodni
-zahodno...
 zahodoevropski
 zahohnjati
 zahohojati
@@ -337917,7 +337126,6 @@ zahvalnina
 zahvalniški
 zahvalnost
 zahvatiti
-zah.
 zaigličiti
 zaigračkati
 zaigranost
@@ -339043,7 +338251,6 @@ zakvasiti
 zakvašati
 zakvečiti
 zakvokati
-zak. (zak)
 zal
 zala
 zaladjanje
@@ -340008,7 +339215,6 @@ zamušnica
 zamutiti
 zamuzati
 zamuzicirati
-zam.
 zanačati
 zanadalje
 zanadejati
@@ -342141,7 +341347,6 @@ zasledovanje
 zasledovanka
 zasledovanost
 zasledovati
-zasled.
 zaslekniti
 zaslepelost
 zaslepen
@@ -342244,7 +341449,6 @@ zaslužnik
 zaslužništvo
 zaslužnost
 zaslužnosten
-zasl.
 zasmahteti
 zasmaljač
 zasmaljanje
@@ -342702,7 +341906,6 @@ zastružiti
 zastrž
 zastržje
 zastuditi
-zast.
 zasučen
 zasuflirati
 zasuhoteti
@@ -344637,8 +343840,6 @@ zažvrkati
 zažvrkljati
 zažvrkniti
 zažvrleti
-za-svet
-za...
 zbada
 zbadanje
 zbadast
@@ -344654,9 +343855,7 @@ zbadljivost
 zbagatelizirati
 zbajiti
 zbajkati
-zbalansiranje (izbalansiranje, zbalanciranje, izbalanciranje)
 zbalansiranost
-zbalansirati (izbalansirati, zbalancirati, izbalancirati)
 zbalkanizirati
 zbanalizirati
 zbančiti
@@ -345637,7 +344836,6 @@ zdržljiv (izdržljiv)
 zdržnik
 zdržnost
 zdržnosten
-zdr.
 zdudlati
 zduha
 zduhati
@@ -345932,7 +345130,6 @@ zelenozavisten
 zelenozlat
 zelenožametast
 zelenožolt
-zeleno...
 zelenstvo
 zelente
 zeler
@@ -346108,7 +345305,6 @@ zemljevoljec
 zemljeznanec
 zemljeznanski
 zemljeznanstvo
-zemlje...
 zemljica
 zemljička
 zemljikovec
@@ -346183,7 +345379,6 @@ zenotenje
 zenovititi
 zenovski
 zenski
-zentj.
 zeolit
 zeoliten
 zeolitski
@@ -346529,7 +345724,6 @@ zgodnjezgodovinski
 zgodnjezimski
 zgodnjež
 zgodnježeleznodoben
-zgodnje...
 zgodnji
 zgodnjica
 zgodnjik
@@ -346717,7 +345911,6 @@ zgornjetrikoten
 zgornjeustničen
 zgornjevipavski
 zgornjewürmski
-zgornje...
 zgornji
 zgornjica
 zgornjik
@@ -346939,7 +346132,6 @@ zgužvati
 zgvaljiti
 zgvantati
 zgvirati
-zg.
 zi
 zib
 ziba
@@ -347103,7 +346295,6 @@ zima
 zimast
 zimavost
 zimbabvejski
-zimb.
 zimci
 zimec
 zimen
@@ -347664,7 +346855,6 @@ zlatožilniški
 zlatožiten
 zlatoživoten
 zlatožolt
-zlato...
 zlatuška
 zlatva
 zlažje
@@ -347694,7 +346884,6 @@ zleknjenica
 zleknjenost
 zlekovati
 zlektorirati
-zlekt.
 zlenarjen
 zlenarjeno
 zleniti
@@ -348918,7 +348107,6 @@ znanstvenskost
 znanstvo
 znanstvosloven
 znanstvovanje
-znanstv.
 znapakirati
 znarazen
 znarekovati
@@ -349295,7 +348483,6 @@ zobozdravniški
 zobozdravstven
 zobozdravstvenovzgojen
 zobozdravstvo
-zobo...
 zobrež
 zobrisan
 zobrna
@@ -349452,9 +348639,7 @@ zootoksin
 zootomija
 zootomski
 zootrop
-zoot.
 zooveterinarski
-zoo...
 zoper
 zoperbožji
 zoperčloveški
@@ -349495,7 +348680,6 @@ zoperverski
 zoperzgodovinski
 zoperzobarski
 zoperživljenjski
-zoper...
 zopet
 zopeten
 zopetnost
@@ -349612,7 +348796,6 @@ zožitev
 zožiti
 zožitven
 zpizovski
-zps.
 zrabotiti
 zracati
 zracionalizirati
@@ -350356,7 +349539,6 @@ zunajzvrsten
 zunajžanrski
 zunajžilen
 zunajživeč
-zunaj...
 zunanjebilančen
 zunanjeblagoven
 zunanjeekonomski
@@ -350390,7 +349572,6 @@ zunanjetrgovinski
 zunanjetrgovski
 zunanjeureditven
 zunanjevarnosten
-zunanje...
 zunanji
 zunanjica
 zunanjik
@@ -351180,7 +350361,6 @@ zvun
 zvunaj
 zvunanji
 zvunski
-zv.
 zwart
 zwinglianizem
 zwinglijanec
@@ -351200,7 +350380,6 @@ zžrebiti
 zžreti
 zžrtost
 zžvečiti
-z... (iz..., s..., se...)
 ž
 žaba
 žabar
@@ -351348,10 +350527,8 @@ z... (iz..., s..., se...)
 žajla
 žak
 žakarand
-žakaren (žakarden, jacquarden)
 žakarski
 žakarskotehnološki
-žakar (žakard, jacquard)
 žakelj
 žakeljc
 žakeljč
@@ -351939,7 +351116,6 @@ z... (iz..., s..., se...)
 železozavesen
 železožerec
 železožrc
-železo...
 želim
 želimeljski
 želiranje
@@ -352155,12 +351331,10 @@ z... (iz..., s..., se...)
 ženščina
 ženščur
 ženščura
-ženšen (žen-šen)
 žentenje
 žentlemenski
 ženžavka
 ženžev
-žen-šenov
 žep
 žepanski
 žepar
@@ -352999,7 +352173,6 @@ z... (iz..., s..., se...)
 živožaren
 živožareti
 živoželjen
-živo...
 živstvo
 živžav
 živžavast
@@ -353569,7 +352742,6 @@ z... (iz..., s..., se...)
 žoltovenčen
 žoltovina
 žoltovišnjev
-žolto...
 žonf
 žonganje
 žongler
