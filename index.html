@@ -169,7 +169,7 @@
 
         let jezik = 'eng'
         let beseda = '_'
-        let curLoc = location.href.substr(0, location.href.length - 10)
+        let curLoc = location.href
         console.log(curLoc)
         function validateWord() {
             beseda = choice.value.toLowerCase()
@@ -185,7 +185,12 @@
                     choice.valid = false
                 } else {
                     encoded = btoa(escape(beseda))
-                    url = curLoc + "play.html?beseda=" + encoded + '&language=' + jezik;
+                    if (curLoc.includes('index.html')) {
+                        url = location.href.substr(0, location.href.length - 10) + "play.html?beseda=" + encoded + '&language=' + jezik
+                    }
+                    else {
+                        url = curLoc + "play.html?beseda=" + encoded + '&language=' + jezik
+                    }
                     choice.valid = true
                 }
             }
