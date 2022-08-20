@@ -37,7 +37,7 @@
         </tr>
     </table>
 
-
+    <script src="js/languages.js"></script>
     <script>
         window.scrollTo(0, document.body.scrollHeight);
         done = false
@@ -45,29 +45,16 @@
         let YL = []
         let GRAL = []
 
-        //geting the dictionarys
-        async function fetchWords(language) {
-            let response = await fetch("data/besede/" + language + ".txt")
-            let words = await response.text()
-            return words.toLowerCase().split('\n')
-        }
-        let ALL_WORDS = []
-        let VSE_BESEDE = []
-        async function preloadWords() {
-            const word_lists = await Promise.all([fetchWords("slo"), fetchWords("eng")]);
-            VSE_BESEDE = word_lists[0];
-            ALL_WORDS = word_lists[1];
-        }
-        preloadWords()
-
-
-
         //read the URL
         const params = new URLSearchParams(window.location.search)
         encoded = params.get('beseda')
         toGuess = unescape(atob(encoded)).toUpperCase()
         language = params.get('language')
 
+        // A Words class instance that will keep all loaded words and we'll use to check validty of words
+        const wordList = new Words()
+        wordList.preloadWords()
+        wordList.setLanguage(language)
 
         //keboard keypress
         document.addEventListener('keydown', (event) => {
@@ -89,16 +76,10 @@
                 case 'enter':
                     if (myGuess.length != 5) {
                         return
-                    }
-
-                    else if ((language == 'eng' && ALL_WORDS.includes(myGuess.toLowerCase()) == false) || (language == 'slo' && VSE_BESEDE.includes(myGuess.toLowerCase()) == false)) {
+                    } else if (!wordList.validateWord(myGuess)) {
                         setClassNameForLetters('invalid')
-
                         return
-                    }
-
-
-                    else {
+                    } else {
                         myGuess = myGuess.toUpperCase()
                         const matchingLetters = getMatches(myGuess, toGuess)
                         showNewGuessRow(matchingLetters)
@@ -108,7 +89,6 @@
                         }
                         return
                     }
-
 
                 case 'backspace':
                     setClassNameForLetters('blank')
@@ -120,7 +100,6 @@
                     break
 
                 default:
-
                     if (myGuess.length != 5 && key.toLowerCase() != key.toUpperCase() && key.length == 1) {
                         myGuess += key.toLowerCase()
                         console.log(myGuess)
@@ -136,7 +115,6 @@
 
         }
 
-
         let all_guesses = 'My Score \n'
         function getMatches(myGuess, toGuess) {
             let greenLetters = {}
@@ -148,21 +126,16 @@
                 if (letter == toGuess[i]) {
                     greenLetters[i] = letter
                     document.getElementById(letter.toLowerCase()).classList.remove('yellowKey')
-
                     document.getElementById(letter.toLowerCase()).classList.add('greenKey')
                     GL += letter
-
                 } else if (toGuess.includes(letter) == false) {
                     greyLetters[i] = letter
                     unguessed[i] = toGuess[i]
                     GRAL += letter
-
                 } else { unguessed[i] = toGuess[i] }
-
             }
 
             for (let i = 0; i < 5; i++) {
-
                 let letter = myGuess[i]
                 if (i in greenLetters || i in greyLetters) {
                     continue
@@ -179,7 +152,6 @@
                         isYellow = true
                     }
                 }
-
                 if (isYellow == false) {
                     greyLetters[i] = letter
                 }
@@ -190,8 +162,6 @@
                     document.getElementById(letter.toLowerCase()).classList.add('greyKey')
                 }
             }
-
-
             return [greenLetters, greyLetters, yellowLetters]
         }
 
@@ -214,9 +184,7 @@
                     td.className = 'partial'
                     all_guesses += '🟨'
                 }
-
                 tr.append(td)
-
             }
             if (all_guesses.includes('🟩🟩🟩🟩🟩')) {
                 console.log('here')
@@ -232,6 +200,7 @@
         function correctGuess() {
             document.getElementById('clipboard').removeAttribute('style')
         }
+
         function copyToClipBoard() {
             navigator.clipboard.writeText(all_guesses);
             document.getElementById('clipboard').innerHTML = 'Copy to clipboard (copied)'

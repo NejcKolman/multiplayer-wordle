@@ -1,7 +1,6 @@
 <html>
 
 <head>
-
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -25,7 +24,6 @@
 </head>
 
 <body>
-
     <!-- Text box -->
     <div class="choice-container">
         <label id="outline"
@@ -84,12 +82,8 @@
         </button>
     </div>
 
-
-
-
-
+    <script src="js/languages.js"></script>
     <script>
-
         // Activate JS for text and button components
         const choice = mdc.textField.MDCTextField.attachTo(document.querySelector('.mdc-text-field'))
         mdc.textField.MDCTextFieldCharacterCounter.attachTo(document.querySelector('.mdc-text-field-character-counter'))
@@ -103,11 +97,12 @@
         const error = document.getElementById("error")
         const language = document.getElementById("language")
 
-
+        // A Words class instance that will keep all loaded words and we'll use to check validty of words
+        const wordList = new Words()
+        wordList.preloadWords()
 
         function toggleVisibility() {
             if (isTextVisible()) {
-
                 choice.input.setAttribute('type', 'password')
                 visibility.innerHTML = 'visibility_off'
             } else {
@@ -120,123 +115,56 @@
             return choice.input.getAttribute('type') == 'text'
         }
 
-
         function toggleLanguage() {
-            if (jezik === 'eng') {
-                jezik = 'slo'
-                document.getElementById("choice-label").innerHTML = "Napi\u0161i besedo"
-                validateWord()
-            } else {
-                jezik = 'eng'
+            wordList.nextLanguage()
+            if (wordList.currentLanguage === 'eng') {
                 document.getElementById("choice-label").innerHTML = "Write word"
-                validateWord()
+            } else {
+                document.getElementById("choice-label").innerHTML = "Napi\u0161i besedo"
             }
-            language.setAttribute('src', `img/${jezik}.png`)
+            validateWord()
+            language.setAttribute('src', `img/${wordList.currentLanguage}.png`)
         }
-
 
         function copyLink() {
             console.log('COPY')
-            if (choice.valid == true & beseda.length == 5) {
+            if (wordList.validateWord(choice.value)) {
                 console.log('copy')
                 navigator.clipboard.writeText(url)
             }
         }
 
-        function updateNovaBeseda(novaBeseda) {
-            beseda = novaBeseda.toLowerCase()
-        }
-
         let url = ''
 
-
         function pickRandomWord() {
-            if (jezik == 'eng') {
-                WL = ALL_WORDS
-            }
-            else if (jezik == 'slo') {
-                WL = VSE_BESEDE
-            }
-
-            randomWord = WL[Math.floor(Math.random() * (WL.length))]
+            randomWord = wordList.pickRandomWord()
             console.log(randomWord)
             choice.value = randomWord
-            updateNovaBeseda(randomWord)
-
             validateWord()
         }
 
-
-        let jezik = 'eng'
-        let beseda = '_'
-        let curLoc = location.href
-        console.log(curLoc)
+        const playUrl = location.href.substr(0, location.href.lastIndexOf('/')) + "/play.html"
         function validateWord() {
-            beseda = choice.value.toLowerCase()
-
-            if (beseda.length == 5) {
-
-                if (jezik == 'eng' && ALL_WORDS.includes(beseda) == false) {
+            const beseda = choice.value
+            url = playUrl + `?beseda=${btoa(escape(beseda))}&language=${wordList.currentLanguage}`
+            const valid = beseda.length != 5 || wordList.validateWord(beseda)
+            choice.valid = valid
+            if (valid) {
+                error.innerHTML = ''
+            } else {
+                if (wordList.currentLanguage == 'eng') {
                     error.innerHTML = 'Invalid word'
-                    choice.valid = false
-
-                } else if (jezik == 'slo' && VSE_BESEDE.includes(beseda) == false) {
-                    error.innerHTML = 'Neveljavna beseda'
-                    choice.valid = false
                 } else {
-                    encoded = btoa(escape(beseda))
-                    if (curLoc.includes('index.html')) {
-                        url = location.href.substr(0, location.href.length - 10) + "play.html?beseda=" + encoded + '&language=' + jezik
-                    }
-                    else {
-                        url = curLoc + "play.html?beseda=" + encoded + '&language=' + jezik
-                    }
-                    choice.valid = true
+                    error.innerHTML = 'Neveljavna beseda'
                 }
             }
-
-            else {
-                error.innerHTML = ''
-                choice.valid = true
-            }
         }
-
 
         function playWord() {
-            location.href = url
-        }
-
-
-        async function fetchWords(language) {
-            let response = await fetch("data/besede/" + language + ".txt")
-            let words = await response.text()
-            return words.toLowerCase().split('\n')
-        }
-        let ALL_WORDS = []
-        let VSE_BESEDE = []
-        async function preloadWords() {
-            const word_lists = await Promise.all([fetchWords("slo"), fetchWords("eng")]);
-            VSE_BESEDE = word_lists[0];
-            ALL_WORDS = word_lists[1];
-            new_VseBesede = []
-            new_AllWords = []
-            for (let i = 0; i < VSE_BESEDE.length; i++) {
-                word = VSE_BESEDE[i]
-                if (word.length == 5) {
-                    new_VseBesede.push(word)
-                }
+            if (wordList.validateWord(choice.value)) {
+                location.href = url
             }
-            for (let i = 0; i < ALL_WORDS.length; i++) {
-                word = ALL_WORDS[i]
-                if (word.length == 5) {
-                    new_AllWords.push(word)
-                }
-            }
-            VSE_BESEDE = new_VseBesede
-            ALL_WORDS = new_AllWords
         }
-        preloadWords()
-
 
         function shareLink() {
             console.log('just copy the link')
